@@ -1,0 +1,7 @@
+#ignore local files
+.project
+.pydevproject
+#ignore compiled files
+*.pyc
+#ignore output
+fahrplan.html

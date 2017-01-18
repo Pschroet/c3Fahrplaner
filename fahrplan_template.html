@@ -1,0 +1,23 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:py="http://genshi.edgewall.org/">
+<head>
+    <title>${context.title}</title>
+</head>
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+<body>
+	<h1>Fahrplan</h1>
+	<div py:for="day in context.days"><h3>${day.date}</h3>
+		<table id="scheduleTable${day.date}">
+		<tr py:for="room in day.rooms">
+			<td>${room.name}</td>
+			<td py:for="event in room.events" colspan="${event.time_slots}">
+			${event.title}
+			</td>
+		</tr>
+		</table>
+	</div>
+</body>
+</html>
