@@ -3,18 +3,26 @@
     <title>${context.title}</title>
 </head>
 <style>
-table, th, td {
+table {
     border: 1px solid black;
+    table-layout: fixed;
+    width: 500%;
+}
+th, td {
+	border: 1px solid black;
+    word-wrap: break-word;
+	overflow-wrap: break-word;
 }
 </style>
 <body>
 	<h1>Fahrplan</h1>
 	<div py:for="day in context.days"><h3>${day.date}</h3>
 		<table id="scheduleTable${day.date}">
+		<div py:for="t in range(1, day.total_time_slots)"><td>-</td></div>
 		<tr py:for="room in day.rooms">
 			<td>${room.name}</td>
-			<td py:for="event in room.events" colspan="${event.time_slots}">
-			${event.title}
+			<td py:for="event in room.events" colspan="${event.time_slots}" align="center">
+			<button>${event.title}</button>
 			</td>
 		</tr>
 		</table>
