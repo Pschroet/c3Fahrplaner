@@ -27,7 +27,19 @@ def read_schedule(url):
     counter = 0
     for day in days:
         #print "Events for " + day.attrib["date"] + ":"
-        temp_days.append({"date":day.attrib["date"], "rooms":[]})
+        #check if the the event is spread over more than one day, e.g. from 10am to 4am the next day
+        start_day = int(day.attrib["start"].split("T")[0].split("-")[2])
+        end_day = int(day.attrib["end"].split("T")[0].split("-")[2])
+        diff_days = 0
+        if start_day < end_day:
+            diff_days = end_day - start_day
+        start_times = day.attrib["start"].split("T")[1].split("+")[0].split(":")
+        end_times = day.attrib["end"].split("T")[1].split("+")[0].split(":")
+        total_time_hours = (diff_days*24) + int(end_times[0]) - int(start_times[1])
+        total_time_mins = (total_time_hours*60) + int(end_times[1]) - int(start_times[1])
+        total_time_slots = total_time_mins/time_slot_mins
+        #put all information into a dictionary to use later
+        temp_days.append({"date":day.attrib["date"], "rooms":[], "start":start_times, "end":end_times, "total_time_slots":total_time_slots})
         #get the rooms
         rooms = day.findall("room")
         for room in rooms:
