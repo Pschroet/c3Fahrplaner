@@ -1,6 +1,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:py="http://genshi.edgewall.org/">
 <head>
     <title>${context.title}</title>
+    <meta charset="utf-8"></meta>
 </head>
 <style>
 table {
@@ -22,7 +23,7 @@ th, td {
 		<tr py:for="room in day.rooms">
 			<td>${room.name}</td>
 			<td py:for="event in room.events" colspan="${event.time_slots}" align="center">
-			<button>${event.title}</button>
+			<div>${event.title}</div>
 			</td>
 		</tr>
 		</table>
