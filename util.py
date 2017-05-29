@@ -82,3 +82,6 @@ def readFileContentAsString(fileToRead):
         openedFile.close()
         return content
     return ""
+
+def fixUmlauts():
+    pass
