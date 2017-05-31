@@ -20,6 +20,8 @@ def read_schedule(url):
     context["timeslot"] = con_info.find("timeslot_duration").text
     time_slot_mins = int(context["timeslot"].split(":")[1])
     time_slot_hours = int(context["timeslot"].split(":")[0])
+    #get the year, so it can be used in the URLs
+    context["year"] = con_info.find("start").text.split("-")[0]
     #get the days
     days = root.findall("day")
     #define the temporary variables for collect all information
@@ -79,6 +81,7 @@ def read_schedule(url):
                 temp_event = {}
                 #get the basic information about the event
                 temp_event["title"] = event.find("title").text
+                temp_event["id"] = event.attrib["id"]
                 persons = event.find("persons").findall("person")
                 temp_event["persons"] = []
                 for person in persons:
