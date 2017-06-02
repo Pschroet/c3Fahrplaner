@@ -32,15 +32,14 @@
 	<h1>Fahrplan</h1>
 	<div class="day"></div>
 <script>
+//determines if a click in a td node is made on a link, if so don't mark the event as selected
+var onLink = false;
 //select the events from an earlier session
 if(typeof(Storage) !== "undefined"){
-	console.log(localStorage.getItem("events"));
 	if(localStorage.getItem("events") != null){
 		events = localStorage.getItem("events").split(";");
 		localStorage.setItem("events", "");
-		console.log(events);
 		for(i = 0; i <= events.length - 1; i++){
-			console.log(events[i]);
 			if(events[i] != ""){
 				toggleClick(document.getElementById(events[i]));
 			}
@@ -51,22 +50,19 @@ if(typeof(Storage) !== "undefined"){
 }
 //function to toggle, if an event has been selected
 function toggleClick(thisObject){
-	if(thisObject.title == "unselected"){
+	if(thisObject.title == "unselected" && !onLink){
 		thisObject.style.backgroundColor = "Black";
 		thisObject.style.color = "White";
 		thisObject.title = "selected";
 		//add the id of this event to the cookie
 		localStorage.setItem("events", localStorage.getItem("events") + thisObject.getAttribute("id") + ";");
-		console.log("adding: " + thisObject.getAttribute("id"));
-	}else{
+	}else if(thisObject.title == "selected" && !onLink){
 		thisObject.style.backgroundColor = "White";
 		thisObject.style.color = "Black";
 		thisObject.title = "unselected";
 		//remove the id from the cookie
 		localStorage.setItem("events", localStorage.getItem("events").replace(thisObject.getAttribute("id") +  ";", ""));
-		console.log("removing: " + thisObject.getAttribute("id"));
 	}
-	console.log(localStorage.getItem("events"));
 }
 </script>
 </body>
