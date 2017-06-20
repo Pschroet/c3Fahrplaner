@@ -22,6 +22,8 @@ def read_schedule(url):
     time_slot_hours = int(context["timeslot"].split(":")[0])
     #get the year, so it can be used in the URLs
     context["year"] = con_info.find("start").text.split("-")[0]
+    #get the last day, to determine the expiration date of the cookie
+    context["end"] = con_info.find("end").text
     #get the days
     days = root.findall("day")
     #define the temporary variables for collect all information

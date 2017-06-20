@@ -1,8 +1,11 @@
 from HTMLParser import HTMLParser
+import datetime
+import util
 
 class fahrplan_writer(HTMLParser):
     context = {}
     fahrplan = ""
+    expire_date = datetime.date(2020, 12, 31)
     
     def fahrplan_writer(self):
         self.context = {}
@@ -10,6 +13,7 @@ class fahrplan_writer(HTMLParser):
         
     def set_context(self, context):
         self.context = context
+        self.expire_date = datetime.datetime.date(datetime.datetime.strptime(context["end"], "%Y-%m-%d") + datetime.timedelta(days=1))
     
     def get_result(self):
         return self.fahrplan
@@ -49,7 +53,7 @@ class fahrplan_writer(HTMLParser):
                         #print time_slot + " == " + events[last_event]["start"]
                         #if not, go on
                         if time_slot == events[last_event]["start"] or "0" + time_slot == events[last_event]["start"]:
-                            day_events += "<td class='something' colspan='" + str(events[last_event]["time_slots"]) + "' onclick='toggleClick(this);' " + "id='" + events[last_event]["id"] + "' title='unselected'>" + events[last_event]["title"] + " (<a href='https://fahrplan.events.ccc.de/congress/" + self.context["year"] + "/Fahrplan/events/" + events[last_event]["id"] + ".html' onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
+                            day_events += "<td class='something' colspan='" + str(events[last_event]["time_slots"]) + "' onclick='toggleClick(this, false);' " + "id='" + events[last_event]["id"] + "' title='unselected'>" + events[last_event]["title"] + " (<a href='https://fahrplan.events.ccc.de/congress/" + self.context["year"] + "/Fahrplan/events/" + events[last_event]["id"] + ".html' onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
                             #calculate the columns used, subtract the current table field
                             colspan = events[last_event]["time_slots"] - 1
                             #print "-> " + str(events[last_event])
@@ -65,6 +69,9 @@ class fahrplan_writer(HTMLParser):
                     day_events += "</tr>"
                 day_events += "</table>"
             self.fahrplan += day_events
+        elif tag == "script":
+            #add the expire date and the script
+            self.fahrplan += "<script>\nvar dayAfter = '" + self.expire_date.strftime("%a, %d %b %Y 23:59:00 UTC") + "';\n" + util.readFileContentAsString("script.js")
         #if no 'special' tag is found, just copy it
         else:
             self.fahrplan += "<" + tag
