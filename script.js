@@ -30,20 +30,17 @@ function toggleClick(thisObject, init){
 		thisObject.style.backgroundColor = "Black";
 		thisObject.style.color = "White";
 		thisObject.title = "selected";
-		//add the id of this event to the cookie
-		temp = document.cookie.split(";");
-		events = "";
-		for(i = 0; i < temp.length; i++){
-			if(temp[i].split("=")[0].trim() == "events"){
-				if(!init){
-					events += temp[i].split("=")[1] + thisObject.getAttribute("id") + "$";
+		//if this is not the initialization, add the event to the cookie
+		if(!init){
+			//add the id of this event to the cookie
+			temp = document.cookie.split(";");
+			events = "";
+			for(i = 0; i < temp.length; i++){
+				if(temp[i].split("=")[0].trim() == "events"){
+					events += temp[i].split("=")[1];
 				}
 			}
-		}
-		if(!init){
 			document.cookie = "events=" + events + thisObject.getAttribute("id") + "$;expires=" + dayAfter + ";path=/;";
-		}else{
-			document.cookie = "events=" + thisObject.getAttribute("id") + ";expires=" + dayAfter + ";path=/;";
 		}
 	}else if(thisObject.title == "selected" && !onLink){
 		thisObject.style.backgroundColor = "White";
