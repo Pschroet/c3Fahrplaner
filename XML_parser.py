@@ -17,6 +17,8 @@ def read_schedule(url):
     con_info = root.find("conference")
     #print con_info
     context["title"] = con_info.find("title").text
+    context["acronym"] = con_info.find("acronym").text
+    context["year"] = con_info.find("start").text.split("-"[0])
     context["timeslot"] = con_info.find("timeslot_duration").text
     time_slot_mins = int(context["timeslot"].split(":")[1])
     time_slot_hours = int(context["timeslot"].split(":")[0])

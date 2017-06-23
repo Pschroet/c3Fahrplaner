@@ -26,6 +26,11 @@ class fahrplan_writer(HTMLParser):
             for attr in attrs:
                 self.fahrplan += " " + attr[0] + "='" + attr[1] + "'"
             self.fahrplan += ">" + self.context["title"]
+        elif tag == "h1":
+            self.fahrplan += "<h1>" + self.context["title"]
+        elif tag == "p":
+            self.fahrplan += "<p><a href='https://events.ccc.de/tag/" + self.context["acronym"] + "'>Event blog</a></p>"
+            self.fahrplan += "<p><a href='https://events.ccc.de/congress/" + self.context["year"] + "/wiki/'>Wiki</a>"
         #add the information about the events at the days
         elif tag == "div":
             day_events = "<div class='day'>"
