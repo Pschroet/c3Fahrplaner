@@ -1,12 +1,15 @@
 import fahrplan_writer
 import util
-import XML_parser
+import file_reader
+#import web_file_reader
 
 if __name__ == '__main__':
-    url = "https://fahrplan.events.ccc.de/congress/2016/Fahrplan/schedule.xml"
-    #speaker info: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/speakers.json
-    print "Getting schedule from " + url
-    context = XML_parser.read_schedule(url)
+    #get the schedule from a file
+    file_name = "schedule.xml"
+    context = file_reader.read_schedule(file_name)
+    #get the schedule from a URL
+    #url = "https://fahrplan.events.ccc.de/congress/2016/Fahrplan/schedule.xml"
+    #context = web_file_reader.read_schedule(url)
     #print context
     tmpl = util.readFileContentAsString('fahrplan_template.html')
     parser = fahrplan_writer.fahrplan_writer()

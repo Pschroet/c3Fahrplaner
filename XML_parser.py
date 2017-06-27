@@ -1,12 +1,9 @@
 import defusedxml.ElementTree
-import requests
 
-def read_schedule(url):
-    print "Parsing schedule " + url
-    ontology_content = requests.get(url)
-    #print ontology_content
-    #print ontology_content.headers
-    tree = defusedxml.ElementTree.fromstring(ontology_content.text.encode('utf8'), forbid_entities=False)
+def parse_schedule(xml_content):
+    print "Parsing schedule"
+    #print xml_content
+    tree = defusedxml.ElementTree.fromstring(xml_content, forbid_entities=False)
     if hasattr(tree, "getroot") and isfunction(tree.getroot):
         root = tree.getroot()
     else:
