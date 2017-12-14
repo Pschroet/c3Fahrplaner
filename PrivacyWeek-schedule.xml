@@ -1,0 +1,3396 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<schedule>
+<version>0.91 🐰</version>
+<conference>
+<acronym>pw17</acronym>
+<title>PrivacyWeek 2017</title>
+<start>2017-10-23</start>
+<end>2017-10-29</end>
+<days>7</days>
+<timeslot_duration>00:15</timeslot_duration>
+</conference>
+<day date='2017-10-23' end='2017-10-23T23:00:00+02:00' index='1' start='2017-10-23T08:30:00+02:00'>
+<room name='Volkskundemuseum Saal 1'>
+<event guid='b445a0c0-30c4-41f7-9439-e9559cbeca84' id='169'>
+<date>2017-10-23T10:00:00+02:00</date>
+<start>10:00</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-169-eroffnung</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Eröffnung</title>
+<subtitle></subtitle>
+<track></track>
+<type></type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='3'>Jürgen Haslauer</person>
+<person id='56'>Klaudia Zotzmann-Koch</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='524e5c0b-4962-40e2-b668-f0d5eed62e0d' id='180'>
+<date>2017-10-23T11:00:00+02:00</date>
+<start>11:00</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-180-ausser_spesen_nichts_gewesen</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Außer Spesen nichts gewesen? </title>
+<subtitle>Ein Fazit des deutschen NSA-Untersuchungsausschusses.</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Der NSA-Untersuchungsausschuss des deutschen Bundestages hatte sich das Ziel gesetzt herauszufinden, ob es die von Edward Snowden ans Licht geholten Aktivitäten der Five Eyes auch in Deutschland gibt. Von März 2014 bis Sommer 2017 tagte der Ausschuss, aber wissen wir jetzt mehr über die Kooperationen von NSA und GCHQ mit den deutschen Geheimdiensten? Der Vortrag wird einen Überblick über die Ergebnisse geben und die Frage stellen, ob es den Aufwand wert war.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='88'>Anne Roth</person>
+</persons>
+<links>
+<link href='https://www.bundestag.de/ausschuesse18/ua/1untersuchungsausschuss'>Website des NSA-Untersuchungsausschusses</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='25c6204e-15af-4bfb-83bc-b655268ff2db' id='183'>
+<date>2017-10-23T12:15:00+02:00</date>
+<start>12:15</start>
+<duration>00:30</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-183-hello_i_have_an_order_for_i_c_wiener</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Hello? I have an order for I.C. Wiener.</title>
+<subtitle>Wenn Spracherkennung zu Identitätsdiebstahl führt.</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Eine kurze Einleitung zu den Gefahren der Spracherkennung im Hinblick auf Privatssphäre und Sicherheit gibt es in diesem Vortrag - es werden Machine Learning Libraries, die Stimmen imitieren können, genauso erklärt wie einfache Methoden des Identitätsdiebstahls, z.B. die Wiedergabe von vorher aufgenommenen Stimmen.</abstract>
+<description></description>
+<logo>/system/events/logos/000/000/183/large/mKzGe.jpg?1507880442</logo>
+<persons>
+<person id='116'>Sanja Bonic</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='a6df518d-7573-4bf7-9465-bfaf0900fc12' id='115'>
+<date>2017-10-23T12:45:00+02:00</date>
+<start>12:45</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-115-biometrie_ist_cool_nicht_nur_biometrie</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Biometrie ist cool (nicht nur Biometrie)</title>
+<subtitle>wer ist Dein Gegner?</subtitle>
+<track></track>
+<type>lecture</type>
+<language>en</language>
+<abstract>Are you using the biometric sensor in your phone? No, why not?
+Who is your enemy you wanting to defend against? Let&#39;s take a look at the decisions you face everyday protecting your privacy.</abstract>
+<description>There are lots and lots of recommendation what to do to protect your personal data freedom, to protect your privacy. IPv6 privacy, do not use biometric, use secure (non memorisable) passwords everywhere. But what rules apply to what? What helps me in my situation, and what is making my digital life more miserable? In this lecture I want to unmask a few rules as urban legends, but also make a case for what is really a problem in daily data tracking by advertisers, agencies and others.</description>
+<logo></logo>
+<persons>
+<person id='69'>Matthias Šubik</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='1d325d7c-ac9d-42e9-a979-9403b4c5555b' id='209'>
+<date>2017-10-23T13:30:00+02:00</date>
+<start>13:30</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-209-dateneigentum</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Dateneigentum</title>
+<subtitle></subtitle>
+<track>Techday</track>
+<type>lecture</type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='180'>Anna Mayer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='ef821ddb-a28a-4ece-983e-b0a5202ea5d5' id='219'>
+<date>2017-10-23T14:30:00+02:00</date>
+<start>14:30</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-219-datenspuren_bei_wahlen</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Datenspuren bei Wahlen</title>
+<subtitle>Wahlkampf in Sozialen Netzwerken</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Was Interaktionen auf Social Media über den Wahlausgang verraten.</abstract>
+<description>Ob bei der BPWahl 2016, dem Brexit, den US Wahlen oder die NRW 17, die Analyse von Social Media Aktivitäten ist nebst Marktforscher ein neuer spannender Trendmesser in Echtzeit.</description>
+<logo></logo>
+<persons>
+<person id='186'>Roland Trnik</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='cf5cdd13-5557-4440-93cd-9645be4a362b' id='123'>
+<date>2017-10-23T15:30:00+02:00</date>
+<start>15:30</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-123-stolpersteine_und_nebenwirkungen_verschlusselter_kommunikation</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Stolpersteine und Nebenwirkungen verschlüsselter Kommunikation</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Die Kommunikation via Email Nachrichten ist und bleibt eine &quot;Killerapplikation&quot; des Internets. Die fehlende Ende-zu-Ende Privatheit ist historisch gewachsen, eine Aufrüstung auf verschlüsselte Nachrichten benötigt mehr als nur die Anwendung eines kryptographischen Schlüssels, sondern hat vielerlei Konsequenzen und Nebenwirkungen. Dieser Vortrag zeigt gesammelt einige Teilprobleme die für verschlüsselte Kommunikation gelöst werden müssen ...und darum verschicken wir Nachrichten heute (meist) noch immer im Klartext.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='141'>Martin Pirker</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='6bebc4b1-8693-4c12-8f3b-f97e4406d932' id='116'>
+<date>2017-10-23T16:15:00+02:00</date>
+<start>16:15</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-116-leben_in_zeiten_des_uberwachungspaket</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Leben in Zeiten des #überwachungspaket</title>
+<subtitle></subtitle>
+<track></track>
+<type>meeting</type>
+<language>de</language>
+<abstract>Der (aktuelle) Innenminister möchte bereits vorhandene Überwachungstechnologien ausbauen und wünscht sich auch noch zusätzliche neue Eingriffe in unsere Privatsphäre - alles unter dem Deckmantel des erhöhten Sicherheitsbedürfnisses und steigender Terrorgefahren.
+
+Aber was bedeutet das für Menschen, die politisch aktiv sind oder sich engagieren wollen? Inwiefern müssen diese Personen nun ihr Verhalten anpassen, um nicht als &quot;false positive&quot; erfasst zu werden und womöglich die volle Bandbreite an personalisierter Überwachung und Repression zu erleben? Und was hat das alles mit &quot;unpolitischen&quot; Leuten zu tun?
+
+Idee ist, sich diesen Fragen gemeinsam zu stellen. Wir wollen von den abstrakten Bedrohungsszenarien der bisherigen Diskussion weg hin zu ganz spezifischen Gründen, warum dieses - und jedes andere - Überwachungspaket für jede Person individuell grundrechtswidrig ist.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='123'>pascoda</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='c0628cc6-b320-4377-902f-59d6078b2608' id='117'>
+<date>2017-10-23T17:00:00+02:00</date>
+<start>17:00</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-117-internet_of_things_iot_privacy_security</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Internet of Things (IoT) Privacy &amp; Security</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Das Internet der Dinge (Internet of Things) ist im Moment in aller Munde - aber welche Privacy- und welche Sicherheits-Probleme kommen damit auf uns zu? Nicht umsonst heißt ein gerade erschienenes Buch zur Sicherheit dieser Geräte &quot;The Internet of Risky Things&quot; [1]
+
+Der Talk wird eine Einführung in die Problematik anhand von Beispielen geben, nicht nur die &quot;intelligenten&quot; Philips Hue Lampen hatten Sicherheitsprobleme, wir haben eigentlich auch einen reichen 
+Erfahrungsschatz aus anderen IT-Bereichen wo in der Vergangenheit schon einiges schiefgegangen ist. Die Hoffnung -- die ja zuletzt stirbt -- ist, dass wir diese nicht im IoT-Bereich wiederholen.
+
+In der Diskussion wird sich Gelegenheit ergeben, auch eigene Anekdoten und Erfahrungen mit IoT-Geräten beizutragen.
+
+[1] Sean Smith, &quot;The Internet of Risky Things -- Trusting the Devices 
+That Surround Us&quot;, O&#39;Reilly, 2017</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='131'>Ralf Schlatterbeck</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='37ca8131-2da3-412d-bae4-6cbc56753b90' id='131'>
+<date>2017-10-23T18:00:00+02:00</date>
+<start>18:00</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-131-aktivitaten_cert_at</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Aktivitäten CERT.at</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Review der Tätigkeiten von CERT.at. Dafür brauch ich rund 45 mins.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='98'>Otmar Lendl</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='d2324267-fa1a-49be-b9cf-cb2a96471608' id='146'>
+<date>2017-10-23T18:45:00+02:00</date>
+<start>18:45</start>
+<duration>00:30</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-146-der_ausverkauf_des_privaten</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Der Ausverkauf des Privaten</title>
+<subtitle>Wie Unternehmen ihre Zukunft verspielen</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Der Schutz des Privaten steht oft im Widerspruch zu wirtschaftlichem Erfolg. Geschäftsmodell und Gesellschaft funktionieren auf Dauer aber nur, wenn Nutzer mehr Macht über ihre Daten haben.</abstract>
+<description>In der Europäischen Union gilt das Prinzip der Datensparsamkeit: Unternehmen sollen nur soviele Daten erheben, wie für eine Dienstleistung benötigt werden. Noch. Denn an vielen Fronten wird versucht, das Prinzip aufzuweichen: Big Data heißt das große Versprechen, der freie Fluss von Daten soll Geschäfte ankurbeln. Statt um Datenschutz geht es um „Datensouveränität“. Doch das Geschäftsmodell ist auf Sand gebaut, die Souveränität der Verbraucher eine Farce. Es gibt eine bessere Lösung, um Innovationen voranzutreiben und mit Daten Geld zu verdienen: Man gibt den Nutzern die Macht über ihre Daten. Ein Blick auf die Sprache in der aktuellen Debatte und ein Plädoyer für ein Geschäftsmodell, das wirklich Zukunft hat. </description>
+<logo></logo>
+<persons>
+<person id='143'>Mirjam Stegherr</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='c95f70a5-8639-402d-86af-4f3da2f3e320' id='172'>
+<date>2017-10-23T19:30:00+02:00</date>
+<start>19:30</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-172-journalismus_und_datenspuren</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Journalismus und Datenspuren</title>
+<subtitle></subtitle>
+<track></track>
+<type>podium</type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='176'>Nikolaus Forgó</person>
+<person id='88'>Anne Roth</person>
+<person id='193'>Martin Thür</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Volkskundemuseum Saal 2'>
+<event guid='cc4e1561-60e5-4dc4-97df-25c801578f1d' id='112'>
+<date>2017-10-23T14:30:00+02:00</date>
+<start>14:30</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-112-phantastische_auskunft_nach_dsg_und_wo_sie_zu_finden_ist</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Phantastische Auskunft nach DSG und wo sie zu finden ist.</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Seit 1978 haben Betroffene das Recht auf Auskunft ihrer personenbezogenen Daten. Fast 40 Jahre später ist die Durchsetzung dieses Rechts immer noch so mühsam das es kaum in Anspruch genommen - obwohl es durch zunehmende Verarbeitung personenbezogenen Daten immer wichtiger wird. Dieser Vortrag soll mithilfe von Erfahrungsberichten Probleme und Perspektiven aufzeigen.</abstract>
+<description>In vielen Fällen reicht es leider nicht einfach einen Antrag auf Auskunft abzuschicken, und es entsteht ein mühsames Frage-Antwort-Erklärungen Spiel. Ich würde gerne mithilfe von Erfahrungsberichten häufige Probleme bei der Durchsetzung des Auskunftsrechts erläutern und mögliche Handlungsoptionen aufzeigen.
+Nachdem Videoüberwachung dieses Jahr mit dem Überwachungspaket wieder breiter diskutiert wird, würde ich ebenfalls über die Probleme bei der Auskunft von Videomaterial reden.
+Im Anschluss wird es einen kurzen Workshop geben bei dem alle Anwesenden bei der Erstellung ihrer Auskunftsersuchen tatkräftig unterstützt werden. Für Formular, Briefkuverts, Briefmarken und Adressen möglicher Auftraggeber ist gesorgt.</description>
+<logo></logo>
+<persons>
+<person id='47'>Matthias Fassl</person>
+</persons>
+<links>
+<link href='http://mein-auskunftsrecht.at'>Blog: Mein Auskunftsrecht - Antworten auf Auskunftsersuchen</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='14610aca-cb4d-4d79-915d-07ad36b32e47' id='92'>
+<date>2017-10-23T16:00:00+02:00</date>
+<start>16:00</start>
+<duration>02:00</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-92-anonymization_workshop</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Anonymization workshop</title>
+<subtitle>Tipps, Tricks und Fallen</subtitle>
+<track></track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Big Data in Form von SmartCity und SmartLiving funktioniert nur, wenn die Algorithmen die Daten von uns allen kennen.
+Datenschutzgesetz und Bankgeheimnis stellen diese Daten aber unter ihren Schutz und fordern strenge Rechtsgrundlagen für die Nutzung,  auch im eigenen Unternehmen.
+Das erfordert angemessene Anonymisierung und Pseudonymisierung.
+Je mehr über Datenanalyse und Big Data gesprochen wird, desto mehr bekommt Anonymisierung und Pseudonymisierung an Bedeutung. 
+Der Vortrag zeigt die grundlegenden Konzepte dieser beiden Techniken auf, demonstriert aber auch an Hand von vielen Beispielen, welche Fallstricke dort zu erwarten sind und welche Fehler dabei oft gemacht werden.</abstract>
+<description>The workshop introduces the concept of anonymization vs pseudonymization. It shows the major mistakes that have been committed in the past when publishing anonymized data. 
+From this, the lesson asks how each of these mistakes could have been avoided.
+The session introduces concepts like quasi-identifier, k-anonymity, l-identity, dominance attack, and shows that it is nearly impossible to truly anonymize location data.
+The author has plenty of experience doing anomization concepts for critical data.
+</description>
+<logo></logo>
+<persons>
+<person id='110'>Philipp Schaumann</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='e95727e6-e848-4122-b9e1-b1bc57b9c7de' id='90'>
+<date>2017-10-23T18:00:00+02:00</date>
+<start>18:00</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-90-datensafari_-_was_wir_taglich_alles_so_preisgeben</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Datensafari - Was wir täglich alles so preisgeben</title>
+<subtitle>Wandelnde Datenlecks im Visier von Staat und Industrie</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Der moderne Mensch ist täglich ohne Pause online. Unsere Aktivitäten werden zunehmend erfasst, vermessen, gespeichert, bewertet und in alle Welt verteilt. Dank dem Internet der Dinge, smarten Geräten und dem ständigen Aufenthalt in Netzwerken machen wir es den Datenhändlern sehr leicht. Dieser Vortrag soll beleuchten was im täglichen Alltag an Daten anfällt, was diese Aussagen und wohin diese unter Umständen gehen</abstract>
+<description>Mittlerweile geht es beim Datenhandel um weit mehr als Websurfen. Es geht auch nicht nur um Aktivitäten im Internet. Viele Geräte, speziell Smartphones oder Personal Computing Devices, haben Verbindungen in mehrere Netzwerke. Präsenzinformationen und das Verfolgen von Kunden in Geschäften sind nur wenige Beispiele von der schönen neuen Welt, in der Daten das Rohöl des 21. Jahrhunderts sein sollen. Die Problematik dabei ist, dass viele Produkte und Dienstleistungen nie die ganze Wahrheit sagen. Alleine ein Gast-WLAN kann schon sehr gute Profile erstellen, und damit kann man unter Umständen im Lieblingscafé ahnungslos ausgeraubt werden ohne es zu merken. In diesem Vortrag werden praktische Beispiele für Datenlecks am Alltag von fiktiven Menschen mit echten Daten illustriert. Lassen Sie sich zeigen welches Profil Ihre Umgebung von Ihnen schon hat.</description>
+<logo></logo>
+<persons>
+<person id='29'>René Pfeiffer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Volkskundemuseum Workshop'>
+<event guid='0afa1453-3a16-4009-baab-a07306aca9f7' id='196'>
+<date>2017-10-23T08:30:00+02:00</date>
+<start>08:30</start>
+<duration>01:30</duration>
+<room>Volkskundemuseum Workshop</room>
+<slug>pw17-196-cms_workshop_01</slug>
+<recording>
+<license></license>
+<optout>true</optout>
+</recording>
+<title>CmS Workshop 01</title>
+<subtitle>Workshop für Schulklasse</subtitle>
+<track>Chaos macht Schule</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Workshops für Schulklassen (5. - 12. Schulstufe)
+
+Voraussetzungen:
++ verbindliche Anmeldung bis 15. Oktober an schule@privacyweek.at
++ Terminbestätigung für gebuchten Slot
+
+Workshop für die Klasse ist kostenlos → keine Eintrittkarte für PrivacyWeek notwendig</abstract>
+<description>Der Chaos Computer Club Wien will den kritischen Umgang mit elektronischen Medien sowie der Risiken und Nebenwirkungen der elektronischen Kommunikation und die Verbreitung von freien Technologien und Standards und das Wissen um diese Entwicklung fördern. Ein Mittel zum Zweck ist dabei die Initiative *Chaos macht Schule* des Chaos Computer Club (CCC) nach Wien zu bringen und hier Schulen mit Vorträgen und Workshops zu unterstützen.
+
+Ziel des Projekts ist es, Eltern, Lehrer_Innen und Schüler_Innen in den Bereichen Medienkompetenz und Technikverständnis zu stärken und einen Blick hinter die Kulissen der digitalen Welt zu ermöglichen</description>
+<logo>/system/events/logos/000/000/196/large/cms_logo.png?1507467941</logo>
+<persons>
+</persons>
+<links>
+<link href='https://projekte.c3w.at/pw-cms-angeobt'>CmS Angebot für die PrivacyWeek</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='e14c8d68-09fd-443e-b0c6-334a5838f666' id='197'>
+<date>2017-10-23T10:30:00+02:00</date>
+<start>10:30</start>
+<duration>01:30</duration>
+<room>Volkskundemuseum Workshop</room>
+<slug>pw17-197-cms_workshop_02</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>CmS Workshop 02</title>
+<subtitle>Workshop für Schulklasse</subtitle>
+<track>Chaos macht Schule</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Workshops für Schulklassen (5. - 12. Schulstufe)
+
+Voraussetzungen:
++ verbindliche Anmeldung bis 15. Oktober an schule@privacyweek.at
++ Terminbestätigung für gebuchten Slot
+
+Workshop für die Klasse ist kostenlos → keine Eintrittkarte für PrivacyWeek notwendig</abstract>
+<description>Der Chaos Computer Club Wien will den kritischen Umgang mit elektronischen Medien sowie der Risiken und Nebenwirkungen der elektronischen Kommunikation und die Verbreitung von freien Technologien und Standards und das Wissen um diese Entwicklung fördern. Ein Mittel zum Zweck ist dabei die Initiative *Chaos macht Schule* des Chaos Computer Club (CCC) nach Wien zu bringen und hier Schulen mit Vorträgen und Workshops zu unterstützen.
+
+Ziel des Projekts ist es, Eltern, Lehrer_Innen und Schüler_Innen in den Bereichen Medienkompetenz und Technikverständnis zu stärken und einen Blick hinter die Kulissen der digitalen Welt zu ermöglichen</description>
+<logo>/system/events/logos/000/000/197/large/cms_logo.png?1507468298</logo>
+<persons>
+<person id='14'>André Igler</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='6afee5af-bbd1-48d0-b35e-d78359bd77fa' id='198'>
+<date>2017-10-23T12:30:00+02:00</date>
+<start>12:30</start>
+<duration>01:30</duration>
+<room>Volkskundemuseum Workshop</room>
+<slug>pw17-198-cms_workshop_03</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>CmS Workshop 03</title>
+<subtitle>Workshop für Schulklasse</subtitle>
+<track>Chaos macht Schule</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Der Chaos Computer Club Wien will den kritischen Umgang mit elektronischen Medien sowie der Risiken und Nebenwirkungen der elektronischen Kommunikation und die Verbreitung von freien Technologien und Standards und das Wissen um diese Entwicklung fördern. Ein Mittel zum Zweck ist dabei die Initiative *Chaos macht Schule* des Chaos Computer Club (CCC) nach Wien zu bringen und hier Schulen mit Vorträgen und Workshops zu unterstützen.
+
+Ziel des Projekts ist es, Eltern, Lehrer_Innen und Schüler_Innen in den Bereichen Medienkompetenz und Technikverständnis zu stärken und einen Blick hinter die Kulissen der digitalen Welt zu ermöglichen</abstract>
+<description>Voraussetzungen:
++ verbindliche Anmeldung bis 15. Oktober an schule@privacyweek.at
++ Terminbestätigung für gebuchten Slot
+
+Workshop für die Klasse ist kostenlos → keine Eintrittkarte für PrivacyWeek notwendig</description>
+<logo>/system/events/logos/000/000/198/large/cms_logo.png?1507468430</logo>
+<persons>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='2326cc2c-1190-4ea8-b749-4e410f344ff5' id='199'>
+<date>2017-10-23T14:30:00+02:00</date>
+<start>14:30</start>
+<duration>01:30</duration>
+<room>Volkskundemuseum Workshop</room>
+<slug>pw17-199-cms_workshop_04</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>CmS Workshop 04</title>
+<subtitle>Workshop für Schulklasse</subtitle>
+<track>Chaos macht Schule</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Der Chaos Computer Club Wien will den kritischen Umgang mit elektronischen Medien sowie der Risiken und Nebenwirkungen der elektronischen Kommunikation und die Verbreitung von freien Technologien und Standards und das Wissen um diese Entwicklung fördern. Ein Mittel zum Zweck ist dabei die Initiative *Chaos macht Schule* des Chaos Computer Club (CCC) nach Wien zu bringen und hier Schulen mit Vorträgen und Workshops zu unterstützen.
+
+Ziel des Projekts ist es, Eltern, Lehrer_Innen und Schüler_Innen in den Bereichen Medienkompetenz und Technikverständnis zu stärken und einen Blick hinter die Kulissen der digitalen Welt zu ermöglichen</abstract>
+<description>Voraussetzungen:
++ verbindliche Anmeldung bis 15. Oktober an schule@privacyweek.at
++ Terminbestätigung für gebuchten Slot
+
+Workshop für die Klasse ist kostenlos → keine Eintrittkarte für PrivacyWeek notwendig</description>
+<logo>/system/events/logos/000/000/199/large/cms_logo.png?1507468501</logo>
+<persons>
+<person id='14'>André Igler</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='69cfed06-2e0f-4956-8a37-ee337db94e0e' id='184'>
+<date>2017-10-23T16:00:00+02:00</date>
+<start>16:00</start>
+<duration>00:30</duration>
+<room>Volkskundemuseum Workshop</room>
+<slug>pw17-184-crypto-talk</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Crypto-Talk</title>
+<subtitle>Die Wiener Cryptoparty zu Gast bei der PrivacyWeek</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Eine Einführung zur Cryptoparty</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='96'>Petar Kosic</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='14f857de-7d0a-4b74-9d80-e35d04ab2731' id='110'>
+<date>2017-10-23T16:30:00+02:00</date>
+<start>16:30</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Workshop</room>
+<slug>pw17-110-crypto-workshop</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Crypto-Workshop</title>
+<subtitle>Die Wiener Cryptoparty zu Gast bei der PrivacyWeek</subtitle>
+<track></track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Cryptoparty</abstract>
+<description>Bisherige Themen bei der Cryptoparty Wien:
+Thema: IoT Fails - Ein Einblick in die skurrilen Fails der IoT Industrie 
+Thema: Bitcoin - Funktionsweise der Blockchain
+Thema: Workshop → Bitmessage, A Peer‐to‐Peer Message Authentication and Delivery System
+Thema: Workshop → Anonym im Internet? Wirklich anonym mit Tor?
+Thema: Workshop → Email Verschlüsselung mit GPG
+Thema: Handy Messenger - Die guten, die schlechten und die weit verbreiteten
+Thema: Ein #33c3 - Rückblick
+Thema: Vorbereitungsworkshop #33c3 - Laptop absichern &amp;amp; Co
+Thema: E-Voting
+Thema: Handy Messenger - Die guten, die schlechten und die weit verbreiteten
+Thema: Das Tor Ökosystem, mehr als nur den Tor-Browser benutzen.
+Thema: OpSec - wie verhält man sich, um Metadaten zu minimieren
+Thema: Zu viele Passwörter? Passwortmanagement Software, 2-Faktor Authentifizierung
+Thema: Backup, jetzt aber richtig!
+Thema: Ransomware: „DatenVERschlüsselung leicht gemacht“
+Thema: Browsererweiterungen für Firefox &amp;amp; Chrome - Hands on Workshop
+Thema: #32c3 - Eine Rückschau
+Thema: Vorbereitungsworkshop #32c3 - Laptop absichern
+Thema: Email… the good, the bad and the mostly ugly
+Thema: Adblocking und Anti-Tracking/-Profiling
+Thema: Rückschau auf den Sommer 2015 und das Chaos Communication Camp sowie Vortragsempfehlungen
+Thema: Ab 19:30: Computer sicher nutzen: Über Malware, Phishing und Co. - Sichere Nutzung vom Computer um sich vor Malware, Phishing und Co zu schützen
+Thema: Wie sicher kann Email sein? GPG und S/MIME.
+Thema: Handy Security, sichere Sprach- und Videotelefonie, sichere Text-Messenger
+Thema: TLS Zertifikate, Überprüfung, Zertifizierungssstellen und Superfish
+Thema: Rückschau auf den 31. Chaos Communication Congress (31C3), aktuelle Entwicklungen, Fragen und Antworten
+Thema: Einführung in das Thema Kryptografie mit anschließendem praktischen Workshop zu Browsersicherheit
+Thema: Den eigenen Laptop absichern. Speziell für Besuchende des 31C3
+Thema: IT-Sicherheit und online Privatsphäre im Studium
+Thema: Wie sicher ist https wirklich?
+Thema: Verschlüsselte Datenträger austauschen
+Thema: Alternativen zu Googles Diensten
+Thema: Netzsperren und Zensur
+Thema: Browser Fingerprinting, Tor, Tails
+Thema: Filter Bubble
+Thema: Browser
+Thema: Heartbleed &amp; Passwortsicherheit
+Thema: Esoterische Kryptografie Tools - eine muntere Rundschau über die unsinnigen Dinge die da draussen sind von denen Du besser die Finger lässt.
+Thema: Email Verschlüsselung mit GPG
+Thema: Instant Messaging - Sicherer und privater Chatten mit Jabber und OTR
+Thema: Anonymiät online, Tor, I2P
+Thema: Absichern mobiler Geräte im Internet. Laptops, Tablets, Mobiltelefone. Speziell auch für Besuchende des 30C3
+Thema: Metadaten: Was das ist, wo sie entstehen, warum sie gefährlich sind und wie sich manche davon Vermeiden lassen.
+Thema: Email-Verschlüsselung
+Thema: Die CryptoCalypse - NSA und die Kryptographie: Wie sicher ist sicher?
+Thema: Grundlagen der Verschlüsselung, Sicheres speichern von Daten
+Thema: Operational Security (Feind hört mit)
+Thema: OPSEC, Tor Hidden Services im Internet &amp; alles was euch interessiert (bringt Fragen mit!)</description>
+<logo></logo>
+<persons>
+<person id='96'>Petar Kosic</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='0222d2c5-8dbe-4259-8d7b-f51d20e19afa' id='111'>
+<date>2017-10-23T17:15:00+02:00</date>
+<start>17:15</start>
+<duration>03:00</duration>
+<room>Volkskundemuseum Workshop</room>
+<slug>pw17-111-map_your_public_profile</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Map your public profile</title>
+<subtitle>Erstelle eine digitale Karte deiner öffentlichen Daten</subtitle>
+<track></track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Wie leicht können die öffentlich einsehbaren Informationen über mich ein dichtes Profil meiner Selbst ergeben? Die Teilnehmer lernen die eigenen Daten aus Sozialen Netzwerken und anderen Quellen zu bekommen und auf einer interaktiven Karte darzustellen.</abstract>
+<description>In dem Workshop bekommen die Teilnehmer_innen eine Anleitung dafür, wie sie die Daten ihrer öffentlichen Profile am besten herunterladen und aufbereiten können, sodass am Ende eine netz- oder kartenähnliche, interaktive Darstellung möglich ist. 
+
+Gearbeitet wird mit Open-Source-Software; der Workshop ist geeignet für alle Interessierten und insbesondere auch Anfänger_innen. Ohne eigene Facebook-, Twitter-, Instagram- usw.-Accounts wird es allerdings langweilig. Teilnehmer_innen sollten daher unbedingt einen Laptop und die Zugänge zu ihren Social-Media-Profilen mitnehmen.
+
+Am Ende gibt es eine aufschlussreiche und visuell ansprechende Datenvisualisierung der eigenen Social-Media-Aktivität, die man dann natürlich gerne gleich auf Social Media teilen kann …</description>
+<logo></logo>
+<persons>
+<person id='122'>Silvio Heinze</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Rabenhof Theater'>
+</room>
+<room name='Side-Events'>
+</room>
+</day>
+<day date='2017-10-24' end='2017-10-24T23:00:00+02:00' index='2' start='2017-10-24T08:30:00+02:00'>
+<room name='Volkskundemuseum Saal 1'>
+<event guid='476b4610-680e-4b3b-aec2-9f1fef91cd4e' id='143'>
+<date>2017-10-24T10:00:00+02:00</date>
+<start>10:00</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-143-anonymitat_im_internet</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Anonymität im Internet</title>
+<subtitle></subtitle>
+<track></track>
+<type></type>
+<language>de</language>
+<abstract>Technische Anonymisierungsverfahren im Überblick.</abstract>
+<description>Verschlüsselung schützt Kommunikationsinhalte, verhindert allerdings nicht eine Auswertung von &quot;Metadaten&quot;. Anonymisierung hingegen verschleiert, wer mit wem wann kommuniziert, und erlaubt so auch eine Umgehung immer weiter um sich greifender Zensurmaßnahmen. 
+
+Ein Vortrag über gängige Anonymisierungstools wie Tor, I2P, VPNs, Mixmaster, und aktuelle Entwicklungen.</description>
+<logo></logo>
+<persons>
+<person id='147'>Moritz Bartl</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='d0df705f-a1ec-41e8-9240-7009943e03bc' id='91'>
+<date>2017-10-24T11:00:00+02:00</date>
+<start>11:00</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-91-warum_gibt_es_eigentlich_das_internet_der_dinge</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Warum gibt es eigentlich das Internet der Dinge?</title>
+<subtitle>Geschichte des IoT mit Querverbindungen zum besseren Verständnis</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Das Internet of Things (IoT) oder Internet der Dinge ist in aller Munde. Genau wie bei den Kampfbegriffen Cloud, &quot;smart&quot; und Dienste &quot;as a Service&quot; fehlt leider die genaue Bedeutung. Dieser Vortrag beleuchtet die Geschichte der Technologien, die zum IoT Fieber geführt haben, und die Verbindungen des IoT Ökosystems mit den privaten und beruflichen Daten. IoT ist keine neue Technologie. Es ist eine logische Konsequenz aus Geschäftsmodellen und Datenhandel.</abstract>
+<description>Wer regelmäßig IT Nachrichten liest, der/die wird sich über manche Trends wundern. Tragbare Vernetzung und allgegenwärtige Rechenleistung führt zu neuen Verquickungen, die dann scheinbar plötzlich Neues möglich machen. Wenn man sich die Hintergründe und die Geschichte anschaut, so sieht man Zusammenhänge, die die vorgegaukelte Innovation entzaubern. Dieser Vortrag ist für alle gedacht, die sich mit smarten Gegenständen umgeben (wollen), oder die Silicon Valley als gelobtes Land ansehen und zweifelhafte Geschäftsmodelle blind anbeten. &quot;Smart&quot; hat leider nichts mit Intelligenz zu tun. Erfahren Sie in diesem Vortrag wieso.</description>
+<logo></logo>
+<persons>
+<person id='29'>René Pfeiffer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='4e08029f-9022-4319-b11c-60308427f3ce' id='181'>
+<date>2017-10-24T11:45:00+02:00</date>
+<start>11:45</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-181-wie_man_informatik_interessant_fur_alle_gestalten_kann</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Wie man Informatik interessant für alle gestalten kann</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Aus meiner Erfahrung als Informatik-Studentin an der TU Wien möchte ich einige Ideen und Handlungsvorschläge ableiten.
+
+Einige Beispiele aus der universitären Praxis sind klassisch &quot;gut gemeint&quot; (aber eben nicht gut), während andere sich als durchaus sinnvoll erwiesen haben. </abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='123'>pascoda</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='3ce2f136-e772-4358-9a71-e8d94b04f17c' id='158'>
+<date>2017-10-24T13:00:00+02:00</date>
+<start>13:00</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-158-privacy_by_design_collecting_data_in_a_socially_responsible_manner_without_privacy_side_effects</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Privacy by Design : Collecting data in a socially responsible manner without privacy side effects</title>
+<subtitle></subtitle>
+<track></track>
+<type></type>
+<language>en</language>
+<abstract>Privacy by Design means that the complete architecture right from collection, processing, serving the data is built with privacy and security in mind from the ground up. The term Big Data needs little introduction; it is the foundation of today&#39;s services, without this most of the services that we enjoy today could not exists not exist. The industry modus-operandi can be described as &quot;collect-all-you-can&quot;, this behavior is not only accepted but encouraged. This approach to data collection, however is dangerous especially when data involves our everyday actions and when the subject of data collection involves human actions on the Web, side-effects are something to be considered seriously. What is a side-effect in context of data collection ? In simple terms, a piece of knowledge that can be learned from data analysis which was neither intended nor expected, and that poses a risk to the privacy of the subjects of the data collection. During this talk we will provide evidences of side-effects on popular systems such as google analytics that compromise the privacy of the users, even to the point of obtaining personal identifiable information (PII).</abstract>
+<description>Unfortunately the current approach of data collection where aggregation only happens on the backend of the collector makes these side effects unavoidable. At Cliqz we faced the same problem when designing our data collection system. We needed data from our users to build our services: a browser with an integrated search engine, news recommendation, security services such as anti-phishing and anti-tracking and so on. However, we were very troubled by the side-effects. That is why we created the framework – Human-Web[1] , a novel approach to data collection that relies on client-side aggregation rather than server-side. Since server-side aggregation of user&#39;s data is bound to produce side-effects, it is strictly forbidden. Our data collection backend only receives signals from our users if and only if those signals require no further aggregation. If aggregation by user is required, it will be carried out in the client itself. Thus no UID ever reaches our data collection backend. In addition to remove explicit UIDs we have a complex set of heuristics to detect potential implicit UIDs in the content of the signals as well. This talk, however, is not just about how we at Cliqz build privacy preserving data collection systems, which have been running in production for over two years now, the whole motivation behind this talk is to showcase design choices and exciting new technologies that can help anyone collect and transport data in a privacy preserving manner which can be useful for any number of uses cases, for instance one can use the same approach to build a privacy-preserving google analytics (as can be showcased in a demo) and solve problems like re-targeting, complex telemetry for business intelligence, goal conversions or like in our case building a complete search-engine. The intended audience for this talk is anyone who deals with data, as a takeaway they will learn how by a slight change in the methodology data can be collected in a much much saner and safer way ultimately protecting and respecting the user&#39;s privacy. Actually to demonstrate further, we have built a demo Google Analytics[2] service that covers a wide-range of metrics that require would require tracking to solve not so trivial use cases like unique, goal completion, return rate, time on page, etc, but instead it relies on the principles of privacy by design and yet achieves what services like Google analytics will.
+
+Footnotes: [1] : https://cliqz.com/en/whycliqz/human-web [2] : http://josepmpujol.net/public/papers/big_green_tracker.pdf
+
+
+
+Data from users is needed to build great products. Google, Facebook even Doubleclick would not be able to offer their services unless they had tons of data. No company or product is an exception, the current industry modus-operandi is &quot;collect-as-you-can&quot; and it is bound to produce privacy side effects.
+
+We would like to share an alternative approach based on client-side aggregation. This talk will showcase how it is perfectly possible to collect and anonymously send data without any user identifiers or PII for building data driven products like a browser with a fully integrated search engine (Cliqz), Anti-tracking, Anti-phishing etc. without risking or compromising the users privacy at any time.</description>
+<logo></logo>
+<persons>
+<person id='18'>Konark Modi</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='d41398c2-41d5-41ef-b931-965ca95a1ada' id='159'>
+<date>2017-10-24T13:45:00+02:00</date>
+<start>13:45</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-159-evva_airkey_als_privacy-by-design-projekt</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>EVVA AirKey als Privacy-by-Design-Projekt</title>
+<subtitle>Zutrittskontrolle und Datenschutz - Ein vermeintlicher Widerspruch</subtitle>
+<track>Privacy By Design</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Wie lässt sich der Widerspruch, dass in einer Zutrittskontrollanlage prinzipiell alles protokolliert werden soll, mit den aktuellen Anforderungen an den Datenschutz überhaupt auflösen?
+
+Anhand des EVVA AirKey Schließsystems, bei welchem auch Smartphones als Schlüssel eingesetzt werden, und Schlüssel über das Internet weltweit verschickt werden können, wird gezeigt wir der Spagat zwischen moderner und innovativer Zutrittskontrolle und gleichzeitigen erhöhten Anforderungen an den Datenschutz gelingen kann.
+
+Schon sehr frühzeitig in der Entwicklung von AirKey hat sich EVVA mit den rechtlichen Datenschutzthematiken auseinandergesetzt, welche letztendlich zur einer Privacy-by-Design Lösung geführt haben. Wichtig für EVVA war immer, dass alle unsere weltweiten Kunden ihre Zutrittskontrollanlagen nach den jeweiligen sehr unterschiedlichen nationalen Datenschutzbestimmungen überhaupt Rechtskonform betreiben können. 
+</abstract>
+<description></description>
+<logo>/system/events/logos/000/000/159/large/Airkey-APP.png?1508228900</logo>
+<persons>
+<person id='165'>Johannes Ullmann</person>
+</persons>
+<links>
+<link href='http://www.evva.com/airkey'>AirKey</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='3813910d-02b3-48bb-acd0-182fa9679ca5' id='171'>
+<date>2017-10-24T14:30:00+02:00</date>
+<start>14:30</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-171-tracking_the_trackers</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Tracking the Trackers</title>
+<subtitle></subtitle>
+<track>Techday</track>
+<type>lecture</type>
+<language>en</language>
+<abstract>In this talk we describe the state and extent of online tracking, from the technical background of how companies build profiles from tracking, and how those can be trivially deanonymised; case studies of the surprising reach of tracking, such as in online banking and political parties&#39; websites; and well as our data on the global reach of tracking. We will also introduce our soon-to-be-launched &quot;Who Tracks Me&quot; website, which will provide a constant monitor on the extent of online tracking and where it can be found, and open up our data on trackers.</abstract>
+<description>Online tracking poses a serious privacy challenge that has drawn significant attention in both academia and industry. Existing approaches for preventing user tracking, based on curated blocklists, suffer from limited coverage and coarse-grained resolution for classification, rely on exceptions that impact sites&#39; functionality and appearance, and require significant manual maintenance. At Cliqz we built a new approach to countering online tracking, targeting the user identifiers which are used to link together user profiles on the server side. Having acquired Ghostery this year, we are combining this approach with their database on trackers and their owners to improve protection from and transparency around online tracking.
+</description>
+<logo></logo>
+<persons>
+<person id='168'>Sam Macbeth</person>
+</persons>
+<links>
+<link href='https://dl.acm.org/citation.cfm?id=2883028'>Tracking the Trackers</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='381d274a-9001-47db-bebb-9b08eadf150c' id='137'>
+<date>2017-10-24T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-137-privacy_by_design_and_gdpr_implementation</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Privacy by design and GDPR implementation</title>
+<subtitle></subtitle>
+<track></track>
+<type>workshop</type>
+<language>en</language>
+<abstract>Lean in a one-hour workshop how to implement the GDPR right from the start when designing your product!</abstract>
+<description>Regardless of whether your operations relate to the online advertising sector, the provision of technology services, the healthcare sector, the telecommunications sector or some other branch of industry, there is growing demand for compliance with data protection legislation on the part of consumers and authorities. This workshop will give you an overview on the measures required to be implemented when designing your product (privacy by design) - an important step towards compliance with the General Data Protection Regulation (GDPR).</description>
+<logo>/system/events/logos/000/000/137/large/Privacy_by_design.png?1508163422</logo>
+<persons>
+<person id='109'>Christoph Bauer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='0e036430-d97f-4e54-b2b8-149e0e9d3d58' id='156'>
+<date>2017-10-24T16:30:00+02:00</date>
+<start>16:30</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-156-privacy_by_code</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Privacy by Code</title>
+<subtitle>Datensparsamkeit in Webanwendungen</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Webanwendungen sind überall, und selten genug respektieren sie trotz langer Privacy Policy die Daten ihrer Nutzerinnen. Wie ändern wir das? Wie bauen wir unsere Webanwendungen so, dass sie von Konzept über Umsetzung bis Betrieb gut und richtig mit Daten umgehen?</abstract>
+<description>Der Vortrag ist für alle, die sich mit Webanwendungen nicht nur auf Nutzerinnenseite beschäftigen – Entwicklerinnen, Admins, Projektleiterinnen … Wir reden über die Planung, Implementierung, und den Betrieb von Webanwendungen, mit einem Fokus auf Datensparsamkeit und Opsec-Grundlagen.</description>
+<logo></logo>
+<persons>
+<person id='164'>rixx</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='c34a07a2-0add-4809-bb25-280368b84db0' id='162'>
+<date>2017-10-24T17:30:00+02:00</date>
+<start>17:30</start>
+<duration>00:30</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-162-p_p_pretty_easy_privacy_die_technischen_details</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>p≡p ≡ pretty Easy privacy ≡ Die technischen Details</title>
+<subtitle>privacy by default, for everyone</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Einfache Verschlüsselung für alle, E-Mails und Nachrichten werden standardmaessig &quot;by default&quot; verschlüsselt und anonymisiert, ohne dass der Nutzer grossen Aufwand damit hat, sondern seine Standardanwendungen verwendet. End-To-End, Peer-to-Peer und ohne zentrale Infrastruktur, Open Source mit Code Reviews und Unterstützung von üblichen Cryptostandards (S/MIME, PGP, OTR) - und am Ende zur Anonymisierung sogar noch durch GNUnet geschickt.
+
+Wie das gehen soll? Wir versuchens! Kleine Vorstellung des Projektes, dem Stand der Software und der aktuellen Implementierung der Ideen und Standards, wie z.B. Trustwords als nutzbare Erweiterung des Konzeptes des Fingerprints oder das leidige Problem der Keyserver bei GPG.</abstract>
+<description></description>
+<logo>/system/events/logos/000/000/162/large/Pretty-Easy-Privacy.jpg?1505414058</logo>
+<persons>
+<person id='70'>sva</person>
+</persons>
+<links>
+<link href='https://prettyeasyprivacy.com/faq/'>FAQ (very detailled)</link>
+<link href='https://pep.foundation/docs/pEp-whitepaper.pdf'>Whitepaper.pdf</link>
+<link href='https://cacert.pep.foundation/trac/'>tech-notes / some source</link>
+<link href='https://prettyeasyprivacy.com/docs'>extensive docu of existing software</link>
+<link href='http://pep-project.org/'>Startpage of Project</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='20290fc0-b626-429e-92ff-7aafdd08c1c5' id='207'>
+<date>2017-10-24T18:15:00+02:00</date>
+<start>18:15</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-207-die_macht_der_kybernetik_und_die_ohnmacht_der_vernunft</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Die Macht der Kybernetik und die Ohnmacht der Vernunft</title>
+<subtitle>Praktische Vorschläge zum Umgang mit der Ideologie der Homöostase für ProgrammiererInnen.</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>ProgrammiererInnen bestimmen das Leben von anderen Menschen. Das erfordert einen verantwortlichen Umgang mit kybernetischen Maschinen.</abstract>
+<description>Um verantwortlich programmieren zu können, ist es hilfreich, die Ideologie der Homöostase zu kennen. Die Ideologie der Homöostase, die der Kybernetik, auf der Computertechnologie basiert, zu Grunde liegt, und die in der Volkswirtschaftslehre, der Biologie, der Soziologie und vielen anderen Wissenschaften ebenfalls verwendet wird, geht davon aus, dass sich Systeme von alleine in ein Gleichgewicht bringen. Das ist ein Denkfehler. Wie der Fehler vermieden werden kann, wird am Beispiel von System aus der Bildungsverwaltung demonstriert.</description>
+<logo></logo>
+<persons>
+<person id='36'>Christian Swertz</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='e3a8fd40-a1a1-4d00-83e7-09b395144230' id='215'>
+<date>2017-10-24T19:15:00+02:00</date>
+<start>19:15</start>
+<duration>00:30</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-215-e-id_nicht_ohne_privacy_by_design</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>E-ID? Nicht ohne Privacy by Design!</title>
+<subtitle>Die DSGVO in der Praxis</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Beschreibung des kommenden „E-ID“ nach dem novellierten E-Government-Gesetz und Alternativkonzepte, die zeigen, was der mit der Datenschutzgrundverordnung nunmehr verbindlich zu beachtende Grundsatz „Privacy by Design“ in der Praxis bedeutet.</abstract>
+<description>Im April/Mai 2017 haben Bundeskanzleramt und Innenministerium einen Entwurf zur Änderung des E-Government-Gesetzes vorgelegt, mit dem die Bürgerkarte zu einem „E-ID“ umgewandelt werden soll. Mit diesem sollen auch zusätzliche Attribute aus staatlichen Registern nachgewiesen werden können und dies soll auch offline am Handy möglich sein. Das vorgeschlagene Konzept wurde von Experten aus der Zivilgesellschaft abgelehnt, vor allem mit der Begründung, dass damit eine zentrale Stelle geschaffen wird, die in der Lage ist, das gesamte Verhalten der Nutzer im System zu beobachten und somit potenziell zu überwachen.
+Der Vortrag geht auf diese Kritik näher ein und stellt verschiedene Alternativkonzepte vor, die in den letzten Jahren von verschiedenen Initiativen entwickelt wurden – auch in Österreich. Dabei wird deutlich, was der mit der Datenschutzgrundverordnung nunmehr verbindlich zu beachtende Grundsatz „Privacy by Design“ in der Praxis bedeutet.</description>
+<logo></logo>
+<persons>
+<person id='146'>Walter Hötzendorfer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='963924f1-15c8-44df-922e-166d786cac5a' id='216'>
+<date>2017-10-24T19:45:00+02:00</date>
+<start>19:45</start>
+<duration>00:30</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-216-privatspharen-freundliche_und_beweisbar_sichere_authentisierung_im_internet</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Privatsphären-freundliche und beweisbar sichere Authentisierung im Internet</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Dieser Vortrag gibt eine Kurzübersicht über existierende Identitätsmanagementsysteme, deren Probleme in Bezug auf die Privatsphäre der Benützer, und führt beweisbar sichere Alternativen aus der Fachliteratur in verständlichen Worten ein.  </abstract>
+<description>Attribut-basierte anonyme Credential-Systeme erlauben die Privatsphären-freundliche Authentisierung von Benützern gegenüber Cloud-Service-Anbietern. Einerseits hat der Benützer volle Kontrolle, welche Attribute (z.B. Name und Alter) an den Service-Anbieter übertragen werden und welche (z.B. Nationalität und Wohnort) geheimgehalten werden. Andererseits erhält der Service-Anbieter gleichzeitig hohe Authentizitätsgarantien für die offengelegten Attribute, wodurch sichergestellt wird, dass der Benützer nur korrekte Attribute offenlegen kann.
+
+Ziel dieses Vortrags ist es, Probleme in bestehenden Identitätsmanagement-Systemen zu diskutieren und die Notwendigkeit für Privatsphären-freundliche Authentisierungsmethoden zu erläutern. Weiters soll eine Übersicht über in der kryptographischen Literatur exisiterende Lösungen und ein Eindruck über die technische Realisierbarkeit gegeben werden.
+
+Der Vortrag setzt keine technischen, mathematischen, oder kryptographischen Kenntnisse voraus, sondern führt die Konzepte abstrakt und allgemeinverständlich für ein breites Publikum ein.
+</description>
+<logo></logo>
+<persons>
+<person id='129'>Stephan Krenn</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='910904ae-70f3-414c-aaa3-4d3e67b80a25' id='175'>
+<date>2017-10-24T20:15:00+02:00</date>
+<start>20:15</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-175-podiumsdiskussion_techday</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Podiumsdiskussion TechDay</title>
+<subtitle></subtitle>
+<track></track>
+<type>podium</type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='146'>Walter Hötzendorfer</person>
+<person id='129'>Stephan Krenn</person>
+<person id='6'>Martin Leyrer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Volkskundemuseum Saal 2'>
+<event guid='dd8ef189-7888-4916-888b-0b19e2e4acd7' id='89'>
+<date>2017-10-24T10:00:00+02:00</date>
+<start>10:00</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-89-privatsphare_bei_fitnesstrackern_und_gesundheitsapps</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Privatsphäre bei Fitnesstrackern und Gesundheitsapps</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Daten, die bei Fitness-Trackern und Medical Apps verarbeitet werden, sind höchst sensibel - was ist nötig, um sie zu schützen?</abstract>
+<description>Die Digitalisierung hat den Gesundheitsmarkt erreicht. Daten können helfen, die Versorgung und Pflege unserer alternden Gesellschaft zu sichern, doch die Daten, die in dieser Branche verarbeitet werden, sind weitaus sensibler als in anderen Branchen wie dem Onlinemarketing: Wir wollen nicht, dass Fremde - oder unser Chef - wissen, ob wir krank, depressiv oder gestresst sind. Daher ist Privatsphäre bei Fitness-Trackern und Medical Apps ein sehr heißes Thema!</description>
+<logo>/system/events/logos/000/000/089/large/eHealth.png?1508163030</logo>
+<persons>
+<person id='109'>Christoph Bauer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='1fd3475c-f696-415b-971d-786e173e212c' id='144'>
+<date>2017-10-24T11:00:00+02:00</date>
+<start>11:00</start>
+<duration>02:00</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-144-anonymisierungstools</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Anonymisierungstools</title>
+<subtitle></subtitle>
+<track></track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Workshop - Ergänzend zum Vortrag über Anonymisierungstools.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='147'>Moritz Bartl</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='07792c85-9a93-4c90-bdcd-9cd8165c2ae5' id='93'>
+<date>2017-10-24T13:00:00+02:00</date>
+<start>13:00</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-93-von_der_flachendeckenden_uberwachung_zur_flachendeckenden_lenkung_der_burger</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Von der flächendeckenden Überwachung zur  flächendeckenden Lenkung der Bürger</title>
+<subtitle>Big Data Algorithmen  als Lenkungswerkzeug</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Der Vortrag zeigt an Hand von vielen Beispielen, dass die flächendeckende Überwachung die wir derzeit durch die Sammlung unserer persönlichen Daten erleben, nur die Spitze des Eisbergs ist und schon aus ökonomischen Gründen zu einer Lenkung und Steuerung der Menschen führen wird.
+</abstract>
+<description>An die (freiwillige) flächendeckende Überwachung durch die verschiedenen Dienstleister wie Google, Facebook, Apple, Microsoft, Twitter, WhatsApp, Skype und der vielfältigen Fitness-Tracker haben sich die meisten Nutzer anscheinend bereits gewöhnt. Die meisten wissen, dass bei Nutzung eines Smartphones mit den vielfältigen Apps viel Privates an die jeweiligen Dienstleister geliefert wird. Auch mit der Weitergabe dieser Daten an die „Sicherheitsdienste“ scheinen sich die meisten irgendwie abgefunden zu haben.
+Unklar ist aber zumeist, dass die Big Data Algorithmen daraus nicht nur benutzer-bezogene Werbung generieren, sondern dass diese (undurchsichtigen) Algorithmen Entscheidungen für die Nutzer treffen, ohne dass der Benutzer dies beeinflussen kann.
+Das beginnt mit der selektiven Auswahl des Lesestoffs auf Grund von Entscheidungen des Page Ranking Algorithmus der Suchmaschine (und deren selektive Auswahl der Nachrichten das jeweilige Weltbild ganz leicht verschieben (können]), geht weiter mit der Wahl des Lebenspartners auf Dating-Websites, die schon heute mittels Algorithmen welche Persönlichkeit und Beziehungsglück miteinander verknüpfen, bestimmen, mit wem die Nutzer der Website glücklich sein werden, bis hin zu zukünftigen Finanz-Risiko-Optimierern deren Big Data Algorithmen sehr genau die Wahrscheinlichkeit abschätzen, dass jemand der diesen Facebook-Freundeskreis hat und in diesem Wohnbezirk wohnt seinen Kredit nicht zurückzahlt.
+Da bleibt nur die Frage offen, ob wir die letzte Generation vor der (befürchteten oder erhofften) Singularität sind oder nicht vielleicht die erste Generation danach.</description>
+<logo></logo>
+<persons>
+<person id='110'>Philipp Schaumann</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='4d86b49c-e914-465d-8d0f-e84ea582434c' id='217'>
+<date>2017-10-24T14:30:00+02:00</date>
+<start>14:30</start>
+<duration>00:30</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-217-souverane_digitale_identitat</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Souveräne Digitale Identität</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Probleme wie digitale Überwachung, Missbrauch von Daten, und Verletzung von Privatsphäre sind letztliche eine Frage der Identität. Wer sind wir online, wie präsentieren wir uns, und was wissen andere über uns. Heute wird digitale Identität meist durch Username/Passwort, Föderationen, oder &quot;soziales&quot; Login dargestellt. In letzter Zeit allerdings steigt das Interesse für sog. &quot;souveräne digitale Identität&quot; (engl. self-sovereign identity), das bedeutet, digitale Identität, die nur ein Individuum selbst erzeugen, verwalten, und auch wieder zerstören kann. Dieser Talk gibt einen Überblick über diese Idee bzw. einige aktuelle technische und politische Entwicklungen.</abstract>
+<description></description>
+<logo>/system/events/logos/000/000/217/large/identitydog.jpg?1508250537</logo>
+<persons>
+<person id='37'>Markus Sabadello</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='49230bac-cb6a-4d49-bcd7-0739823b0440' id='113'>
+<date>2017-10-24T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-113-algorithmic_fairness</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Algorithmic fairness</title>
+<subtitle>Können Algorithmen fair sein?</subtitle>
+<track></track>
+<type>meeting</type>
+<language>de</language>
+<abstract>Informatik wird zunehmend zur automatisierten Entscheidungsfindung eingesetzt. In diesen Systemen werden jedoch zunehmend Formen von Diskriminierung entdeckt wodurch ein breiter Diskurs zu Fairness nötig wird. Die Einheit umfasst eine kurze Einführung mit anschließender Diskussion mit allen Anwesenden. Es ist kein spezieller Bildungshintergrund erforderlich. Fairness ist poltisch zu verhandeln und als soziales Konstrukt abhängig von kontextuellen Erfahrungen und Perspektiven.
+
+Ein Beispiel zu bereits eingesetzten Systemen ist die Vorhersage von Kriminalität in Regionen in den USA. Es konnte jedoch nachgewiesen werden dass dieses System einen rassistischen Bias hat. Dieser Bias stammt aus historischen Daten der Polizei welche für die lernende Algorithmen (Machine Learning) als Input verwendet wurden. In den letzten Jahren wurden viele solcher Problemfälle bekannt. In Konsequenz entstanden neue Forschungscommunities zu Fairness von algorithmschen Systemen.
+
+
+</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='25'>Gabriel Grill</person>
+</persons>
+<links>
+<link href='https://www.theguardian.com/commentisfree/2016/jun/26/algorithms-racial-bias-offenders-florida'>Artikel zu den Kriminalitätsvorhersagen in den USA</link>
+<link href='https://www.nytimes.com/2017/05/01/us/politics/sent-to-prison-by-a-software-programs-secret-algorithms.html?mcubz=0'>Verurteilung durch Algorithmus</link>
+<link href='https://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/2016_0504_data_discrimination.pdf'>Report vom Weißen Haus zu &quot;Algorithmic Bias&quot;</link>
+<link href='https://algorithmstudies.wordpress.com/'>Blog zu Lehrveranstaltung zu &quot;Critical Algorithm Studies&quot; an der TU Wien</link>
+<link href='https://geomblog.github.io/fairness/'>Kurs zu &quot;Algorithmic Fairness&quot;</link>
+<link href='https://fatconference.org/'>Konferenz zu &quot;Algorithmic Fairness&quot;</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='e5a54f6e-71cc-461e-91d5-5a1c0e3f316f' id='147'>
+<date>2017-10-24T16:15:00+02:00</date>
+<start>16:15</start>
+<duration>02:00</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-147-free_your_android</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Free Your Android</title>
+<subtitle></subtitle>
+<track></track>
+<type>workshop</type>
+<language>de</language>
+<abstract></abstract>
+<description>In unserem Workshop möchten wir folgendes vermitteln bzw. anbieten:
+&lt;ul&gt;
+  &lt;li&gt;Grundzüge freier Software und der Zusammenhang zum Datenschutz&lt;/li&gt;
+  &lt;li&gt;Vorstellung und Installationsanleitung für den FDroid App-Store&lt;/li&gt;
+  &lt;li&gt;Vorstellung und Installationsanleitung für Auswahl an populären freien Android Apps&lt;/li&gt;
+  &lt;li&gt;Vorstellung und Installationsanleitung für freie Varianten des Android Betriebssystems&lt;/li&gt;
+&lt;/ul&gt;</description>
+<logo>/system/events/logos/000/000/147/large/robot.png?1507880665</logo>
+<persons>
+<person id='156'>Michael Pöhn</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Volkskundemuseum Workshop'>
+<event guid='d7fd37be-36f1-4c04-984e-5c900fabcf64' id='200'>
+<date>2017-10-24T08:30:00+02:00</date>
+<start>08:30</start>
+<duration>01:30</duration>
+<room>Volkskundemuseum Workshop</room>
+<slug>pw17-200-cms_workshop_05</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>CmS Workshop 05</title>
+<subtitle>Workshop für Schulklasse</subtitle>
+<track>Chaos macht Schule</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Der Chaos Computer Club Wien will den kritischen Umgang mit elektronischen Medien sowie der Risiken und Nebenwirkungen der elektronischen Kommunikation und die Verbreitung von freien Technologien und Standards und das Wissen um diese Entwicklung fördern. Ein Mittel zum Zweck ist dabei die Initiative *Chaos macht Schule* des Chaos Computer Club (CCC) nach Wien zu bringen und hier Schulen mit Vorträgen und Workshops zu unterstützen.
+
+Ziel des Projekts ist es, Eltern, Lehrer_Innen und Schüler_Innen in den Bereichen Medienkompetenz und Technikverständnis zu stärken und einen Blick hinter die Kulissen der digitalen Welt zu ermöglichen</abstract>
+<description>Voraussetzungen:
++ verbindliche Anmeldung bis 15. Oktober an schule@privacyweek.at
++ Terminbestätigung für gebuchten Slot
+
+Workshop für die Klasse ist kostenlos → keine Eintrittkarte für PrivacyWeek notwendig
+</description>
+<logo>/system/events/logos/000/000/200/large/cms_logo.png?1507468626</logo>
+<persons>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='9e5fdcf7-cf50-4858-a162-9e95fe4c3c0b' id='201'>
+<date>2017-10-24T10:30:00+02:00</date>
+<start>10:30</start>
+<duration>01:30</duration>
+<room>Volkskundemuseum Workshop</room>
+<slug>pw17-201-cms_workshop_06</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>CmS Workshop 06</title>
+<subtitle>Workshop für Schulklasse</subtitle>
+<track>Chaos macht Schule</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Der Chaos Computer Club Wien will den kritischen Umgang mit elektronischen Medien sowie der Risiken und Nebenwirkungen der elektronischen Kommunikation und die Verbreitung von freien Technologien und Standards und das Wissen um diese Entwicklung fördern. Ein Mittel zum Zweck ist dabei die Initiative *Chaos macht Schule* des Chaos Computer Club (CCC) nach Wien zu bringen und hier Schulen mit Vorträgen und Workshops zu unterstützen.
+
+Ziel des Projekts ist es, Eltern, Lehrer_Innen und Schüler_Innen in den Bereichen Medienkompetenz und Technikverständnis zu stärken und einen Blick hinter die Kulissen der digitalen Welt zu ermöglichen</abstract>
+<description>Voraussetzungen:
++ verbindliche Anmeldung bis 15. Oktober an schule@privacyweek.at
++ Terminbestätigung für gebuchten Slot
+
+Workshop für die Klasse ist kostenlos → keine Eintrittkarte für PrivacyWeek notwendig</description>
+<logo>/system/events/logos/000/000/201/large/cms_logo.png?1507468853</logo>
+<persons>
+<person id='15'>Sonja Waldgruber</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='ba16adf0-df8b-4624-b94b-00274da58720' id='202'>
+<date>2017-10-24T12:30:00+02:00</date>
+<start>12:30</start>
+<duration>01:30</duration>
+<room>Volkskundemuseum Workshop</room>
+<slug>pw17-202-cms_workshop_07</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>CmS Workshop 07</title>
+<subtitle>Workshop für Schulklasse</subtitle>
+<track>Chaos macht Schule</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Der Chaos Computer Club Wien will den kritischen Umgang mit elektronischen Medien sowie der Risiken und Nebenwirkungen der elektronischen Kommunikation und die Verbreitung von freien Technologien und Standards und das Wissen um diese Entwicklung fördern. Ein Mittel zum Zweck ist dabei die Initiative *Chaos macht Schule* des Chaos Computer Club (CCC) nach Wien zu bringen und hier Schulen mit Vorträgen und Workshops zu unterstützen.
+
+Ziel des Projekts ist es, Eltern, Lehrer_Innen und Schüler_Innen in den Bereichen Medienkompetenz und Technikverständnis zu stärken und einen Blick hinter die Kulissen der digitalen Welt zu ermöglichen</abstract>
+<description>Voraussetzungen:
++ verbindliche Anmeldung bis 15. Oktober an schule@privacyweek.at
++ Terminbestätigung für gebuchten Slot
+
+Workshop für die Klasse ist kostenlos → keine Eintrittkarte für PrivacyWeek notwendig</description>
+<logo>/system/events/logos/000/000/202/large/cms_logo.png?1507468996</logo>
+<persons>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='687c6550-8eca-4cd4-b193-3aa1ec587d99' id='203'>
+<date>2017-10-24T14:30:00+02:00</date>
+<start>14:30</start>
+<duration>01:30</duration>
+<room>Volkskundemuseum Workshop</room>
+<slug>pw17-203-cms_workshop_08</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>CmS Workshop 08</title>
+<subtitle>Workshop für Schulklasse</subtitle>
+<track>Chaos macht Schule</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Der Chaos Computer Club Wien will den kritischen Umgang mit elektronischen Medien sowie der Risiken und Nebenwirkungen der elektronischen Kommunikation und die Verbreitung von freien Technologien und Standards und das Wissen um diese Entwicklung fördern. Ein Mittel zum Zweck ist dabei die Initiative *Chaos macht Schule* des Chaos Computer Club (CCC) nach Wien zu bringen und hier Schulen mit Vorträgen und Workshops zu unterstützen.
+
+Ziel des Projekts ist es, Eltern, Lehrer_Innen und Schüler_Innen in den Bereichen Medienkompetenz und Technikverständnis zu stärken und einen Blick hinter die Kulissen der digitalen Welt zu ermöglichen</abstract>
+<description>Voraussetzungen:
++ verbindliche Anmeldung bis 15. Oktober an schule@privacyweek.at
++ Terminbestätigung für gebuchten Slot
+
+Workshop für die Klasse ist kostenlos → keine Eintrittkarte für PrivacyWeek notwendig</description>
+<logo>/system/events/logos/000/000/203/large/cms_logo.png?1507469093</logo>
+<persons>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Rabenhof Theater'>
+</room>
+<room name='Side-Events'>
+</room>
+</day>
+<day date='2017-10-25' end='2017-10-25T23:00:00+02:00' index='3' start='2017-10-25T08:30:00+02:00'>
+<room name='Volkskundemuseum Saal 1'>
+<event guid='b22bb12f-7bf1-4e5f-b3d5-7baf9bb3d18c' id='139'>
+<date>2017-10-25T09:45:00+02:00</date>
+<start>09:45</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-139-digitale_kompetenz_fordern_-_unterstutzende_tools</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Digitale Kompetenz fördern - unterstützende Tools</title>
+<subtitle>pi-top als Werkzeug am Weg zur digitalen Kompetenz</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>„Digitale Kompetenz“ ist mehr als Bedienen der neuesten Version proprietärer Software eines Großkonzerns. Manche Ansätze greifen tiefer und bieten deutlich mehr.</abstract>
+<description>Tablet-Klassen, Notebook-Klassen, verschafft das &quot;Digitale Kompetenz&quot;?
+Wenn wir Verständnis mit Spass vermitteln wollen, gibt es andere Wege:
+Community, freie Software, freie Hardware, Anreizt für eigene Erweiterungen und Experimente.
+
+Herbert Waloschek, war Abteilungsleiter in einer Großbank im Bereich Organisation und Informationstechnologie</description>
+<logo></logo>
+<persons>
+<person id='17'>Herbert Waloschek</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='0ef0a575-4bc2-4832-ab9d-dc0c5cc292cb' id='161'>
+<date>2017-10-25T10:45:00+02:00</date>
+<start>10:45</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-161-was_ist_das_internet</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Was ist das Internet …</title>
+<subtitle>… wo kommt es her, wo geht es hin?</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Woher kommt das Internet? Was ist der Unterschied zwischen Web und Internet? Wie hat sich das alles entwickelt, und warum können wir es heute einfach so benutzen, ohne zu wissen was es eigentlich ist und wo es herkommt? </abstract>
+<description>Anhand einer chronologischen Herangehensweise möchte ich ohne zu viele technische Details in die Entstehungsgeschichte des Internets einführen. Dabei werde ich vor allem kulturelle und politische Entwicklungen in den Vordergrund stellen.
+
+Eine Einführung darin, wie das Internet gebaut wurde, wie es aufgebaut und auch &quot;besiedelt&quot; wurde, zeigt viele Kulturtechniken und deren Hintergründe auf. Ganz nebenbei lernt man gundlegende technische Prinzipien, und bleibt hoffentlich mit dem Gedanken zurück, dass das Internet etwas freies ist, und auch frei bleiben soll (und wird!) - und wie man daran teihaben kann. </description>
+<logo></logo>
+<persons>
+<person id='70'>sva</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='deb684b5-bb22-4b83-8d6f-3d70f0037e2f' id='118'>
+<date>2017-10-25T12:00:00+02:00</date>
+<start>12:00</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-118-stalking</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Stalking</title>
+<subtitle> Ein Gesellschaftphänomen mitten unter uns</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract></abstract>
+<description>Stalking ist ein weit verbreitetes Gesellschaftsphänomen, das unsagbares Leid verursachen und ganze Existenzen vernichten kann. Besonders in Zeiten der Digitalisierung können sich Täter nun neuer Instrumente bedienen, die Ihnen mit wenigen Klicks die komplette Privatsphäre ihrer Opfer eröffnen. Unter dem Titel &quot;Stalking - ein Gesellschaftphänomen mitten unter uns&quot; würde ich daher gern auf die Psychologie des Stalkings (nur so kann man es verstehen), die Vorgehensweisen der Täter (mit besonderem Bezug zur Technik), Beispielfälle und die Dimension des Stalking im Business eingehen. Am Ende stehen natürlich die Kriterien, an denen Sie Stalking frühzeitig erkennen können und Strategien zur Lösung des Problems. 
+
+Diese Infos kann ich Ihnen als Vortrag, aber auch als Work Shop gestalten, ganz wie Sie mögen.</description>
+<logo></logo>
+<persons>
+<person id='133'>Sandra Cegla</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='47b534e3-87d5-4f6b-85d5-bff2bf3d5a5d' id='124'>
+<date>2017-10-25T13:00:00+02:00</date>
+<start>13:00</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-124-limitierungen_und_risiken_von_online_texteanalyse-services_vulgo_plagiatsprufprogrammen</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Limitierungen und Risiken von online Texteanalyse-Services, vulgo Plagiatsprüfprogrammen</title>
+<subtitle></subtitle>
+<track></track>
+<type>meeting</type>
+<language>en</language>
+<abstract>Eine Vielzahl an Medienberichten über betrügende PolitikerInnen machte Plagiarimus in den letzten Jahren bisweilen zu einem unschönen Business. Leider kommt es dabei allerdings zu einigen panikartigen Reflexen, die für Lehrende, WissenschafterInnen und Studierende bei der Bekämpfung der Ursachen von Plagiarismus nicht unbedingt förderlich sind. Ähnlich wie in der Medizin ist Prävention auch in diesem Gebiet nicht so sehr im Fokus wie die spätere Schadensbegrenzung. Werfen wir gemeinsam einen unaufgeregten Blick hinter die Kulissen der Plagiatsdetektion und der dabei verwendeten Software!</abstract>
+<description>In den letzten Jahren regten ein scheinbar endloser Strom an plagiierenden MissetäterInnen, nicht alle davon PolitikerInnen, die öffentliche Meinung wie auch Bildungseinrichtungen auf.
+
+Zurecht kommen dabei viele Fragen auf: Wieso können einige die Regeln so dreist brechen, ohne dass es jemandem auffällt? Oder sind manche Menschen einfach nur ein wenig &quot;gleicher&quot; als andere?
+Oder waren die Regeln in früheren Jahren vielleicht anders als jetzt? Was, wenn sich Zuständige nicht genug gekümmert haben? Was können wir gegen Betrug im Bildungs- und Hochschulbereich eigentlich unternehmen? Warum kaufen Institutionen die „Black Box“ Plagiatsprüfsoftware so anstandslos? Wo werden unsere Daten hingeschickt und wer hat überhaupt Zugriff darauf? Und, überprüft eigentlich irgendjemand diese Firmen, die die Prüfsoftware herstellen und betreiben?
+
+Während dieser &quot;Meet an Expert&quot;-Session können Sie eine erfahrende Wissenschaftsberaterin und präventive Plagiatsprüferin, die bereits mehr als tausend Hochschuldokumente geprüft hat, über Plagiate und Plagiatsprüfung fragen.
+
+Nach einer kurzen Einleitung was Plagiarismus ist und warum es für Hochschulen und Studierende so wichtig ist, „saubere“ Abschlussarbeiten abzuliefern, wird Miljković Details zur Detektion von Plagiaten bzw. Textähnlichkeiten geben. Dann wird sie einen sehr kritischen Blick hinter die Kulissen der Prüfsoftware-Industrie werfen und eine realistischen Überblick zu Möglichkeiten und Limitierungen der Software geben. Nach dieser Session ist Zeit für Ihre Fragen.</description>
+<logo>/system/events/logos/000/000/124/large/Z_temple_Logo.jpg?1497787956</logo>
+<persons>
+<person id='126'>Natascha Miljkovic</person>
+</persons>
+<links>
+<link href='www.plagiatpruefung.at'>&quot;Zitier-Weise&quot; Website &amp; Blog</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='25b8b456-9b36-4894-aa20-5b46d0820d34' id='218'>
+<date>2017-10-25T14:00:00+02:00</date>
+<start>14:00</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-218-verschrankte_spielwelten</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Verschränkte Spielwelten</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Was Spiel und was Ernst ist, entscheidet letztlich das Kind. In dieser Session setzen wir uns mit verschränkten Spielwelten auseinander, den kommerziellen einerseits und den selbstbestimmten andererseits. In einem ersten Teil, stellt Louise Horvath die Ergebnisse des netidee-Forschungsprojekts zu vernetztem Spielzeug des ÖIAT vor. Was ist erlaubt, was ist bedenklich, was ist faszinierend? In einem zweiten Teil widmet sich Katta Spiel den Erfahrungen aus dem Co-Designen von Technologien mit autistischen Kindern. </abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='189'>Louise Horvath</person>
+<person id='188'>Katta Spiel</person>
+</persons>
+<links>
+<link href='www.internetoftoys.at'>Internet of Toys Projekt</link>
+<link href='http://igw.tuwien.ac.at/hci'>IGW TU Wien</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='04967463-2c58-4f62-bda9-5e5fefdb26b7' id='150'>
+<date>2017-10-25T15:00:00+02:00</date>
+<start>15:00</start>
+<duration>01:30</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-150-digitale_medienkompetenz</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Digitale Medienkompetenz</title>
+<subtitle>Fake or not?! Übersicht und Methoden</subtitle>
+<track>Schulday</track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Was sind Fake News und wie kann ich sie am besten erkennen? Kann ich online Fotos und Quellen überprüfen, ab wann kann ich von einer gesicherten Information ausgehen?</abstract>
+<description>Falschmeldungen, Fakes und Fake News sind im Vorfeld der großen Wahlen 2017 in Deutschland und Österreich ein Kernthema gewesen. 
+Wie sehr können uns Falschmeldungen oder gar manipulativ wirkende Fake-Accounts oder Social Bots in unseren Meinungen, 
+
+Verhaltensweisen oder politischen Entscheidungen beeinflussen? Die Angst vor den potenziellen manipulativen Fähigkeiten von Falschmeldungen war daher in den letzten Monaten recht groß, das Interesse an Prophylaxe dementsprechend hoch.
+
+In dieser Gesamtsituation finden sich nun Internetnutzer wieder, die auf jede Art von Inhalten stoßen und diese zumeist allein und in hoher Geschwindigkeit verarbeiten müssen. Das erfordert neue Arten der Kompetenz und auch die Kenntnis darüber, wie man Inhalte bewerten und verarbeiten kann.
+
+Hier setzt auch der Workshop an, welcher ein Gefühl für die Pluralität der Informationen in Netzwerken vermitteln soll, sowie Methoden zum Umgang mit unbekannten Information liefert.
+
+Logo/Foto (c) Barbara Wirl
+</description>
+<logo>/system/events/logos/000/000/150/large/_press_andre_wolf_C_barbara_wirl.jpg?1507909930</logo>
+<persons>
+<person id='159'>André Wolf</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='72daa621-46fb-4bcf-95a5-8bc86f813c9a' id='208'>
+<date>2017-10-25T17:00:00+02:00</date>
+<start>17:00</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-208-die_sprachen_der_digitalen_grundbildung</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Die Sprachen der Digitalen Grundbildung</title>
+<subtitle>Theorie und Praxis des Lehrplans der neuen verbindlichen Übung.</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Eine wichtige Funktion von Lehrplänen ist es, gesellschaftlich relevante Themen zu diskutieren. Das gilt auch für die digitale Grundbildung.</abstract>
+<description>Das Parlament hat im Sommer die verbindliche Übung &quot;Digitale Grundbildung&quot; beschlossen, die ab dem kommenden Schuljahr in allen Schulstufen unterrichtet werden soll. Der Kompromiss zwischen Anwendungssprachen und Reflexionssprachen, auf dem der Lehrplan basiert, wird im Vortrag präsentiert und anhand der bisherigen Veröffentlichungen des Ministeriums konkretisiert.</description>
+<logo></logo>
+<persons>
+<person id='36'>Christian Swertz</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Volkskundemuseum Saal 2'>
+<event guid='82a0f5f1-ce5a-45ac-9f56-994838519c21' id='157'>
+<date>2017-10-25T12:00:00+02:00</date>
+<start>12:00</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-157-einmal_internet_alles_mit_scharf</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Einmal Internet, alles mit scharf</title>
+<subtitle>Andre erklärt das Internet für Lehrer</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Was ist das Darknet, was tut man gegen Shitstorms, wie reagiere ich auf fake news, wieso sieht das Internet so aus wie es aussieht, wo kommt es her, was darf ich als Lehrer, was soll ich, was darf ich nicht, was muss ich ...</abstract>
+<description>mit Anweisungen, wie man Ghostery und uBlock und LightBeam installiert und warum, wer Mimikama ist und was man mit der Google Bildsuche alle anstellen kann </description>
+<logo></logo>
+<persons>
+<person id='14'>André Igler</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Volkskundemuseum Workshop'>
+</room>
+<room name='Rabenhof Theater'>
+<event guid='df9b553e-5793-490f-85f7-1a5d0e273497' id='163'>
+<date>2017-10-25T19:00:00+02:00</date>
+<start>19:00</start>
+<duration>03:00</duration>
+<room>Rabenhof Theater</room>
+<slug>pw17-163-big_brother_awards_gala_2017</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Big Brother Awards Gala 2017</title>
+<subtitle>Privacy Sale - Last Call - alles muss raus</subtitle>
+<track></track>
+<type>other</type>
+<language>de</language>
+<abstract>Die BigBrotherAwards sind Negativpreise die an Personen und Institutionen vergeben werden die sich besonders wenig um Privatsphäre und Datenschutz kümmern. Seit 1999 finden die BigBrotherAwards in Österreich jährlich statt, die Liste der bisherigen Preisträger ist lang und prominent und sie wird jährlich länger.
+
+Die Bereitschaft mit der Privatsphäre und Datenschutz verletzt werden nimmt leider auch in Österreich ständig zu. Besonders schmerzhaft trifft es uns wenn diese Verletzungen von jenen ausgeht, die unsere Gesetze besonders gut kennen sollten. Darum sollten wir nicht länger schweigen und uns nicht wie Lemminge verhalten.
+
+Einlass 19 Uhr; Eintritt frei.
+
+Separate Anmeldung unter www.bigbrotherawards.at erforderlich.</abstract>
+<description>Die Sicherung der Privatsphäre wird im Zeitalter der globalen Kommunikation zur wesentlichen demokratischen Herausforderung. Es ist hoch an der Zeit, öffentlich auf die Gefahren der Unversehrtheit unserer Daten-Integrität [ehemals: Privatsphäre] hinzuweisen. Deren fortschreitende Verletzung steuert direkt auf eine lückenlose soziale Kontrolle und kommerzielle Verfügbarkeit aller Individuen zu.
+
+Auf der einen Seite versuchen Staaten, die durch die Beweglichkeit von Kapital und Informationen um ihre Macht fürchten, unter dem Titel „Verbrechensbekämpfung“ die Kontrolle über alle Datenflüsse auf ihrem Territorium zu erlangen. Dem stehen Unternehmen gegenüber, deren Geschäftsgrundlage zunehmend ihre Datenbestände werden. Darum versuchen Firmen und Staaten gleichermaßen sich alle verfügbaren Daten anzueignen, Rücksichten auf die Integrität und die Befindlichkeit von Biomasse-Einheiten [ehemals: Personen] spielen dabei längst keine Rolle mehr.
+
+In keiner Periode zuvor seit Weltkrieg II haben demokratisch gewählte Regierungen jeder Coleur so dreist und systematisch die Grundrechte ihrer Bürger/innen beschnitten. Noch nie zuvor hat sich die Spirale staatlicher und privater Überwachung so aberwitzig schnell gedreht. Die technischen Möglichkeiten des Sammelns und Auswertens elektronischer Informationen [Datamining und Rasterfahndung] verführen immer mehr Organisationen dazu, diese Instrumente global zu missbrauchen. Nie war es nötiger als heute, sich dagegen zu wehren. Wir tun es mit den Big Brother Awards seit 1999.
+
+Die technologischen Voraussetzungen für die Aneigung der intimsten Daten explodieren seit einiger Zeit förmlich, was die Kontrolle immer schwerer macht und die Skrupel immer weiter schwinden lässt. Die Großen der Telekom-Industrie verwenden zur Durchleuchtung ihrer Kunden Technologien und Methoden, die noch vor kurzem den Nachrichtendiensten vorbehalten waren. Ihr Ziel ist „Customer Profling“, zum Zweck des Marketing wird das komplette individuelle Kommunikationsverhalten aller Kunden - Handy, Festnetz aber auch schon Internet - laufend analysiert und nach Mustern Gruppen zugeordnet.
+
+Vor einigen Jahren hatten die Forderungen im berüchtigten ENFOPOL-Papier der EU-Ratsarbeitsgruppe „Polizeiliche Zusammenarbeit“ zur Überwachung aller digitalen Netze bei ihrem Bekanntwerden noch Bestürzung und Empörung ausgelöst. Heute sind diese Vorgaben in den Überwachungsverordnungen in Österreich, Deutschland wie ím übrigen EU-Europa weitgehend umgesetzt.
+
+Polizei und Nachrichtendienste haben über normierte Schnittstellen an die Handynetze angedockt. Damit sie dort über jeden Bürger auch genügend Daten finden können, dafür wurde längst gesorgt: Die seit 1997 gültige EU- Datenschutzdirektive ist de facto außer Kraft gesetzt.
+
+Wenn sie wissen, was du gestern und vorgestern getan hast, glauben sie bald wissen, was du morgen wahrscheinlich tust.
+
+Big Brother ist aber nicht nur Überwachung. Big Brother ist Bevormundung an sich. Zum Beispiel durch Personen aus Politik und Industrie, die etwa Journalisten sagen wollen, was diese zu bringen oder gut zu finden haben und was nicht.
+
+Nur ein massiver und andauernder Druck im Datenstrom [Massenmedien] kann diese Entwicklungen beeinflussen. Die Big Brother Awards sollen negative und unerwünschte Trends frühzeitig aufzeigen und damit einen wichtigen Beitrag zur Kurskorrektur liefern.
+
+Wer etwa durch vorbeugende Überwachung von Telefonie und Internet Terroristen aufspüren will, die - wie sich gezeigt hat - alles tun, um elektronisch möglichst wenig aufzufallen, muss die gesamte Kommunikation der Zivilgesellschaft kontrollieren.
+
+Kameras in der U-Bahn, Kameras vor öffentlichen und privaten Gebäuden, Kameras an Bankomaten - überall stehen wir im Licht und werden beobachtet.
+
+Durch die Flächendeckenden Informationssysteme [GSM, GPS, Bankomat, Kreditkarten, elektronische Maut ...] kann jede Bewegung erfasst, aufgezeichnet, verknüpft und in Beziehung zu anderen Personen gesetzt werden. Aus freien Individuen werden so biologisch Bewegungsmelder.
+
+Was man in erster Linie finden wird, sind nicht Verbrecher, sondern Menschen mit auffälligem Kommunikationsverhalten. Sie werden, neben Rechthabern, Querulanten, Verschwörungstheoretikern und dem dümmeren Teil der Kleinkriminalität, jene Menschen finden, die ihr Recht auf Informationsfreiheit ganz offen wahrnehmen. Menschen, die besonders gerne chatten, mailen oder Newsgroups lesen. Menschen, die mehrere Handys besitzen oder häufig ins Ausland telefonieren. Menschen, die sich im Internet über Atomtechnologie oder den Islam, Satellitentechnologie und Netzwerksicherheit, über Verschlüsselung, Hackermethoden oder die Aktivitäten von Polizei- und Geheimdiensten informieren.
+
+Sie suchen getarnte Terroristen doch sie finden: Uns! (Ja, Sie auch!)
+
+Daher werden alljährlich die Verantwortlichen für die übelsten Datenschutzverletzungen durch eine Jury mit den ungeliebten Negativpreisen honoriert. Alle Personen, Behörden, Firmen oder sonstige Vereinigungen, die einen besonderen Beitrag zur Abschaffung der Privatsphäre geleistet haben, können für einen der Awards vorgeschlagen werden. Die Genannten sollten in Österreich niedergelassen sein, von hier aus agieren oder einen sonstigen regionalen Bezug haben. EU-Institutionen oder multinationale Konzerne sind allerdings definitiv nicht ausgeschlossen.
+
+Der Big Brother Award prangert nicht unbedingt Rechtsverletzungen im straf- oder zivilrechtlichen Sinne an, sondern sieht das demokratische Gefährdungspotenzial an den Grundrechten als Kriterium.
+
+Jene Behörden, Personen und Organisationen werden beim Namen genannt, die zu unserer Zukunft als gläserne Menschen beitragen.
+
+Name Them and Shame Them!</description>
+<logo>/system/events/logos/000/000/163/large/BBA_logo_hoch_sw.png?1505412959</logo>
+<persons>
+<person id='166'>q/uintessenz</person>
+</persons>
+<links>
+<link href='http://www.bigbrotherawards.at/'>BBA 2017 - quintessenz - Big Brother Awards 2017 - Privacy Sale</link>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Side-Events'>
+</room>
+</day>
+<day date='2017-10-26' end='2017-10-26T23:00:00+02:00' index='4' start='2017-10-26T08:30:00+02:00'>
+<room name='Volkskundemuseum Saal 1'>
+<event guid='7c1ede90-60d4-4dda-8475-fb9ed6097e4f' id='100'>
+<date>2017-10-26T12:00:00+02:00</date>
+<start>12:00</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-100-wie_das_internet_der_dinge_unsere_privatsphare_unterwandert</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Wie das Internet der Dinge unsere Privatsphäre unterwandert</title>
+<subtitle>IoT Fails</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Es mag bequem sein, mit einer App das Licht im Wohnzimmer zu dimmen, mit einem Button Klopapier bei Amazon nachzubestellen, oder sich von Alexa den Wetterbericht vorlesen zu lassen. Doch die Bequemlichkeit hat ihren Preis. Das „Internet der Dinge“, das eine immer größere Vernetzung in den Alltag bringt, gefährdet unsere Privatsphäre. </abstract>
+<description>Anschließend an meinem Talk „Privacy Fails“ vom vergangenen Jahr möchte ich euch dieses Jahr über eine weitere Entwicklung erzählen, die unsere Privatsphäre gefährdet. Heutzutage werden immer mehr Dinge mit dem Internet verbunden, die dies eigentlich gar nicht nötig hätten. Zahnbürsten zum Beispiel. Vibratoren. Oder Weinflaschen. All diese Dinge sind im Netz. 
+
+Doch wer überprüft, ob diese wirklich sicher sind? Viele Hersteller dieser Dinge kümmern sich in erster Linie um ihr Geschäft und darum, die Produkte schnell auf den Markt zu bringen, und weniger um die Sicherheit. In meinem Talk möchte ich einige Beispiele aufzeigen und erklären, warum dies zum Problem für uns alle wird. 
+
+Dann stellt sich noch die Frage: Woher weiß man, dass die vernetzten Geräte nicht permanent mitlauschen, oder Daten leaken? Viele davon tun dies. Denn ohne die umfassende Erfassung und Verarbeitung schier unvorstellbarer Datenmengen lassen sich viele Annehmlichkeiten, die sie uns versprechen, technisch gar nicht bewerkstelligen. Doch je mehr Informationen über uns gesammelt werden, desto mehr wird das Konzept vom „offline sein“, also von „allein“ und „privat“ sein, abnehmen. Gleichzeitig besteht die Gefahr, dass wir immer mehr die Kontrolle darüber verlieren, welche Informationen über uns eigentlich gesammelt werden. Doch wie kommen wir da wieder raus? </description>
+<logo></logo>
+<persons>
+<person id='20'>Barbara Wimmer</person>
+</persons>
+<links>
+<link href='https://futurezone.at/digital-life/wiener-decken-schwere-luecke-in-ueberwachungskamera-auf/234.479.006'>Sicherheitslücken bei IoT-Geräten</link>
+<link href='https://futurezone.at/netzpolitik/das-internet-der-dinge-im-visier-der-us-behoerde-ftc/241.136.184'>Das Internet der Dinge im Visier der US-Behörde FTC</link>
+<link href='https://futurezone.at/thema/start-ups/playbrush-smarte-kinderzahnbuerste-bekommt-700-000-euro/192.640.448'>Smarte Zahnbürste </link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='bb1d811a-6bd9-4c88-b373-6f61a1ea7ee8' id='178'>
+<date>2017-10-26T12:45:00+02:00</date>
+<start>12:45</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-178-stalking</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Stalking</title>
+<subtitle> Ein Gesellschaftphänomen mitten unter uns</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract></abstract>
+<description>Stalking ist ein weit verbreitetes Gesellschaftsphänomen, das unsagbares Leid verursachen und ganze Existenzen vernichten kann. Besonders in Zeiten der Digitalisierung können sich Täter nun neuer Instrumente bedienen, die Ihnen mit wenigen Klicks die komplette Privatsphäre ihrer Opfer eröffnen. Unter dem Titel &quot;Stalking - ein Gesellschaftphänomen mitten unter uns&quot; würde ich daher gern auf die Psychologie des Stalkings (nur so kann man es verstehen), die Vorgehensweisen der Täter (mit besonderem Bezug zur Technik), Beispielfälle und die Dimension des Stalking im Business eingehen. Am Ende stehen natürlich die Kriterien, an denen Sie Stalking frühzeitig erkennen können und Strategien zur Lösung des Problems. 
+
+Diese Infos kann ich Ihnen als Vortrag, aber auch als Work Shop gestalten, ganz wie Sie mögen.</description>
+<logo></logo>
+<persons>
+<person id='133'>Sandra Cegla</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='712cf77b-e7d5-4619-be29-4fbbffd5d7fd' id='103'>
+<date>2017-10-26T13:45:00+02:00</date>
+<start>13:45</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-103-information_what_are_they_looking_at</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>&quot;Information. What are they looking at?&quot;</title>
+<subtitle>A documentary on privacy.</subtitle>
+<track></track>
+<type>lecture</type>
+<language>en</language>
+<abstract>&quot;Information. What are they looking at?&quot; is a documentary film. It aims at inclusively sharing knowledge on privacy violations caused by measures of mass surveillance. The film will be easily accessible to as many people as possible. On the one hand, we will shoot and edit the film in a specific audio-visual language. On the other hand, we will realise the accessibility through the development of a supporting Open Source video playback application. Filmmakers can use this app to bridge barriers of exclusion that exist due to disability or missing language skills.</abstract>
+<description>Information. What are they looking at? is a documentary film. It aims at inclusively sharing knowledge on privacy violations caused by measures of mass surveillance. The film will be easily accessible to as many people as possible. On the one hand, we will shoot and edit the film in a specific audio-visual language. On the other hand, we will realise the accessibility through the development of a supporting Open Source video playback application. Filmmakers can use this app to bridge barriers of exclusion that exist due to disability or missing language skills.
+
+We aim at reaching an audience outside of digital enthusiasm, the mainstream media or highly privileged classes. Moreover, we focus on people who are excluded from the discourse due to language barriers and restricted access.
+
+Our film will be available to a broad audience. What does this mean? First of all, it needs to be translated into at least 15 of the most-spoken languages in the world. Each language shall be  translated into subtitles, closed captions, audio-description, sign-language, easy-to-read language, voice-over, and transcripts into braille. Thereby we offer a broad audience the opportunity to learn precisely what is at stake since mass surveillance became the norm.</description>
+<logo></logo>
+<persons>
+<person id='42'>Theresia Reinhold</person>
+</persons>
+<links>
+<link href='https://information-doc.org'>Website</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='d8b919b6-9cf7-4031-b729-dff7536f1902' id='106'>
+<date>2017-10-26T14:30:00+02:00</date>
+<start>14:30</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-106-wie_man_aus_einer_gesellschaft_kontrollierbare_daten_macht</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Wie man aus einer Gesellschaft kontrollierbare Daten macht</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Menschen sind komplex. Als Gesellschaft lassen sie sich schlecht verstehen und steuern. Deshalb reduzieren wir sie auf Datenpunkte. Daraus kann man Diagramme machen, sie zu Gruppen zusammenfassen und so tun als würde man ihre Bedürfnisse kennen und befriedigen.</abstract>
+<description>Das Web ist Teil der Öffentlichkeit. Es wird diskutiert und gehandelt. Auch Demonstrationen finden statt und können unterschiedliche Formen haben. Etwa ein Shitstorm auf Twitter. Oder besser gesagt, eine Aufmerksamkeitswelle. Ist man Ziel davon, wirkt es beängstigend. Eine Masse an Nachrichten prasselt auf einen ein. 
+
+Ich habe zahlreicher solcher Aufmerksamkeitswellen visualisiert und in handliche Grafiken gepackt. Man kann rauszoomen und unterschiedliche Gruppen identifizieren. Plötzlich ist das das nicht mehr diese Masse an Nachrichten, sondern nur noch Punkte in unterschiedlichen Größen, die mit Pfeilen verbunden sind. Man bekommt das Gefühl von Kontrolle zurück.
+
+Ich möchte mit euch darüber nachdenken, welche Auswirkungen eine solche Reduktion von Menschen auf Politik und Gesellschaft hat. Schließlich ist es kein neues Phänomen. Umfragen, Wahlen und Statistik allgemein funktioniert nach diesem Prinzip.</description>
+<logo>/system/events/logos/000/000/106/large/IMG_20170529_190431.jpg?1496154583</logo>
+<persons>
+<person id='24'>Luca Hammer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='e213beae-6b9a-48fd-b3c5-7036a4e530ac' id='97'>
+<date>2017-10-26T15:15:00+02:00</date>
+<start>15:15</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-97-sichere_authentifizierung</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Sichere Authentifizierung</title>
+<subtitle>wie man Biometrie und Passworte richtig verwendet</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Alle Authentifizierungsverfahren können irgendwie überwunden werden. Machen wir es den Angreifern so schwer wie möglich.</abstract>
+<description>Im Vergangenen Jahr habe ich gezeigt, wie einfach sich Authentifizierungsverfahren (Biometrie, Passwort, RFID-Karten) überwinden lassen. Dieses mal will ich versuchen, das Problem von der anderen Seite, der Seite der Benutzer zu betrachten. Gibt es Möglichkeiten, Passworte sicher einzugeben oder biometrische Systeme so zu benutzen, dass es einem Angreifer deutlich schwerer fällt euch zu hacken? </description>
+<logo></logo>
+<persons>
+<person id='62'>starbug</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='12482152-b45b-4c03-bc90-c622cafe3f6d' id='220'>
+<date>2017-10-26T16:00:00+02:00</date>
+<start>16:00</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-220-datenschutzgrundverordnung</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Datenschutzgrundverordnung</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='191'>Natalie Ségur-Cabanac</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='63141299-3a04-4ce9-b90f-8da3f4f6649a' id='99'>
+<date>2017-10-26T17:00:00+02:00</date>
+<start>17:00</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-99-ich_weiss_was_du_letzten_sommer_gelesen_hast</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Ich weiß, was du letzten Sommer gelesen hast!</title>
+<subtitle>Die Leser, die Autoren, die Buchhändler und die Daten</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Welche Daten entstehen beim Kaufen, Lesen und Kritisieren von Büchern? Wer hat die Kontrolle darüber und welche Erkenntnisse lassen sich daraus gewinnen?</abstract>
+<description>Kapitel 1) Bücher online bestellen und kaufen oder gleich als E-Book direkt runterladen - ein ungestörtes Lesevergnügen? Was verraten wir als Leser den Buchhändlern unseres Vertrauens über uns und unsere Lesevorlieben? Und was plaudern unsere stummen Diener (aka Lesegeräte) obendrein noch aus?
+
+Kapitel 2) Welche privaten Daten unserer Leser haben wir als Autoren eigentlich, welche haben Dritte? Wo werden sie gespeichert und auf welche davon hat ein Roman- oder Sachbuchautor selbst überhaupt Zugriff? Wie kann man die vorhandenen Daten sinnvoll nutzen? Und welche gebe ich als Autor von mir selber preis?
+
+Kapitel 3) Als Selfpublisher die eigene Buchdatei auf Amazon und Co. selbst anbieten und mit Leserinnen und Lesern via Blog, Newsletter und Social-Media-Kanälen in Kontakt bleiben. Das alles gehört zum heutigen Leser- &amp; Autorendasein untrennbar dazu. Doch wie öffentlich muss ein Buchautor, eine Buchautorin heute tatsächlich sein, um erfolgreich am Buchmarkt überleben, also Bücher verkaufen zu können?</description>
+<logo></logo>
+<persons>
+<person id='113'>Wolfgang Tischer</person>
+<person id='56'>Klaudia Zotzmann-Koch</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='3cd44a5c-ab9d-455d-81cb-550605bb88e8' id='155'>
+<date>2017-10-26T17:45:00+02:00</date>
+<start>17:45</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-155-durchsetzen_von_datenschutz</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Durchsetzen von Datenschutz</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>„Grundrechte existieren nicht nur am Papier, sondern müssen auch in der Praxis durchgesetzt werden. In mehreren Verfahren hat Max Schrems versucht sein Recht auf Datenschutz durchzusetzen. Beim Fall von „Safe Harbor“ ist ihm das vor dem Europäischen Gerichtshof schon gelungen. Zwei andere Fälle sind noch vor Gericht. 
+
+Der Vortrag bietet einen Überblick über die Möglichkeiten und Unwägbarkeiten wenn man Europa eine Rechte gegen einen Großkonzern durchsetzen will und zeigt Optionen auf.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='162'>Max Schrems</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='62e8097e-faf7-45c9-9aa3-a0cf69b3aaf9' id='189'>
+<date>2017-10-26T18:45:00+02:00</date>
+<start>18:45</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-189-datenspuren</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Datenspuren</title>
+<subtitle></subtitle>
+<track></track>
+<type>podium</type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='162'>Max Schrems</person>
+<person id='80'>Lena Doppel</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='638baab4-c0c6-4560-9845-9c20a96fcb3d' id='141'>
+<date>2017-10-26T19:45:00+02:00</date>
+<start>19:45</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-141-digital_danach_messenger_bots_als_den_tod_uberdauernde_kommunikation</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Digital danach? Messenger Bots als den Tod überdauernde Kommunikation</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Messenger Bots sind aktuell hauptsächlich im Fokus von Marketern, doch auch im Privatgebrauch finden sie bereits Verwendung. Was wie Science Fiction klingt ist bereits Realität: der Chat mit Verstorbenen. In meinem Talk möchte ich auf die Chancen, Risiken und Gefahren dieser Variante der Messenger Bots eingehen und gemeinsam mit euch mögliche Einsatzmöglichkeiten diskutieren.
+</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='83'>Thomas Meyer</person>
+<person id='169'>Kristina Juchum</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='e1a84979-5507-4160-8d47-d8fb39227713' id='126'>
+<date>2017-10-26T20:45:00+02:00</date>
+<start>20:45</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-126-status_it_s_complicated_digitale_spuren_der_liebe</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Status „It’s complicated“. Digitale Spuren der Liebe</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>„Das einzig Wichtige im Leben sind die Spuren von Liebe, die wir hinterlassen, wenn wir weggehen.“ sagte Albert Schweitzer. Er hatte schließlich auch keinen Facebook-Account.
+Aber: Wie verlieben sich Angehörige der Generation Y und die “Singles mit Niveau” in diesem Jahrtausend richtig? Und wie entliebt man sich, ohne 734 Follower davon zu benachrichtigen? Ist es für die Beziehung hilfreich, dass man die neue Flamme schon vor dem ersten Date online nachstalken kann? Und was, wenn man beim letzten Cybersex Spuren hinterlassen hat?
+Es ist kompliziert geworden mit der „Liebe im digitalen Zeitalter“. 
+Unser Talk ist ein romantischer Spaziergang und Wegweiser durch die digitale Liebeslandschaft – bisweilen auch ein bisschen expliziter.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='144'>Ally Auner</person>
+<person id='3'>Jürgen Haslauer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Volkskundemuseum Saal 2'>
+<event guid='4ad778ab-3c0b-4e74-9f9e-1ff7614e41a1' id='210'>
+<date>2017-10-26T12:45:00+02:00</date>
+<start>12:45</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-210-erfahrungsbericht_tor_exit-knoten_in_osterreich_betreiben</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Erfahrungsbericht Tor Exit-Knoten in Österreich betreiben</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='181'>Michael Sonntag</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='a1b933f6-11f4-4244-86e7-560107907d77' id='182'>
+<date>2017-10-26T13:45:00+02:00</date>
+<start>13:45</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-182-leben_in_zeiten_des_uberwachungspaket</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Leben in Zeiten des #überwachungspaket</title>
+<subtitle></subtitle>
+<track></track>
+<type>meeting</type>
+<language>de</language>
+<abstract>Der (aktuelle) Innenminister möchte bereits vorhandene Überwachungstechnologien ausbauen und wünscht sich auch noch zusätzliche neue Eingriffe in unsere Privatsphäre - alles unter dem Deckmantel des erhöhten Sicherheitsbedürfnisses und steigender Terrorgefahren.
+
+Aber was bedeutet das für Menschen, die politisch aktiv sind oder sich engagieren wollen? Inwiefern müssen diese Personen nun ihr Verhalten anpassen, um nicht als &quot;false positive&quot; erfasst zu werden und womöglich die volle Bandbreite an personalisierter Überwachung und Repression zu erleben? Und was hat das alles mit &quot;unpolitischen&quot; Leuten zu tun?
+
+Idee ist, sich diesen Fragen gemeinsam zu stellen. Wir wollen von den abstrakten Bedrohungsszenarien der bisherigen Diskussion weg hin zu ganz spezifischen Gründen, warum dieses - und jedes andere - Überwachungspaket für jede Person individuell grundrechtswidrig ist.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='123'>pascoda</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='f8195587-4ca3-4bd4-9bb7-a79356b0ead4' id='98'>
+<date>2017-10-26T14:30:00+02:00</date>
+<start>14:30</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-98-ransomware</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Ransomware</title>
+<subtitle>DatenVERschlüsselung leicht gemacht</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Ransomware ist in der Gegenwart in aller Munde. Dauernd hört man in den News davon. Neben Privatnutzern trifft es vor allem auch Firmen, die damit große Probleme haben.</abstract>
+<description>Dieser Vortrag gibt einen Blick in die Welt der Ransomware.
+
+Überall im Munde aber was dahinter genau steckt wissen nicht allzuviele.
+
+Der Vortrag wird folgende Themen beinhalten:
+
+* Ransomware? Was ist das?
+* Ransomware in der Gegenwart
+* Wie funktioniert Ransomware?
+* Wie schütze ich mich davor
+
+Ganz am Schluss gibt es dann noch eine Kostprobe in Form einer Livedemo.
+
+Dieser Vortrag ist für Leute aller technischen Level konzipiert. Egal ob Neuling oder ExpertIn, Ihr alle seid Willkommen.</description>
+<logo></logo>
+<persons>
+<person id='96'>Petar Kosic</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Volkskundemuseum Workshop'>
+<event guid='54ae00fb-b054-47f2-b1d4-fd87878a08d9' id='204'>
+<date>2017-10-26T09:00:00+02:00</date>
+<start>09:00</start>
+<duration>03:00</duration>
+<room>Volkskundemuseum Workshop</room>
+<slug>pw17-204-offener_workshop_fur_die_altersklasse_6_-_10_jahre</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Offener Workshop für die Altersklasse 6 - 10 Jahre</title>
+<subtitle>Chaos macht Schule</subtitle>
+<track>Chaos macht Schule</track>
+<type>workshop</type>
+<language>de</language>
+<abstract> Voraussetzungen:
+
+    keine Anmeldung notwendig
+    Eltern mit Tages-/Wochenkarte
+</abstract>
+<description>Der Chaos Computer Club Wien will den kritischen Umgang mit elektronischen Medien sowie der Risiken und Nebenwirkungen der elektronischen Kommunikation und die Verbreitung von freien Technologien und Standards und das Wissen um diese Entwicklung fördern. Ein Mittel zum Zweck ist dabei die Initiative *Chaos macht Schule* des Chaos Computer Club (CCC) nach Wien zu bringen und hier Schulen mit Vorträgen und Workshops zu unterstützen.
+
+Ziel des Projekts ist es, Eltern, Lehrer_Innen und Schüler_Innen in den Bereichen Medienkompetenz und Technikverständnis zu stärken und einen Blick hinter die Kulissen der digitalen Welt zu ermöglichen</description>
+<logo>/system/events/logos/000/000/204/large/cms_logo.png?1507469247</logo>
+<persons>
+<person id='1'>PrivacyWeek</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='57467a21-99a7-4993-8420-9fa04b1e13c9' id='205'>
+<date>2017-10-26T13:00:00+02:00</date>
+<start>13:00</start>
+<duration>03:00</duration>
+<room>Volkskundemuseum Workshop</room>
+<slug>pw17-205-kinder-funk-_und_lotworkshop</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Kinder-Funk- und Lötworkshop</title>
+<subtitle>Chaos macht Schule &amp; MetaFunk</subtitle>
+<track>Chaos macht Schule</track>
+<type>workshop</type>
+<language>de</language>
+<abstract> Voraussetzungen:
+
+    Mindestalter 6 Jahre
+    Anmeldung notwendig schule@privacyweek.at
+    Kostenbeitrag Material EUR 10,-
+    Eltern mit Tages-/Wochenkarte
+</abstract>
+<description>Der Chaos Computer Club Wien will den kritischen Umgang mit elektronischen Medien sowie der Risiken und Nebenwirkungen der elektronischen Kommunikation und die Verbreitung von freien Technologien und Standards und das Wissen um diese Entwicklung fördern. Ein Mittel zum Zweck ist dabei die Initiative *Chaos macht Schule* des Chaos Computer Club (CCC) nach Wien zu bringen und hier Schulen mit Vorträgen und Workshops zu unterstützen.
+
+Ziel des Projekts ist es, Eltern, Lehrer_Innen und Schüler_Innen in den Bereichen Medienkompetenz und Technikverständnis zu stärken und einen Blick hinter die Kulissen der digitalen Welt zu ermöglichen</description>
+<logo>/system/events/logos/000/000/205/large/cms_logo.png?1507469346</logo>
+<persons>
+<person id='1'>PrivacyWeek</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='2404a3ff-9654-4fd5-b68c-0e6a5aa9e3bc' id='213'>
+<date>2017-10-26T16:00:00+02:00</date>
+<start>16:00</start>
+<duration>00:30</duration>
+<room>Volkskundemuseum Workshop</room>
+<slug>pw17-213-lockpicking_-_eine_einfuhrung</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Lockpicking - Eine Einführung</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>In einem kurzen Vortrag zu Lockpicking wird dargestellt, wie Schlösser (Schließzylinder) arbeiten und es wird auf deren qualitative Unterschiede eingegangen. Weiters werden mögliche zerstörungsfreie Öffnungstechniken gezeigt. </abstract>
+<description>In einem kurzen Vortrag wird dargestellt, wir Schlösser (Schließzylinder) arbeiten und es wird auf deren qualitative Unterschiede eingegangen. Weiters werden mögliche zerstörungsfreie Öffnungstechniken gezeigt und diese können im Anschluss des Vortrags ausprobiert werden. Das Ziel des Vortrages: Es soll gezeigt werden, dass Kriminalromane, Fernsehen und das Netz der Dinge oftmals einen falschen Eindruck über die Wirklichkeit hinterlassen (&quot;The Mentalist&quot; öffnet die Türen in nur 3 sec mit einer Haarklammer). Es soll ferner gezeigt werden, was ein Schloss „können“ soll um für den Hausgebrauch ausreichend sicher zu sein (Einbrecher benutzen schnellere, meist destruktive Öffnungstechniken) und letztlich, jedes Schloss läßt sich öffnen, es ist nur eine Frage der Zeit, des Know-hows und des Könnens. Der anschließende interaktive Workshop, stellt den Sport „Lockpicking“ als kontemplative Betätigung vor, als gute alternative zu „Finget Spinnern“ und der immer schneller werdenden Zeit („Slow aktivity“).
+
+Lockpicking ist ein mittlerweile etablierter Sport, bei dem es um das geschickte Umgehen von Schließmechanismen geht, ohne dabei den Mechanismus zu zerstören. Als Lockpicker benötigt man viel Geschick und Gespür, das man sich mit der Zeit anlernen kann. Zudem sind ein wenig Verständnis und Einfühlungsvermögen gefragt. Man versucht zuerst den Mechanismus, der einem vom Öffnen abhält, zu verstehen und anschließend mit verschiedenen, nicht zerstörerischen Mitteln zu öffnen.
+
+Wie beim Hacking ist hier auch Einfallsreichtum und Wissen gefragt, wodurch der Ausdruck Real-Life Hacking vielleicht gar nicht mal so unpassend erscheint. Natürlich stehen hinter dem Sport, wie beim Hacking, keine schlechten Intentionen. Ganz im Gegenteil, durch die Zusammenarbeit mit der Polizei, Versicherungen Kundenberatungsinstituten und Schlossherstellern können bessere Schließmechanismen entworfen und Einbrecher überführt werden. Ein Sport für einen guten Zweck, sozusagen.
+
+Dabei sei an dieser Stelle auch erwähnt, Lockpicking ist entgegen der Meinung vieler kein Sport, bei dem man Kriminelle ausbildet. Ein Einbrecher lernt sich nicht über ein paar Jahre hinweg das Handwerk des Lockpickens an, wenn er ohnehin mit kommerziell erwerblichen und auch einfacheren Tools schlecht geschützte Haustüren ohne große Vorkenntnisse innerhalb von Minuten aufbrechen kann. Zudem hilft der Sport, wie oben schon erwähnt, im besten Fall auch Freund und Helfer und trägt zu unserer Sicherheit im Alltag bei. </description>
+<logo></logo>
+<persons>
+<person id='177'>Jan</person>
+</persons>
+<links>
+<link href='https://openlocks.at/'>Website</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='5a3892c2-27bc-4afd-b46a-347631a6022e' id='214'>
+<date>2017-10-26T16:30:00+02:00</date>
+<start>16:30</start>
+<duration>01:30</duration>
+<room>Volkskundemuseum Workshop</room>
+<slug>pw17-214-lockpicking_-_praxisworkshop</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Lockpicking - Praxisworkshop</title>
+<subtitle></subtitle>
+<track></track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Der interaktive Workshop, stellt den Sport „Lockpicking“ als kontemplative Betätigung vor, als gute alternative zu „Finget Spinnern“ und der immer schneller werdenden Zeit („Slow aktivity“).</abstract>
+<description>Der interaktive Workshop, stellt den Sport „Lockpicking“ als kontemplative Betätigung vor, als gute alternative zu „Finget Spinnern“ und der immer schneller werdenden Zeit („Slow aktivity“).
+
+Lockpicking ist ein mittlerweile etablierter Sport, bei dem es um das geschickte Umgehen von Schließmechanismen geht, ohne dabei den Mechanismus zu zerstören. Als Lockpicker benötigt man viel Geschick und Gespür, das man sich mit der Zeit anlernen kann. Zudem sind ein wenig Verständnis und Einfühlungsvermögen gefragt. Man versucht zuerst den Mechanismus, der einem vom Öffnen abhält, zu verstehen und anschließend mit verschiedenen, nicht zerstörerischen Mitteln zu öffnen.
+
+Wie beim Hacking ist hier auch Einfallsreichtum und Wissen gefragt, wodurch der Ausdruck Real-Life Hacking vielleicht gar nicht mal so unpassend erscheint. Natürlich stehen hinter dem Sport, wie beim Hacking, keine schlechten Intentionen. Ganz im Gegenteil, durch die Zusammenarbeit mit der Polizei, Versicherungen Kundenberatungsinstituten und Schlossherstellern können bessere Schließmechanismen entworfen und Einbrecher überführt werden. Ein Sport für einen guten Zweck, sozusagen.
+
+Dabei sei an dieser Stelle auch erwähnt, Lockpicking ist entgegen der Meinung vieler kein Sport, bei dem man Kriminelle ausbildet. Ein Einbrecher lernt sich nicht über ein paar Jahre hinweg das Handwerk des Lockpickens an, wenn er ohnehin mit kommerziell erwerblichen und auch einfacheren Tools schlecht geschützte Haustüren ohne große Vorkenntnisse innerhalb von Minuten aufbrechen kann. Zudem hilft der Sport, wie oben schon erwähnt, im besten Fall auch Freund und Helfer und trägt zu unserer Sicherheit im Alltag bei.</description>
+<logo></logo>
+<persons>
+<person id='177'>Jan</person>
+</persons>
+<links>
+<link href='https://openlocks.at/'>Website</link>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Rabenhof Theater'>
+</room>
+<room name='Side-Events'>
+</room>
+</day>
+<day date='2017-10-27' end='2017-10-27T23:00:00+02:00' index='5' start='2017-10-27T08:30:00+02:00'>
+<room name='Volkskundemuseum Saal 1'>
+<event guid='a25cfa4b-0e87-4306-951f-bc10f4c65f61' id='114'>
+<date>2017-10-27T10:15:00+02:00</date>
+<start>10:15</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-114-bundestrojaner_-_systematische_zerstorung_der_informationssicherheit</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Bundestrojaner - systematische Zerstörung der Informationssicherheit</title>
+<subtitle>Der Flurschaden der Quellen-TKÜ und der Crypto Wars</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Die Überwachung soll eine radikale neue Dimension annehmen. Die Quelle von Kommunikationen, sprich das eigene Smartphone, Tablet, der PC oder irgendein sonstiges Gerät, soll eine legale Schadsoftware bekommen, die Daten an der Quelle abgreift. Das ganze soll klar geregelt, gezielt und völiig nebenwirkungsfrei auf schwere oder alle möglichen Straftaten und -versuche angewendet werden. Der Name des Werkzeugs ist verharmlosend Quellen-Telekommunikationsüberwachung (Quellen-TKÜ) genannt. Letztlich ist es Schadsoftware, die alle Kriterien eines trojanischen Pferdes erfüllt, sprich der Bundestrojaner. Warum möchte die Politik dies? Was hat es für unsere digitale Landschaft zu bedeuten? Welchen Bezug gibt es zur Regelung bzw. dem Verbot starker Verschlüsselung? Dieser Vortrag wird Ihnen die Zusammenhänge erläutern.</abstract>
+<description>Staatliche Schadsoftware wird schon seit Jahren eingesetzt. Meist dient sie zur Spionage oder Sabotage. Durch die zunehmende Verschlüsselung in der Kommunikation und die bisher fehlgeschlagenen Versuche kryptographische Algorithmen mit zertifizierten Hintertüren zu versehen, greift man jetzt zur Quelle. Nachrichten sollen unbemerkt dort abgefangen werden, wo sie entstehen. Dazu müssen die Ziele mit Schadsoftware in Form von trojanischen Pferden infiziert werden. Wird dieser Bundestrojaner gesetzliche Realität, so hat das schwere Folgen für die digitale Infrastruktur, die wir alle tagtäglich nutzen. Die Informationssicherheit wird damit systematisch geschwächt. Dieser Vortrag illustriert die Zusammenhänge und beleuchtet die Konsequenzen für alltägliche Aufgaben, Kommunikation, den Staat selbst und die Wirtschaft.</description>
+<logo></logo>
+<persons>
+<person id='29'>René Pfeiffer</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='5cbed437-ac2c-4692-b2fc-e9814c71f962' id='107'>
+<date>2017-10-27T11:30:00+02:00</date>
+<start>11:30</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-107-staatliche_spionagesoftware</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Staatliche Spionagesoftware</title>
+<subtitle>Effektives Mittel zur Kriminalitätsbekämpfung oder Gefahr für die IT-Infrastruktur?</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Der Vortrag beleuchtet die rechtlichen Rahmenbedingungen des Einsatzes staatlicher Spionagesoftware sowie die daraus folgende strukturelle Gefahr für die IT-Sicherheit </abstract>
+<description>Immer mehr europäische Regierungen und Politiker fordern den Einsatz staatlicher Spionagesoftware zur Überwachung internetbasierter Kommunikation um Kriminalität und insbesondere Terrorismus effektiver bekämpfen zu können. Aufgrund des immer weiter verbreiteten Einsatzes von Ende-zu-Ende verschlüsselten Kommunikationsdiensten soll es den Sicherheitsbehörden ermöglicht werden, Kommunikationsinhalte vor bzw. nach einer allfälligen Verschlüsselung zu überwachen. Diese Software muss jedoch durch Ausnutzung kritischer Sicherheitslücken in die Computersysteme (PCs, Laptops, Smartphones, Tablets, Spielekonsolen etc.) geschleust werden, um Daten, unbemerkt vom Nutzer des infiltrierten Systems, an die Sicherheitsbehörden übermitteln zu können. Die Regierungen stehen vor dem Dilemma, dass sie einerseits für den Schutz von (insbesondere kritischen) IT-Infrastrukturen verantwortlich sind und andererseits ein Interesse daran haben müssen, dass kritische Sicherheitslücken, die auch ein Einfallstor für Kriminelle sind, offen bleiben, um staatliche Spionagesoftware einsetzen zu können. Wie gefährlich das Verschweigen von Sicherheitslücken durch staatliche Behörden für BenutzerInnen von Computersystemen und die gesamte Wirtschaft ist, hat nicht zuletzt die Ransomware „WannaCry“, die auf einem der NSA entwendeten Spionageprogramm basiert, aufgezeigt.
+Im Vortrag wird einerseits auf die rechtlichen Rahmenbedingungen dieser Überwachungsmaßnahme in Österreich eingegangen und andererseits die gesetzlichen Grundlagen in anderen europäischen Staaten, insbesondere Deutschland, Italien und Großbritannien beleuchtet. Abschließend wird erörtert, ob dieser Eingriff in informationstechnische Systeme, also in den höchstpersönlichen Lebensbereich, den Kernbereich der geschützten Privatsphäre, mit den europäischen Grundrechten überhaupt vereinbar ist.</description>
+<logo>/system/events/logos/000/000/107/large/ew_Logo_farbe_L_square.png?1496231815</logo>
+<persons>
+<person id='90'>Alexander Czadilek</person>
+</persons>
+<links>
+<link href='https://epicenter.works/'>epicenter.works</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='cf96324a-dc3f-45b7-ba5a-d3c9774af5ed' id='121'>
+<date>2017-10-27T12:30:00+02:00</date>
+<start>12:30</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-121-privacyscore_org</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>PrivacyScore.org</title>
+<subtitle>Test websites and rank them according to their security and privacy features</subtitle>
+<track></track>
+<type>lecture</type>
+<language>en</language>
+<abstract>PrivacyScore.org is an automated website scanner that allows to investigate websites for privacy and security issues. You can scan individual websites or enter a list of related websites to see how they compare against each other. The beta of PrivacyScore has been launched on June 8. We will present insights from running the platform for the first few months, some interesting benchmarking results and our future plans.</abstract>
+<description>PrivacyScore.org (https://privacyscore.org) (in public beta since June 2017) is an automated website scanner that allows anyone to investigate websites for privacy and security issues. Users can scan individual websites or submit a list of related websites to learn how they compare against each other. On the one hand public benchmarks improve transparency for citizens, on the other the benchmarks can be of use for data protection agencies that want to or have to audit content providers in their jurisdiction. The benchmarks are also of value for research: We are analyzing whether public &quot;blaming and shaming&quot; and/or transparent comparisons of sites within a peer group create an incentive for site operators to implement additional security/privacy measures.
+
+PrivacyScore can be used for various purposes. First, users can determine whether a specific website implements best practices in terms of security and privacy protection. Second, users can assess how a website ranks within its peer group. They can also aggregate results according to site attributes (such as country of origin or funding source) and influence the ranking according to their own preferences.
+
+At the moment PrivacyScore reports on four types of issues: 1) &quot;Tracking and privacy checks&quot; test if the website is tracking you or whether it makes use of third party trackers. 2) &quot;Website encryption checks&quot; test if the web server offers HTTPS connections, and whether it is configured according to the state of the art. 3) &quot;Web security checks&quot; test if the website leaks internal information and whether it sets HTTP headers that protect against client-side attacks. 4) &quot;Mail encryption checks&quot; test whether the mail servers of a website support state-of-the-art transport encryption.</description>
+<logo>/system/events/logos/000/000/121/large/favicon.png?1497539229</logo>
+<persons>
+<person id='137'>Dominik Herrmann</person>
+</persons>
+<links>
+<link href='https://privacyscore.org/'>homepage</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/020/original/paper.pdf?1497539229'>Paper presented at ENISA Annual Privacy Forum in June 2016</attachment>
+</attachments>
+</event>
+<event guid='4d8ee3bb-1b32-4dc1-9ad5-cb6ee8323c83' id='108'>
+<date>2017-10-27T13:15:00+02:00</date>
+<start>13:15</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-108-status_uberwachungspaket_der_bundesregierung</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Status Überwachungspaket der Bundesregierung</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>epicenter.works berichtet über den Status des von der Bundesregierung im Jänner 2017 angekündigten Überwachungspakets, so wie er sich im Herbst 2017 darstellt.</abstract>
+<description>Am 30. Jänner 2017 hat die österreichische Bundesregierung ein überarbeitetes Regierungsprogramm anlässlich des Neustarts der Koalition präsentiert. Nur sieben Monate nach Inkrafttreten des Polizeilichen Staatsschutzgesetzes und im Jahr, in dem das Staatsgrundgesetz von 1867 sein 150-jähriges Bestehen feiert, wurde ein umfängliches Paket von Überwachungsmaßnahmen und neuen Kompetenzen für die Sicherheitsbehörden, das noch nie da gewesene Einschränkungen der Privatsphäre und des Rechts auf Datenschutz mit sich bringt, vorgestellt. Begründet werden diese Maßnahmen von den Regierungsparteien mit einer angeblich wachsenden Bedrohungslage durch Terrorismus. Eine Evaluierung bereits bestehender Kompetenzen und Befugnisse und deren Effektivität im Rahmen der Verbrechensbekämpfung bzw. -prävention hat die Bundesregierung jedoch nicht vorgenommen. Vom Bundesminister für Inneres wird sogar eine „lückenlose Überwachung in allen Fragen“ gefordert.
+
+Neben einer flächendeckenden, vernetzten Videoüberwachung des öffentlichen Raums (Zugriff auf aufgezeichnetes Material und Echtzeitstreaming), einer Neuauflage staatlicher Spionagesoftware zur Überwachung internetbasierter Kommunikation, einer Wiedereinführung der Vorratsdatenspeicherung, einer Registrierungspflicht von prepaid-Wertkarten, der Nutzung von Kennzeichenerfassungssystemen der ASFINAG und einer Ausweitung der akustischen Überwachung von Personen findet sich zudem erstmals in der Geschichte der Zweiten Republik ein echter Gesinnungstraftatbestand (zu den „staatsfeindlichen Bewegungen, geplant als § 247a StGB“) unter den vorgeschlagenen Maßnahmen.
+
+Nach der Aufkündigung der großen Koalition und dem Ausrufen von Neuwahlen ist nicht klar, welche dieser Überwachungsmaßnahmen tatsächlich im Parlament beschlossen werden. Mit Stand Ende Mai steht fest, dass die ÖVP die SPG-Novelle (Videoüberwachung, Kennzeichenerfassung) und die StPO-Novelle (Vorratsdatenspeicherung, Bundestrojaner) als Initiativantrag im Parlament einbringen wird. epicenter.works berichtet über den Status des Überwachungspakets, so wie er sich im Herbst 2017 darstellt.</description>
+<logo>/system/events/logos/000/000/108/large/ew_Logo_farbe_L_square.png?1496231992</logo>
+<persons>
+<person id='182'>werquer</person>
+<person id='183'>Andreas Czák</person>
+</persons>
+<links>
+<link href='https://epicenter.works/'>epicenter.works</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='16c521cb-b890-4905-b482-407f2fb028de' id='125'>
+<date>2017-10-27T14:15:00+02:00</date>
+<start>14:15</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-125-facebook_aber_sicher</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Facebook? Aber sicher!</title>
+<subtitle>Wie social Networks datensparsam und sicher genutzt werden können</subtitle>
+<track></track>
+<type>workshop</type>
+<language>de</language>
+<abstract>Ein Leben ohne Facebook ist vielleicht möglich, erscheint vielen aber sinnlos. In diesem Workshop werden Strategien, Settings und Tools vorgestellt, mit denen das Social Networken nicht nur bei Facebook sicherer für die Anwendenden wird.</abstract>
+<description>Die genauen Differenzierungen der Privatsphäre-Settings, die Möglichkeiten der Suche im Social Graph und die Auswirkungen auf die Googlesuche, Two-Factor-Authentifzierung - nach diesem Workshop sind die Teilnehmenden auf dem aktuellen Stand, was ihre Sicherheit angeht, wenn sie Facebook und andere social Networks nutzen möchten.</description>
+<logo>/system/events/logos/000/000/125/large/Privacyweek_kixka_safe.jpg?1508408258</logo>
+<persons>
+<person id='142'>Kixka Nebraska</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='c6f29580-288d-4eba-8f70-c9761d20c066' id='191'>
+<date>2017-10-27T15:00:00+02:00</date>
+<start>15:00</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-191-alles_fake</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Alles Fake?</title>
+<subtitle>Über die Pluralität von Falschmeldungen.</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Falschmeldungen, Fakes und Fake News: Übersicht zur Pluralität der (Des-) Informationsphänomene in sozialen Netzwerken</abstract>
+<description>Informationen waren seit je her abhängig von dem Medium, über das sie übertragen wurden. Und eine Parallelerscheinung zu Informationen sind eben auch Falschmeldungen. In früheren Zeiten wurden Falschmeldungen eher durch Hörensagen weitergegeben, mündliche Traditionen lieferten immer schon Geschichtsstoff. Danach verbreiteten sich Nachrichten in Schriftform bis hin zum Printbereich und der Printpresse. Falschmeldungen schlichen sich gerade im Printbereich dann als klassische &quot;Enten&quot; in den Medien ein. 
+
+Und vor Jahren schon hat die elektronische Kommunikation ihren Siegeszug angetreten, mit im Gepäck natürlich die alten urbanen Legenden, aber auch neue Falschmeldungen.  Anfangs verbreiteten sich Informationen auf elektronischem Wege  über Telefax und SMS, danach mithilfe von E-Mail und mittlerweile über  Messenger und sozialer Netzwerken. Kommunikation, Information und Falschmeldung ist also nicht neu, lediglich ihr Trägermedium ist immer anders.
+
+Aber nicht nur das Trägermedium ändert sich stetig, auch der Charakter von Fakes und Falschmeldungen unterliegt einer Evolution, da diese sich auch immer ihren äußeren Umständen anpassen.  Der Inhalt einer erfolgreichen Falschmeldung unterliegt dem Zeitgeist und den temporär primär vorherrschenden Ängsten und Befürchtungen. Womit kann man Angst erzeugen? Womit kann man Emotionen entfachen? Hier liegt der inhaltliche Grundstein.  
+</description>
+<logo>/system/events/logos/000/000/191/large/_press_andre_wolf_C_barbara_wirl.jpg?1507910170</logo>
+<persons>
+<person id='159'>André Wolf</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='3962dccd-7322-489a-9eaf-020716998b16' id='94'>
+<date>2017-10-27T16:00:00+02:00</date>
+<start>16:00</start>
+<duration>00:15</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-94-we_are_united_by_the_moon</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>We are united by the Moon</title>
+<subtitle></subtitle>
+<track></track>
+<type>film</type>
+<language>en</language>
+<abstract>EN
+
+We are united by the Moon consists of recordings from live-streams of unencrypted surveillance cameras. This panoptical view of public and private space is complemented by a dialogue that is based upon user comments of different spectators of the respective cameras. 
+The covered issues range from observations of the moon or the weather, through the financial crisis in Greece, up to the military conflicts in Ukraine and the Paris terror attacks in November 2015.
+
+DE
+
+We are united by the Moon setzt sich aus Aufnahmen zusammen, die den Live-Streams von unverschlüsselten Überwachungskameras entnommen wurden.
+Dieser panoptische Blick auf den sowohl öffentlichen als auch privaten Raum wird durch einen Dialog ergänzt, dessen Script auf Userkommentaren von unterschiedlichen Betrachtern der jeweiligen Kameras basiert. Die verhandelten Themen reichen von Beobachtungen des Mondes oder des Wetters, über die griechische Finanzkrise, bis hin zu den militärischen Konflikten in der Ukraine und den Pariser Terroranschlägen vom November 2015.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='111'>Tobias Ehrhardt</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='9722bd59-f197-422d-896d-45b06cd2d4e2' id='96'>
+<date>2017-10-27T16:15:00+02:00</date>
+<start>16:15</start>
+<duration>00:30</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-96-king_gafa_and_the_magical_0-1_crop</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>King GAFA and the Magical 0-1 Crop</title>
+<subtitle>a contemporary fairytale about privacy</subtitle>
+<track></track>
+<type>film</type>
+<language>en</language>
+<abstract>&quot;King GAFA and the Magical 0-1 Crop&quot; The internet translated into a fairytale – we find ourselves in the role of peasants, sowing and harvesting massive amounts of data for a mighty king. Students of the University of applied Arts present their animated contemporary fairytale about online privacy – a story to challenge our internet behaviour and spark a conversation about data sovereignty. </abstract>
+<description>In a kingdom not so far away ...
+
+there is King GAFA, powerful and wealthy. Google - Apple - Facebook - Amazon. Providing central intersection points of data flow worldwide, online companies have quickly risen to incredible power. Their devices and services offer fun and convenience - but they have entangled us in a system that generates value from our data, without our effectively informed consent. We have become peasants, sowing and harvesting massive amounts of data for the greedy King. What happens in his castle? And what truth lies in the rumours about the terrible creatures hiding in the King’s dungeon? 
+
+&quot;King GAFA and the Magical 0-1 Crop&quot; is a contemporary fairytale about online privacy – a story to challenge our internet behaviour and spark a conversation about data sovereignty. It&#39;s a series of animations, equipping the viewer with the digital tools and knowledge they will need to become privacy knights, informed citizens fighting for their own rights. 
+
+</description>
+<logo>/system/events/logos/000/000/096/large/GAFA-05.png?1496068457</logo>
+<persons>
+<person id='112'>Fabio Hofer</person>
+<person id='173'>Kati Shipilenko</person>
+<person id='171'>Felix Lenz</person>
+<person id='172'>Johanna Pichlbauer</person>
+</persons>
+<links>
+<link href='kinggafa.com'>King GAFA and the magical 0-1 crop</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='71e474f1-deeb-40f9-9fc4-7f7a31869af0' id='221'>
+<date>2017-10-27T16:45:00+02:00</date>
+<start>16:45</start>
+<duration>00:15</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-221-just_in_time</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Just in Time</title>
+<subtitle></subtitle>
+<track></track>
+<type>film</type>
+<language>en</language>
+<abstract>Life at its optimum – the digital assistant in his smartphone controls the dense daily routine of a young man. His defining life motto is self-tracking and self-optimization. Around the clock, he is logging and measuring personal data using activity trackers. But even a perfect technology has its faults and the flood of information can be confusing. “Just in Time” shows what can happen if you blindly trust a data-driven system with your life.</abstract>
+<description>A short film by Michael Holzer, Oliver Schöndorfer, Stefan Grassberger</description>
+<logo>/system/events/logos/000/000/221/large/poster-just-in-time-small.jpg?1508495852</logo>
+<persons>
+<person id='192'>Oliver Schöndorfer</person>
+</persons>
+<links>
+<link href='https://justintime-film.at'>Watch Short Film</link>
+</links>
+<attachments>
+<attachment href='/system/event_attachments/attachments/000/000/025/original/poster-just-in-time-small.jpg?1508495985'>Poster</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/026/original/JustInTime_00_01_09_04.Still006.jpg?1508495985'>Still from the film</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/027/original/JustInTime_00_04_42_21.Still019.jpg?1508495985'>Still from the film</attachment>
+<attachment href='/system/event_attachments/attachments/000/000/028/original/JustInTime_00_02_45_12.Still014.jpg?1508495985'>Still from the film</attachment>
+</attachments>
+</event>
+<event guid='451c6b51-9353-4263-9d19-a50af6b2adee' id='173'>
+<date>2017-10-27T17:00:00+02:00</date>
+<start>17:00</start>
+<duration>00:30</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-173-kunstlergesprach</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Künstlergespräch</title>
+<subtitle></subtitle>
+<track></track>
+<type>podium</type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='2b1c43f0-a0b6-4a65-b249-dad071ee0c5e' id='153'>
+<date>2017-10-27T17:30:00+02:00</date>
+<start>17:30</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-153-cyber_abriss_einer_politischen_okonomie_der_malware</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>&quot;CYBER!&quot;. Abriss einer politischen Ökonomie der Malware</title>
+<subtitle>CYBERCYBER!</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Was Profundes über das Zusammenspiel der Intereressen von Kriminellen, Geheimdiensten, Industrie und nun auch Cops auf dem Schwarzmarkt der binären Bösartigkeiten. </abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='66'>Erich Moechel</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='51eb0169-e1fc-4b40-816c-be3a11618c45' id='129'>
+<date>2017-10-27T18:15:00+02:00</date>
+<start>18:15</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-129-zwischen_tinder_und_instagram_uber_das_datenschutz-verstandnis_jugendlicher</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Zwischen Tinder und Instagram. Über das Datenschutz-Verständnis Jugendlicher.</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Junge Erwachsene und ihr Verständnis von Datenschutz werden häufig völlig falsch eingeschätzt. Stereotype Beurteilung von Verhaltensweisen und Verallgemeinerungen (&quot;Die hängen dauernd am Telefon und posten einfach alles, ohne darüber nachzudenken!&quot;) führen zu verkürzten Analysen und Schubladendenken.
+ 
+Was bedeutet &quot;Privatheit&quot; für Jugendliche? Wie gehen junge Erwachsene damit um und wie stehen sie zum Thema Datenschutz? 
+
+Diese und andere Fragen möchten wir in unserem Vortrag aufwerfen und nicht nur spannende Erkenntnisse, sondern auch eine differenzierte Sichtweise anbieten, wenn es darum geht, welchen Zugang &quot;die Jungen&quot; haben oder nicht haben.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='91'>Uschi Juno</person>
+<person id='28'>Michaela Wein</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Volkskundemuseum Saal 2'>
+<event guid='fffe593d-591a-421e-bf33-01f654ae6847' id='102'>
+<date>2017-10-27T13:00:00+02:00</date>
+<start>13:00</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-102-was_ist_ein_gutes_passwort_ii_jenseits_der_pass_phrase</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Was ist ein Gutes Passwort II: Jenseits der pass phrase</title>
+<subtitle>Von tokens, OTP und pgp. Neue Cryptohardware, neue Einbindungen</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>In Anknüpfung an den letztjährigen Vortrag &quot;Was ist ein Gutes Passwort™&quot; wäre diesmal die logische Fortführung fällig. Cryptodevices aka tokens, One-Time-Passwörter (OTP), double identification via NFC-token und pgp encryption, FIDO U2F, was da halt alles so herumkreucht und fleucht. Mit praktischen Beispielen auf Linux, Mac &amp; Windows, wie man&#39;s installiert &amp; wie man&#39;s nutzt.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='14'>André Igler</person>
+<person id='167'>Joel Alwen</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='c8913456-cd69-467a-a446-2330ae8b5299' id='120'>
+<date>2017-10-27T14:15:00+02:00</date>
+<start>14:15</start>
+<duration>00:30</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-120-encryption_on_dslr-cameras</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Encryption on DSLR-Cameras</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>en</language>
+<abstract>Privacy is one of the key issues of the information age. Especially in the post-Snowden era this fact has become clear to most individuals around the globe. Especially journalists seek for an opportunity to keep the sensitive result of their work hidden. This fact was recently underlined by an open letter from 150 journalists to camera manufacturers, demanding built-in encryption for DSLR-cameras. In the course of our research we found that an universal approach using SD-cards for direct encryption satisfies the journalist&#39;s requirements manufacturer-independent. We used libsodium on a modified WiFi-capable SD-card.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='136'>Gabor Szivos</person>
+<person id='174'>Georg Bernold</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='99ad53fd-0f91-4928-8910-8a95c8c5d6ed' id='211'>
+<date>2017-10-27T14:45:00+02:00</date>
+<start>14:45</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-211-personal_privacy_in_wireless_emissions</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Personal Privacy in Wireless Emissions</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Smartphones und Laptops sind für viele Leute ein täglicher Begleiter geworden. Gewöhnlich haben diese Geräte einen WLAN-Chip, der darauf wartet sich mit einem bekannten Access Point zu verbinden. Genau hier kommt es oft zu Beeinträchtigungen der Privatsphäre, weil der WLAN-Chip nicht immer passiv agiert. Mit einer Studie werden einige Beispiele und Möglichkeiten aufgezeigt. </abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='185'>Anton Stütz</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='b98fc3db-2ab8-4f2e-9672-3e2bfe018f98' id='138'>
+<date>2017-10-27T16:00:00+02:00</date>
+<start>16:00</start>
+<duration>01:30</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-138-never_give_up</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>never give up!</title>
+<subtitle>Grund- und Menschenrechte im 21. Jahrhundert</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Unsere Grund- und Menschenrechte kamen nicht von selbst, 
+seit 230 Jahren wird für sie gekämpft, und der Kampf ist nicht vorbei.
+
+
+, </abstract>
+<description>Unsere Grund- und Menschenrechte kamen nicht von selbst, 
+Wie sind sie zustande gekommen, warum und wofür brauchen wir sie?
+Wer hat sie – gegen wen – erkämpft?
+Welche Bedeutung haben sie heute?
+Wem sind sie (heute) im Wege?
+Was gilt es heute zu tun?</description>
+<logo></logo>
+<persons>
+<person id='17'>Herbert Waloschek</person>
+<person id='82'>Christof Tschohl</person>
+</persons>
+<links>
+<link href='https://epicenter.work'>epicenter.works</link>
+<link href='https://c3w.at/'>C3W (Chaos Computer Club Wien)</link>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Volkskundemuseum Workshop'>
+</room>
+<room name='Rabenhof Theater'>
+</room>
+<room name='Side-Events'>
+<event guid='a73205ef-4724-46f8-a6aa-99f051fefa17' id='168'>
+<date>2017-10-27T20:00:00+02:00</date>
+<start>20:00</start>
+<duration>03:00</duration>
+<room>Side-Events</room>
+<slug>pw17-168-speakers_dinner</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Speakers&#39; Dinner</title>
+<subtitle></subtitle>
+<track></track>
+<type></type>
+<language></language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+</day>
+<day date='2017-10-28' end='2017-10-28T23:00:00+02:00' index='6' start='2017-10-28T08:30:00+02:00'>
+<room name='Volkskundemuseum Saal 1'>
+<event guid='56ede25d-f95a-405c-913f-7f8be88f6c2d' id='122'>
+<date>2017-10-28T11:30:00+02:00</date>
+<start>11:30</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-122-datenschutz_und_mobilitat</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Datenschutz und Mobilität</title>
+<subtitle>Reisefreiheit im digitalen Zeitalter</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Assistenzsysteme erleichtern dem Fahrer immer mehr die Arbeit. Zum Funktionieren dieser Systeme sammeln KFZ aber Daten über jeden Aspekt des Fahrzeuges. Diese Daten können auch an den KFZ Hersteller oder Versicherungen übermittelt werden. Datenschutz ist daher auch beim Automobil ein wichtiges Thema. </abstract>
+<description>Fahrzeuge sind mittlerweile mehr Computer als Automobil. Jede einzelne Funktion des Fahrzeuges wird elektronisch gesteuert, von der Sitzeinstellung bis zur Lenkung und Bremsen. Diese Entwicklung hat auch viele Helfer gebracht, welche die Sicherheit erhöhen. Assistenten erleichtern dem Fahrer die Fahrt. All das erhöht die Sicherheit auf den Straßen erheblich. Ab 31.3. 2018 wird das eCall (Emergency Call) System für Neufahrzeuge innerhalb der EU verpflichtend. Ab dann sind alle Fahrzeuge mit einem Mobiltelefonmodul / SIM Karte ausgestattet. Das erlaubt den Fahrzeugen auch ständig online zu sein. Das Fahrzeug ruft dann selbsttätig nach Hilfe, wenn ein Unfall passiert. Auch diese Funktion wird Leben retten. Die andere Seite der Medaille ist, dass diese elektronischen Steuerungen alle über Computer gesteuert werden, und all diese Daten auch gesammelt werden. Viele dieser Daten werden auch an den KFZ Hersteller übermittelt. Zusätzlich wird in Österreich gerade die elektronische Vignette eingeführt. Kameras werden Kennzeichen abfotografieren um sie mit der Datenbank der Vignetteninhaber abzugleichen, Section Controls machen das derzeit schon. Es gibt bereits Pläne diese Daten auch für die Strafverfolgungsbehörden auswertbar zu machen. Das unbeobachtete Treffen mit anderen Personen fällt aber auch unter die Privatsphäre und ist durch die Europäische Menschenrechtskonvention besonders geschützt. Auch und vor allem Im Bereich der Mobilität befinden wir uns hier in einem Spannungsfeld zwischen Freiheit und Sicherheit. </description>
+<logo>/system/events/logos/000/000/122/large/finalDigitalSociety.png?1497710206</logo>
+<persons>
+<person id='77'>Werner Illsinger</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='8253f763-bcb5-48b3-8ec6-ddd75d38e528' id='105'>
+<date>2017-10-28T12:15:00+02:00</date>
+<start>12:15</start>
+<duration>00:30</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-105-hello_i_have_an_order_for_i_c_wiener</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Hello? I have an order for I.C. Wiener.</title>
+<subtitle>Wenn Spracherkennung zu Identitätsdiebstahl führt.</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Eine kurze Einleitung zu den Gefahren der Spracherkennung im Hinblick auf Privatssphäre und Sicherheit gibt es in diesem Vortrag - es werden Machine Learning Libraries, die Stimmen imitieren können, genauso erklärt wie einfache Methoden des Identitätsdiebstahls, z.B. die Wiedergabe von vorher aufgenommenen Stimmen.</abstract>
+<description></description>
+<logo>/system/events/logos/000/000/105/large/icwiener.jpg?1496153151</logo>
+<persons>
+<person id='116'>Sanja Bonic</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='c0f6d8e7-a019-409c-9645-c5ed41af648c' id='190'>
+<date>2017-10-28T13:00:00+02:00</date>
+<start>13:00</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-190-fakes_bots</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Fakes &amp; Bots</title>
+<subtitle>Hand in Hand, aber auch überschätzt</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Falschmeldungen, Fakes und Fake News sind im Vorfeld der großen Wahlen 2017 in Deutschland und Österreich ein Kernthema gewesen. </abstract>
+<description>Wie sehr können uns Falschmeldungen oder gar manipulativ wirkende Fake-Accounts oder Social Bots in unseren Meinungen, Verhaltensweisen oder politischen Entscheidungen beeinflussen? Die Angst vor den potenziellen manipulativen Fähigkeiten von Falschmeldungen war daher in den letzten Monaten recht groß, das Interesse an Prophylaxe dementsprechend hoch.</description>
+<logo>/system/events/logos/000/000/190/large/_press_andre_wolf_C_barbara_wirl.jpg?1507910664</logo>
+<persons>
+<person id='159'>André Wolf</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='5224273a-2731-4695-a514-e3895d9022e8' id='206'>
+<date>2017-10-28T13:45:00+02:00</date>
+<start>13:45</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-206-wie_man_sich_der_maschine_bedient_wenn_man_die_maschine_bedient</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Wie man sich der Maschine bedient wenn man die Maschine bedient.</title>
+<subtitle>Performante Tipps für Entscheidungsimpulse setzende Akteure.</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Menschen machen sich oft zu Dienerinnen und Dienern von Computersystemen. Besser ist es, sich der Maschinen zu bedienen. </abstract>
+<description>Ein Dasein als DienerIn ist bequem - man muss nicht selbst denken. Für alle, die lieber selbst denken, ist es besser, selbst gesetzte Probleme zu lösen - und nicht anderen zu dienen, indem vorgesetzte Probleme gelöst werden. </description>
+<logo></logo>
+<persons>
+<person id='36'>Christian Swertz</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='1ac43fa1-ecbf-449e-a5d0-310b74309a35' id='167'>
+<date>2017-10-28T15:00:00+02:00</date>
+<start>15:00</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-167-probleme_mit_e-voting</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Probleme mit E-Voting</title>
+<subtitle>Ein Überblick über die vielseitigen Probleme von elektronischen Wahlen.</subtitle>
+<track>Privacy By Design</track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Elektronische Wahlen können doch so bequem sein - sind sie aber nicht, wenn man Wert auf sein Wahlrecht legt. Ein Überblick über die vielseitigen Probleme von elektronischen Wahlen.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='67'>Barbara Ondrisek</person>
+</persons>
+<links>
+<link href='https://papierwahl.at'>Papierwahl</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='e13e2d2d-7277-454c-8b3e-95f2a33f0821' id='142'>
+<date>2017-10-28T15:45:00+02:00</date>
+<start>15:45</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-142-wie_weit_kann_darf_man_in_einem_digital_wahlkampf_gehen</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Wie weit kann/darf man in einem digital Wahlkampf gehen?</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language></language>
+<abstract>tbd</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='99'>Thomas Thaler</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='e8b0c8ea-1aed-454c-8464-b521a8a29009' id='174'>
+<date>2017-10-28T16:45:00+02:00</date>
+<start>16:45</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-174-datenspuren_panel</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Datenspuren (Panel)</title>
+<subtitle></subtitle>
+<track></track>
+<type>podium</type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='a15280a6-4f11-4c81-9e9c-7bd9cb6ed343' id='177'>
+<date>2017-10-28T18:15:00+02:00</date>
+<start>18:15</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-177-i_google_you</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>I GOOGLE YOU</title>
+<subtitle>über Gläserne Menschen, kuratierte Pinnwände und Popkultur</subtitle>
+<track></track>
+<type>performance</type>
+<language>de</language>
+<abstract>Triggerwarnung:
+Im Rahmen des Talks bzw. der Performance kommen ggf. Schilderungen persönlicher Erlebnisse vor, die Auslösereiz bei Betroffenen sein können. 
+</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='170'>Frida Vamos</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='dff0a6df-6b9f-4bc4-b49c-f4f63179200e' id='192'>
+<date>2017-10-28T20:30:00+02:00</date>
+<start>20:30</start>
+<duration>02:30</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-192-cyber-party</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>CYBER-Party</title>
+<subtitle></subtitle>
+<track></track>
+<type>other</type>
+<language>de</language>
+<abstract>Side-Event mit Überraschungen</abstract>
+<description></description>
+<logo></logo>
+<persons>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Volkskundemuseum Saal 2'>
+<event guid='0d450673-ab40-45f9-b949-6d7055ad8c28' id='176'>
+<date>2017-10-28T12:00:00+02:00</date>
+<start>12:00</start>
+<duration>02:00</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-176-free_your_android</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Free Your Android</title>
+<subtitle></subtitle>
+<track></track>
+<type>workshop</type>
+<language>de</language>
+<abstract></abstract>
+<description>In unserem Workshop möchten wir folgendes vermitteln bzw. anbieten:
+&lt;ul&gt;
+  &lt;li&gt;Grundzüge freier Software und der Zusammenhang zum Datenschutz&lt;/li&gt;
+  &lt;li&gt;Vorstellung und Installationsanleitung für den FDroid App-Store&lt;/li&gt;
+  &lt;li&gt;Vorstellung und Installationsanleitung für Auswahl an populären freien Android Apps&lt;/li&gt;
+  &lt;li&gt;Vorstellung und Installationsanleitung für freie Varianten des Android Betriebssystems&lt;/li&gt;
+&lt;/ul&gt;</description>
+<logo>/system/events/logos/000/000/176/large/robot.png?1507880699</logo>
+<persons>
+<person id='156'>Michael Pöhn</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='0095d9e2-38eb-47ea-a3f8-ce1a1ee5f21c' id='212'>
+<date>2017-10-28T14:00:00+02:00</date>
+<start>14:00</start>
+<duration>01:00</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-212-ransomware</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Ransomware</title>
+<subtitle>DatenVERschlüsselung leicht gemacht</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Ransomware ist in der Gegenwart in aller Munde. Dauernd hört man in den News davon. Neben Privatnutzern trifft es vor allem auch Firmen, die damit große Probleme haben.</abstract>
+<description>Dieser Vortrag gibt einen Blick in die Welt der Ransomware.
+
+Überall im Munde aber was dahinter genau steckt wissen nicht allzuviele.
+
+Der Vortrag wird folgende Themen beinhalten:
+
+* Ransomware? Was ist das? 
+* Ransomware in der Gegenwart 
+* Wie funktioniert Ransomware? 
+* Wie schütze ich mich davor
+
+Ganz am Schluss gibt es dann noch eine Kostprobe in Form einer Livedemo.
+
+Dieser Vortrag ist für Leute aller technischen Level konzipiert. Egal ob Neuling oder ExpertIn, Ihr alle seid Willkommen.</description>
+<logo></logo>
+<persons>
+<person id='96'>Petar Kosic</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='7c146cf7-245d-4e9b-9860-5e2704216316' id='186'>
+<date>2017-10-28T15:00:00+02:00</date>
+<start>15:00</start>
+<duration>00:30</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-186-crypto-talk</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Crypto-Talk</title>
+<subtitle>Die Wiener Cryptoparty zu Gast bei der PrivacyWeek</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Eine Einführung zur Cryptoparty
+
+</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='96'>Petar Kosic</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='c0b4ff7f-7746-4d69-8d0f-b46a4be6a501' id='188'>
+<date>2017-10-28T15:30:00+02:00</date>
+<start>15:30</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-188-crypto-workshop</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Crypto-Workshop</title>
+<subtitle>Die Wiener Cryptoparty zu Gast bei der PrivacyWeek</subtitle>
+<track></track>
+<type>workshop</type>
+<language>de</language>
+<abstract></abstract>
+<description>Bisherige Themen bei der Cryptoparty Wien: 
+Thema: IoT Fails - Ein Einblick in die skurrilen Fails der IoT Industrie 
+Thema: Bitcoin - Funktionsweise der Blockchain 
+Thema: Workshop → Bitmessage, A Peer‐to‐Peer Message Authentication and Delivery System 
+Thema: Workshop → Anonym im Internet? Wirklich anonym mit Tor? 
+Thema: Workshop → Email Verschlüsselung mit GPG 
+Thema: Handy Messenger - Die guten, die schlechten und die weit verbreiteten 
+Thema: Ein #33c3 - Rückblick 
+Thema: Vorbereitungsworkshop #33c3 - Laptop absichern &amp; Co 
+Thema: E-Voting 
+Thema: Handy Messenger - Die guten, die schlechten und die weit verbreiteten 
+Thema: Das Tor Ökosystem, mehr als nur den Tor-Browser benutzen. 
+Thema: OpSec - wie verhält man sich, um Metadaten zu minimieren 
+Thema: Zu viele Passwörter? Passwortmanagement Software, 2-Faktor Authentifizierung 
+Thema: Backup, jetzt aber richtig! 
+Thema: Ransomware: „DatenVERschlüsselung leicht gemacht“ 
+Thema: Browsererweiterungen für Firefox &amp; Chrome - Hands on Workshop 
+Thema: #32c3 - Eine Rückschau 
+Thema: Vorbereitungsworkshop #32c3 - Laptop absichern 
+Thema: Email… the good, the bad and the mostly ugly 
+Thema: Adblocking und Anti-Tracking/-Profiling 
+Thema: Rückschau auf den Sommer 2015 und das Chaos Communication Camp sowie Vortragsempfehlungen 
+Thema: Ab 19:30: Computer sicher nutzen: Über Malware, Phishing und Co. - Sichere Nutzung vom Computer um sich vor Malware, Phishing und Co zu schützen 
+Thema: Wie sicher kann Email sein? GPG und S/MIME. 
+Thema: Handy Security, sichere Sprach- und Videotelefonie, sichere Text-Messenger 
+Thema: TLS Zertifikate, Überprüfung, Zertifizierungssstellen und Superfish 
+Thema: Rückschau auf den 31. Chaos Communication Congress (31C3), aktuelle Entwicklungen, Fragen und Antworten 
+Thema: Einführung in das Thema Kryptografie mit anschließendem praktischen Workshop zu Browsersicherheit 
+Thema: Den eigenen Laptop absichern. Speziell für Besuchende des 31C3 
+Thema: IT-Sicherheit und online Privatsphäre im Studium 
+Thema: Wie sicher ist https wirklich? 
+Thema: Verschlüsselte Datenträger austauschen 
+Thema: Alternativen zu Googles Diensten 
+Thema: Netzsperren und Zensur 
+Thema: Browser Fingerprinting, Tor, Tails 
+Thema: Filter Bubble 
+Thema: Browser 
+Thema: Heartbleed &amp; Passwortsicherheit 
+Thema: Esoterische Kryptografie Tools - eine muntere Rundschau über die unsinnigen Dinge die da draussen sind von denen Du besser die Finger lässt. 
+Thema: Email Verschlüsselung mit GPG 
+Thema: Instant Messaging - Sicherer und privater Chatten mit Jabber und OTR 
+Thema: Anonymiät online, Tor, I2P 
+Thema: Absichern mobiler Geräte im Internet. Laptops, Tablets, Mobiltelefone. Speziell auch für Besuchende des 30C3 
+Thema: Metadaten: Was das ist, wo sie entstehen, warum sie gefährlich sind und wie sich manche davon Vermeiden lassen. 
+Thema: Email-Verschlüsselung 
+Thema: Die CryptoCalypse - NSA und die Kryptographie: Wie sicher ist sicher? 
+Thema: Grundlagen der Verschlüsselung, Sicheres speichern von Daten 
+Thema: Operational Security (Feind hört mit) 
+Thema: OPSEC, Tor Hidden Services im Internet &amp; alles was euch interessiert (bringt Fragen mit!)</description>
+<logo></logo>
+<persons>
+<person id='96'>Petar Kosic</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='b7fc7267-5dc1-4db6-858f-bbf54c11b44f' id='128'>
+<date>2017-10-28T18:00:00+02:00</date>
+<start>18:00</start>
+<duration>02:30</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-128-dreams_rewired</slug>
+<recording>
+<license>CC-BY-SA</license>
+<optout>false</optout>
+</recording>
+<title>Dreams Rewired</title>
+<subtitle>- a genealogy of connectivty</subtitle>
+<track>Art &amp; Beauty</track>
+<type>film</type>
+<language>en</language>
+<abstract>I suggest a film screening (86min) followed by a discussion (50min). DREAMS REWIRED traces the desires and anxieties of today’s hyper-connected world back more than a hundred years, when telephone, film and television were new. As revolutionary then as contemporary social media is today, early electric media sparked a fervent utopianism in the public imagination – promising total communication, the annihilation of distance, an end to war. But then, too, there were fears over the erosion of privacy, security, morality. Using rare (and often unseen) archival material from nearly 200 films to articulate the present, DREAMS REWIRED reveals a history of hopes to share, and betrayals to avoid. (Film auf engl&amp;deutsch verfügbar)</abstract>
+<description>https://www.dreamsrewired.com/s/DREAMS-REWIRED-press-folder-2015.pdf</description>
+<logo>/system/events/logos/000/000/128/large/Dreams_Rewired_Plakat_72kl.jpg?1497824399</logo>
+<persons>
+<person id='145'>Manu Luksch</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Volkskundemuseum Workshop'>
+</room>
+<room name='Rabenhof Theater'>
+</room>
+<room name='Side-Events'>
+</room>
+</day>
+<day date='2017-10-29' end='2017-10-29T23:00:00+01:00' index='7' start='2017-10-29T09:00:00+01:00'>
+<room name='Volkskundemuseum Saal 1'>
+<event guid='a31f66ba-021f-4199-9286-702a59ab9c05' id='179'>
+<date>2017-10-29T10:45:00+01:00</date>
+<start>10:45</start>
+<duration>00:45</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-179-internet_of_things_iot_privacy_security</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Internet of Things (IoT) Privacy &amp; Security</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Das Internet der Dinge (Internet of Things) ist im Moment in aller Munde - aber welche Privacy- und welche Sicherheits-Probleme kommen damit auf uns zu? Nicht umsonst heißt ein gerade erschienenes Buch zur Sicherheit dieser Geräte &quot;The Internet of Risky Things&quot; [1]
+
+Der Talk wird eine Einführung in die Problematik anhand von Beispielen geben, nicht nur die &quot;intelligenten&quot; Philips Hue Lampen hatten Sicherheitsprobleme, wir haben eigentlich auch einen reichen Erfahrungsschatz aus anderen IT-Bereichen wo in der Vergangenheit schon einiges schiefgegangen ist. Die Hoffnung -- die ja zuletzt stirbt -- ist, dass wir diese nicht im IoT-Bereich wiederholen.
+
+In der Diskussion wird sich Gelegenheit ergeben, auch eigene Anekdoten und Erfahrungen mit IoT-Geräten beizutragen.
+
+[1] Sean Smith, &quot;The Internet of Risky Things -- Trusting the Devices 
+That Surround Us&quot;, O&#39;Reilly, 2017</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='131'>Ralf Schlatterbeck</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='f2fad80c-2d2f-4717-9a82-2406e7b23c77' id='132'>
+<date>2017-10-29T11:30:00+01:00</date>
+<start>11:30</start>
+<duration>00:30</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-132-security_vs_privacy</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Security vs Privacy</title>
+<subtitle></subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='98'>Otmar Lendl</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='78e97862-206a-40ac-b37e-209db1b67406' id='193'>
+<date>2017-10-29T15:00:00+01:00</date>
+<start>15:00</start>
+<duration>01:30</duration>
+<room>Volkskundemuseum Saal 1</room>
+<slug>pw17-193-closing_event</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Closing Event</title>
+<subtitle></subtitle>
+<track></track>
+<type>other</type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Volkskundemuseum Saal 2'>
+<event guid='5cc72efe-e510-4c67-b49c-cbf12b4899cf' id='185'>
+<date>2017-10-29T12:30:00+01:00</date>
+<start>12:30</start>
+<duration>00:30</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-185-crypto-talk</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Crypto-Talk</title>
+<subtitle>Die Wiener Cryptoparty zu Gast bei der PrivacyWeek</subtitle>
+<track></track>
+<type>lecture</type>
+<language>de</language>
+<abstract>Eine Einführung zur Cryptoparty</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='96'>Petar Kosic</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='0c09ec72-8d60-4e85-b542-d523bf895942' id='187'>
+<date>2017-10-29T13:00:00+01:00</date>
+<start>13:00</start>
+<duration>01:45</duration>
+<room>Volkskundemuseum Saal 2</room>
+<slug>pw17-187-crypto-workshop</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Crypto-Workshop</title>
+<subtitle>Die Wiener Cryptoparty zu Gast bei der PrivacyWeek</subtitle>
+<track></track>
+<type>workshop</type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='96'>Petar Kosic</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+<room name='Volkskundemuseum Workshop'>
+</room>
+<room name='Rabenhof Theater'>
+</room>
+<room name='Side-Events'>
+<event guid='2e1c9f62-9909-4d3f-9d9d-cc3d3054a9a5' id='195'>
+<date>2017-10-29T09:00:00+01:00</date>
+<start>09:00</start>
+<duration>01:30</duration>
+<room>Side-Events</room>
+<slug>pw17-195-privacy_breakfast</slug>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Privacy Breakfast</title>
+<subtitle></subtitle>
+<track></track>
+<type>meeting</type>
+<language>de</language>
+<abstract></abstract>
+<description></description>
+<logo></logo>
+<persons>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+</room>
+</day>
+</schedule>
