@@ -7,7 +7,11 @@ if(document.cookie){
 		if(temp[i].split("=")[0].trim() == "events"){
 			events = temp[i].split("=")[1].split("$");
 			for(j = 0; j < events.length - 1; j++){
-				toggleClick(document.getElementById(events[j]), true);
+				if(document.getElementById(events[j]) == null){
+					console.log("Couldn't find event with ID " + events[j] + ", might be an old event remaining in cookie from earlier events");
+				}else{
+					toggleClick(document.getElementById(events[j]), true);
+				}
 			}
 		}
 	}
