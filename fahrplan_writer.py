@@ -58,7 +58,7 @@ class fahrplan_writer(HTMLParser):
                         #print time_slot + " == " + events[last_event]["start"]
                         #if not, go on
                         if time_slot == events[last_event]["start"] or "0" + time_slot == events[last_event]["start"]:
-                            day_events += "<td class='something' colspan='" + str(events[last_event]["time_slots"]) + "' onclick='toggleClick(this, false);' " + "id='" + events[last_event]["id"] + "' title='unselected'>" + events[last_event]["title"] + " (<a href='https://fahrplan.events.ccc.de/congress/" + self.context["year"] + "/Fahrplan/events/" + events[last_event]["id"] + ".html' onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
+                            day_events += "<td class='something' colspan='" + str(events[last_event]["time_slots"]) + "' onclick='toggleClick(this, false);' " + "id='" + events[last_event]["id"] + "' title='unselected'><a href='https://media.ccc.de/tags/" + events[last_event]["id"] + "'>" + events[last_event]["title"] + "</a> (<a href='https://fahrplan.events.ccc.de/congress/" + self.context["year"] + "/Fahrplan/events/" + events[last_event]["id"] + ".html' onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
                             #calculate the columns used, subtract the current table field
                             colspan = events[last_event]["time_slots"] - 1
                             #print "-> " + str(events[last_event])
