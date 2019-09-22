@@ -31,7 +31,7 @@ function getCookieItem(term){
 //function to toggle, if an event has been selected
 function toggleClick(thisObject, init){
 	if(thisObject.title == "unselected" && !onLink){
-		thisObject.style.backgroundColor = "Black";
+		thisObject.style.backgroundColor = "Gray";
 		thisObject.style.color = "White";
 		thisObject.title = "selected";
 		//if this is not the initialization, add the event to the cookie
@@ -48,7 +48,7 @@ function toggleClick(thisObject, init){
 		}
 	}else if(thisObject.title == "selected" && !onLink){
 		thisObject.style.backgroundColor = "White";
-		thisObject.style.color = "Black";
+		thisObject.style.color = "Gray";
 		thisObject.title = "unselected";
 		//remove the id from the cookie
 		temp = document.cookie.split(";");
