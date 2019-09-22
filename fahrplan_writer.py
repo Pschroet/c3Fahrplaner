@@ -128,7 +128,9 @@ class fahrplan_writer(HTMLParser):
             event_code = "<td class='something' colspan='" + str(event_time_slots) + "'"
             event_code += " onclick='toggleClick(this, false);'"
             event_code += " id='" + event_id + "'"
-            event_code += " title='unselected'></td>\n"
+            event_code += " title='unselected'>"
+            event_code += event_title
+            event_code += "</td>\n"
             return event_code
 
     def cccongress(self, tag, event_time_slots="", event_id="", event_title=""):
