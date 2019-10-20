@@ -12,8 +12,8 @@ if(document.cookie){
 	temp = document.cookie.split(";");
 	for(i = 0; i < temp.length; i++){
 		if(temp[i].split("=")[0].trim() == "darkMode"){
-			console.log(temp[i].split("=")[0].trim());
-			console.log(temp[i].split("=")[1].trim());
+			//console.log(temp[i].split("=")[0].trim());
+			//console.log(temp[i].split("=")[1].trim());
 			if(temp[i].split("=")[1].trim() == "true"){
 				toggleDarkMode();
 			}else{
@@ -58,7 +58,7 @@ function toggleDarkMode(){
 		tds = document.getElementsByTagName("TD");
 		for(td in tds){
 			if(tds[td].nodeType == Node.ELEMENT_NODE){
-				if(tds[td].title == "selected"){
+				if(tds[td].dataset.selected == "selected"){
 					tds[td].setAttribute("class", "something-selected");
 				}else{
 					tds[td].setAttribute("class", "something");
@@ -79,7 +79,7 @@ function toggleDarkMode(){
 		tds = document.getElementsByTagName("TD");
 		for(td in tds){
 			if(tds[td].nodeType == Node.ELEMENT_NODE){
-				if(tds[td].title == "selected"){
+				if(tds[td].dataset.selected == "selected"){
 					tds[td].setAttribute("class", "something-selected-darkMode");
 				}else{
 					tds[td].setAttribute("class", "something-darkMode");
@@ -93,13 +93,13 @@ function toggleDarkMode(){
 
 //function to toggle, if an event has been selected
 function toggleClick(thisObject, init){
-	if(thisObject.title == "unselected" && !onLink){
+	if(thisObject.dataset.selected == "unselected" && !onLink){
 		if(darkMode){
 			thisObject.setAttribute("class", "something-selected-darkMode");
 		}else{
 			thisObject.setAttribute("class", "something-selected");
 		}
-		thisObject.title = "selected";
+		thisObject.dataset.selected = "selected";
 		//if this is not the initialization, add the event to the cookie
 		if(!init){
 			//add the id of this event to the cookie
@@ -112,13 +112,13 @@ function toggleClick(thisObject, init){
 			}
 			document.cookie = "events=" + events + thisObject.getAttribute("id") + "$;expires=" + dayAfter + ";path=/;";
 		}
-	}else if(thisObject.title == "selected" && !onLink){
+	}else if(thisObject.dataset.selected == "selected" && !onLink){
 		if(darkMode){
 			thisObject.setAttribute("class", "something-darkMode");
 		}else{
 			thisObject.setAttribute("class", "something");
 		}
-		thisObject.title = "unselected";
+		thisObject.dataset.selected = "unselected";
 		//remove the id from the cookie
 		temp = document.cookie.split(";");
 		for(i = 0; i < temp.length; i++){

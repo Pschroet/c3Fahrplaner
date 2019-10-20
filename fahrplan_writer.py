@@ -128,7 +128,7 @@ class fahrplan_writer(HTMLParser):
             event_code = "<td class='something' colspan='" + str(event_time_slots) + "'"
             event_code += " onclick='toggleClick(this, false);'"
             event_code += " id='" + event_id + "'"
-            event_code += " title='unselected'>"
+            event_code += " data-selected='unselected'>"
             event_code += event_title
             event_code += "</td>\n"
             return event_code
@@ -144,7 +144,7 @@ class fahrplan_writer(HTMLParser):
             event_code = "<td class='something' colspan='" + str(event_time_slots) + "'"
             event_code += " onclick='toggleClick(this, false);'"
             event_code += " id='" +  event_id + "'"
-            event_code += " title='unselected'>"
+            event_code += " data-selected='unselected'>"
             event_code += "<a href='https://media.ccc.de/tags/" + event_id + "'>"
             event_code += event_title
             event_code += "</a>"
@@ -166,7 +166,7 @@ class fahrplan_writer(HTMLParser):
             event_code = "<td class='something' colspan='" + str(event_time_slots) + "'"
             event_code += " onclick='toggleClick(this, false);'"
             event_code += " id='" + event_id + "'"
-            event_code += " title='unselected'><a href='https://media.ccc.de/tags/" + event_id + "'>"
+            event_code += " data-selected='unselected'><a href='https://media.ccc.de/tags/" + event_id + "'>"
             event_code += event_title
             event_code += "</a>"
             event_code += " (<a href='https://fahrplan.events.ccc.de/camp/" + self.context["year"]
@@ -183,7 +183,7 @@ class fahrplan_writer(HTMLParser):
             event_code = "<td class='something' colspan='" + str(event_time_slots) + "'"
             event_code += " onclick='toggleClick(this, false);'"
             event_code += " id='" + event_id + "'"
-            event_code += " title='unselected'><a href='https://media.ccc.de/tags/" + event_id + "'>"
+            event_code += " data-selected='unselected'><a href='https://media.ccc.de/tags/" + event_id + "'>"
             event_code += event_title
             event_code += "</a>"
             event_code += " (<a href='https://datenspuren.de/" + self.context["year"]
