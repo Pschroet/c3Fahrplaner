@@ -65,6 +65,20 @@ function toggleDarkMode(){
 				}
 			}
 		}
+		mores = document.querySelectorAll("a.more-darkMode");
+		console.log(mores)
+		for(more in mores){
+			if(mores[more] != undefined && mores[more].nodeType == Node.ELEMENT_NODE){
+				mores[more].setAttribute("class", "more-lightMode");
+			}
+		}
+		links = document.querySelectorAll("a.link-darkMode");
+		console.log(links)
+		for(link in links){
+			if(links[link] != undefined && links[link].nodeType == Node.ELEMENT_NODE){
+				links[link].setAttribute("class", "link-lightMode");
+			}
+		}
 		tmp = document.cookie;
 		document.cookie = tmp.replace("darkMode=true;", "darkMode=false;");
 	}else{
@@ -84,6 +98,20 @@ function toggleDarkMode(){
 				}else{
 					tds[td].setAttribute("class", "something-darkMode");
 				}
+			}
+		}
+		mores = document.querySelectorAll("a.more-lightMode");
+		console.log(mores)
+		for(more in mores){
+			if(mores[more] != undefined && mores[more].nodeType == Node.ELEMENT_NODE){
+				mores[more].setAttribute("class", "more-darkMode");
+			}
+		}
+		links = document.querySelectorAll("a.link-lightMode");
+		console.log(links)
+		for(link in links){
+			if(links[link] != undefined && links[link].nodeType == Node.ELEMENT_NODE){
+				links[link].setAttribute("class", "link-darkMode");
 			}
 		}
 		tmp = document.cookie;

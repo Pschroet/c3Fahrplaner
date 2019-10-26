@@ -1,18 +1,18 @@
 import defusedxml.ElementTree
 
 def parse_schedule(xml_content):
-    print "Parsing schedule"
+    print("Parsing schedule")
     #print xml_content
     tree = defusedxml.ElementTree.fromstring(xml_content, forbid_entities=False)
-    if hasattr(tree, "getroot") and isfunction(tree.getroot):
+    if hasattr(tree, "getroot") and callable(tree.getroot):
         root = tree.getroot()
     else:
         root = tree
-    #print root
+    #print(root)
     context = {}
     #get the info about the event first
     con_info = root.find("conference")
-    #print con_info
+    #print(con_info)
     context["title"] = con_info.find("title").text
     context["acronym"] = con_info.find("acronym").text
     context["year"] = con_info.find("start").text.split("-"[0])
@@ -29,7 +29,7 @@ def parse_schedule(xml_content):
     temp_days = []
     counter = 0
     for day in days:
-        #print "Events for " + day.attrib["date"] + ":"
+        #print("Events for " + day.attrib["date"] + ":")
         #check if the the event is spread over more than one day, e.g. from 10am to 4am the next day
         start_day = int(day.attrib["start"].split("T")[0].split("-")[2])
         end_day = int(day.attrib["end"].split("T")[0].split("-")[2])
@@ -99,6 +99,6 @@ def parse_schedule(xml_content):
             temp_days[counter]["rooms"].append(temp_room)
         #increase the counter
         counter += 1
-    #print temp_days
+    #print(temp_days)
     context["days"] = temp_days
     return context

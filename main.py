@@ -15,12 +15,12 @@ if __name__ == '__main__':
     #url = "https://fahrplan.events.ccc.de/camp/2019/Fahrplan/schedule.xml"
     url = "https://datenspuren.de/2019/fahrplan/schedule.xml"
     context = web_file_reader.read_schedule(url)
-    #print context
+    #print(context)
     tmpl = util.readFileContentAsString('fahrplan_template.html')
     parser = fahrplan_writer.fahrplan_writer()
     parser.set_context(context)
     parser.feed(tmpl)
     #destination = "fahrplan.html"
-    destination = "/tmp/fahrplan.html"
-    print "Writing to '" + destination + "'"
+    destination = "fahrplan.html"
+    print("Writing to '" + destination + "'")
     util.write2File(destination, parser.get_result(), "w")

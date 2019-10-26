@@ -7,35 +7,37 @@ A collection of different support functions
 '''
 
 import os
+import re
 
 #checks if the given file exists
 #  if it does not exist, but the directory can be written to the file will be created
 def checkFile(fileToCheck, create):
     directory = os.path.dirname(os.path.realpath(fileToCheck))
-    #print "[util.checkFile] Directory " + directory
+    #print("[util.checkFile] Directory " + directory)
     if os.path.exists(directory):
         if os.path.isfile(fileToCheck):
-            #print "[util.checkFile] Object " + fileToCheck + " found"
+            #print("[util.checkFile] Object " + fileToCheck + " found")
             return True
         else:
             if create:
-                #print "[util.checkFile] Object " + fileToCheck + " does not exist, it will be created"
+                #print("[util.checkFile] Object " + fileToCheck + " does not exist, it will be created")
                 openedFile = open(fileToCheck, "w")
                 openedFile.close()
                 return True
             else:
-                #print "[util.checkFile] Object " + fileToCheck + " does not exist"
+                #print("[util.checkFile] Object " + fileToCheck + " does not exist")
                 return False
     else:
-        #print "[util.checkFile] Directory of file " + fileToCheck + " does not exist or cannot be accessed"
+        #print("[util.checkFile] Directory of file " + fileToCheck + " does not exist or cannot be accessed")
         return False
     #to ensure something is returned
     return False
 
 def write2File(filename, content, mode):
-    f = open(filename, mode)
-    f.write(content.encode('utf-8'))
-    f.close()
+    if os.path.isfile(filename):
+        f = open(filename, mode, encoding="utf-8")
+        f.write(content)
+        f.close()
 
 def get_files_in_directory(directory, recursive):
     output = []

@@ -1,4 +1,4 @@
-from HTMLParser import HTMLParser
+from html.parser import HTMLParser
 import datetime
 import re
 import util
@@ -32,7 +32,7 @@ class fahrplan_writer(HTMLParser):
         return self.fahrplan
 
     def handle_starttag(self, tag, attrs):
-        #print "Encountered a start tag: " + tag
+        #print("Encountered a start tag: " + tag)
         #add the title
         if tag == "title":
             self.fahrplan += "<" + tag
@@ -64,7 +64,7 @@ class fahrplan_writer(HTMLParser):
                 #add the room for this day
                 day_events += "</tr></thead>\n<tbody>\n"
                 for room in day["rooms"]:
-                    #print room
+                    #print(room)
                     day_events += "<tr>"
                     day_events += "<td class='something'>" + room["name"] + "</td>"
                     #add the events for this room
@@ -76,15 +76,15 @@ class fahrplan_writer(HTMLParser):
                         #if there are no more events stop for this room
                         if len(events) is last_event:
                             break
-                        #print time_slot + " == " + events[last_event]["start"]
+                        #print(time_slot + " == " + events[last_event]["start"])
                         #if not, go on
                         if time_slot == events[last_event]["start"] or "0" + time_slot == events[last_event]["start"]:
                             if self.event_function_name is not None:
                                 day_events += getattr(self, self.event_function_name)(tag, events[last_event]["time_slots"], events[last_event]["id"], events[last_event]["title"])
                             #calculate the columns used, subtract the current table field
                             colspan = events[last_event]["time_slots"] - 1
-                            #print "-> " + str(events[last_event])
-                            #print "-> " + str(colspan)
+                            #print( "-> " + str(events[last_event]))
+                            #print( "-> " + str(colspan))
                             last_event += 1
                         elif last_event is 0:
                             day_events += "<td class='nothing'></td>"
@@ -92,7 +92,7 @@ class fahrplan_writer(HTMLParser):
                             day_events += "<td class='nothing'></td>"
                         else:
                             colspan -= 1
-                            #print "--> " + str(colspan)
+                            #print( "--> " + str(colspan))
                     day_events += "</tr>"
                 day_events += "</table>"
             self.fahrplan += day_events
@@ -102,17 +102,17 @@ class fahrplan_writer(HTMLParser):
         #if no 'special' tag is found, just copy it
         else:
             self.fahrplan += "<" + tag
-            #print attrs
+            #print(attrs)
             for attr in attrs:
                 self.fahrplan += " " + attr[0] + "='" + attr[1] + "'"
             self.fahrplan += ">"
 
     def handle_endtag(self, tag):
-        #print "Encountered an end tag :" + tag
+        #print("Encountered an end tag :" + tag)
         self.fahrplan += "</" + tag + ">"
 
     def handle_data(self, data):
-        #print "Encountered some data"
+        #print("Encountered some data")
         self.fahrplan += data
 
     def handle_decl(self, decl):
@@ -135,9 +135,9 @@ class fahrplan_writer(HTMLParser):
 
     def cccongress(self, tag, event_time_slots="", event_id="", event_title=""):
         if tag == "p":
-            useful_links = "<p><a href='https://events.ccc.de/tag/" + self.context["acronym"]
+            useful_links = "<p><a class='link-lightMode' href='https://events.ccc.de/tag/" + self.context["acronym"]
             useful_links += "'>Event blog</a></p>"
-            useful_links += "<p><a href='https://events.ccc.de/congress/" +  self.context["year"]
+            useful_links += "<p><a class='link-lightMode' href='https://events.ccc.de/congress/" +  self.context["year"]
             useful_links += "/wiki/'>Wiki</a>"
             return useful_links
         elif tag == "div":
@@ -145,20 +145,20 @@ class fahrplan_writer(HTMLParser):
             event_code += " onclick='toggleClick(this, false);'"
             event_code += " id='" +  event_id + "'"
             event_code += " data-selected='unselected'>"
-            event_code += "<a href='https://media.ccc.de/tags/" + event_id + "'>"
+            event_code += "<a class='link-lightMode' href='https://media.ccc.de/tags/" + event_id + "'>"
             event_code += event_title
             event_code += "</a>"
-            event_code += " (<a href='https://fahrplan.events.ccc.de/congress/" + self.context["year"]
+            event_code += " (<a class='more-lightMode' href='https://fahrplan.events.ccc.de/congress/" + self.context["year"]
             event_code += "/Fahrplan/events/" +  event_id + ".html'"
             event_code += " onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
             return event_code
 
     def cccamp(self, tag, event_time_slots="", event_id="", event_title=""):
         if tag == "p":
-            useful_links = "<p><a href='https://events.ccc.de/category/camp/camp-"
+            useful_links = "<p><a class='link-lightMode' href='https://events.ccc.de/category/camp/camp-"
             useful_links += self.context["year"]
             useful_links += "'>Event blog</a></p>"
-            useful_links += "<p><a href='https://events.ccc.de/camp/"
+            useful_links += "<p><a class='link-lightMode' href='https://events.ccc.de/camp/"
             useful_links += self.context["year"]
             useful_links += "/wiki/'>Wiki</a>"
             return useful_links
@@ -166,27 +166,27 @@ class fahrplan_writer(HTMLParser):
             event_code = "<td class='something' colspan='" + str(event_time_slots) + "'"
             event_code += " onclick='toggleClick(this, false);'"
             event_code += " id='" + event_id + "'"
-            event_code += " data-selected='unselected'><a href='https://media.ccc.de/tags/" + event_id + "'>"
+            event_code += " data-selected='unselected'><a class='link-lightMode' href='https://media.ccc.de/tags/" + event_id + "'>"
             event_code += event_title
             event_code += "</a>"
-            event_code += " (<a href='https://fahrplan.events.ccc.de/camp/" + self.context["year"]
+            event_code += " (<a class='more-lightMode' href='https://fahrplan.events.ccc.de/camp/" + self.context["year"]
             event_code += "/Fahrplan/events/" + event_id + ".html'"
             event_code += " onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
             return event_code
 
     def dspuren(self, tag, event_time_slots="", event_id="", event_title=""):
         if tag == "p":
-            useful_links = "<p><a href='https://events.ccc.de/tag/datenspuren'>Event blog</a></p>"
-            useful_links += "<p><a href='https://wiki.c3d2.de/Datenspuren/" + self.context["year"] + "'>Wiki</a>"
+            useful_links = "<p><a class='link-lightMode' href='https://events.ccc.de/tag/datenspuren'>Event blog</a></p>"
+            useful_links += "<p><a class='link-lightMode' href='https://wiki.c3d2.de/Datenspuren/" + self.context["year"] + "'>Wiki</a>"
             return useful_links
         elif tag == "div":
             event_code = "<td class='something' colspan='" + str(event_time_slots) + "'"
             event_code += " onclick='toggleClick(this, false);'"
             event_code += " id='" + event_id + "'"
-            event_code += " data-selected='unselected'><a href='https://media.ccc.de/tags/" + event_id + "'>"
+            event_code += " data-selected='unselected'><a class='link-lightMode' href='https://media.ccc.de/tags/" + event_id + "'>"
             event_code += event_title
             event_code += "</a>"
-            event_code += " (<a href='https://datenspuren.de/" + self.context["year"]
+            event_code += " (<a class='more-lightMode' href='https://datenspuren.de/" + self.context["year"]
             event_code += "/fahrplan/events/" + event_id + ".html'"
             event_code += " onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
             return event_code
