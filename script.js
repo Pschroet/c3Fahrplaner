@@ -1,12 +1,6 @@
 //determines if a click in a td node is made on a link, if so don't mark the event as selected
 var onLink = false;
 var darkMode = false;
-var darkModeBackground = "Black";
-var darkModeText = "White";
-var darkModeSelectedEvent = "DarkGray";
-var lightModeBackground = "White";
-var lightModeText = "Black";
-var lightModeSelectedEvent = "LightGray";
 
 if(document.cookie){
 	temp = document.cookie.split(";");
