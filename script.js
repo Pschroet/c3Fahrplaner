@@ -10,8 +10,10 @@ if(document.cookie){
 			//console.log(temp[i].split("=")[1].trim());
 			if(temp[i].split("=")[1].trim() == "true"){
 				toggleDarkMode();
+				document.getElementById("darkModeInput").checked = true;
 			}else{
 				darkMode = false;
+				document.getElementById("darkModeInput").checked = false;
 			}
 		}else{
 			if(temp[i].split("=")[0].trim() == "events"){
@@ -60,21 +62,21 @@ function toggleDarkMode(){
 			}
 		}
 		mores = document.querySelectorAll("a.more-darkMode");
-		console.log(mores)
+		//console.log(mores);
 		for(more in mores){
 			if(mores[more] != undefined && mores[more].nodeType == Node.ELEMENT_NODE){
 				mores[more].setAttribute("class", "more-lightMode");
 			}
 		}
 		links = document.querySelectorAll("a.link-darkMode");
-		console.log(links)
+		//console.log(links);
 		for(link in links){
 			if(links[link] != undefined && links[link].nodeType == Node.ELEMENT_NODE){
 				links[link].setAttribute("class", "link-lightMode");
 			}
 		}
 		tmp = document.cookie;
-		document.cookie = tmp.replace("darkMode=true;", "darkMode=false;");
+		document.cookie = "darkMode=false;expires=;path=/;" + tmp;
 	}else{
 		darkMode = true;
 		document.body.setAttribute("class", "bodycolor-darkMode");
@@ -95,14 +97,14 @@ function toggleDarkMode(){
 			}
 		}
 		mores = document.querySelectorAll("a.more-lightMode");
-		console.log(mores)
+		//console.log(mores);
 		for(more in mores){
 			if(mores[more] != undefined && mores[more].nodeType == Node.ELEMENT_NODE){
 				mores[more].setAttribute("class", "more-darkMode");
 			}
 		}
 		links = document.querySelectorAll("a.link-lightMode");
-		console.log(links)
+		//console.log(links);
 		for(link in links){
 			if(links[link] != undefined && links[link].nodeType == Node.ELEMENT_NODE){
 				links[link].setAttribute("class", "link-darkMode");
