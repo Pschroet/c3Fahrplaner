@@ -64,7 +64,7 @@ class fahrplan_writer(HTMLParser):
                 #add the room for this day
                 day_events += "</tr></thead>\n<tbody>\n"
                 for room in day["rooms"]:
-                    #print(room)
+                    #print("room: " + str(room))
                     day_events += "<tr>"
                     day_events += "<td class='something'>" + room["name"] + "</td>"
                     #add the events for this room
@@ -86,9 +86,9 @@ class fahrplan_writer(HTMLParser):
                             #print( "-> " + str(events[last_event]))
                             #print( "-> " + str(colspan))
                             last_event += 1
-                        elif last_event is 0:
+                        elif last_event == 0:
                             day_events += "<td class='nothing'></td>"
-                        elif colspan is 0:
+                        elif colspan == 0:
                             day_events += "<td class='nothing'></td>"
                         else:
                             colspan -= 1
