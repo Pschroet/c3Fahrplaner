@@ -10,7 +10,7 @@ The events are clickable and everything needed to work is a web server (for the 
 To start the script just run
 
 ```
-python main.py
+python3 main.py
 ```
 
 At the moment, this processes the fahrplan for the Datenspuren 2019. To change this, modify the file to be parsed in _main.py_ to either a local file or a remote one.
