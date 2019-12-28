@@ -96,6 +96,8 @@ class fahrplan_writer(HTMLParser):
                     day_events += "</tr>"
                 day_events += "</table>"
             self.fahrplan += day_events
+        elif tag == "footer":
+            self.fahrplan += "<footer id='buildTimestamp'>Created " + str(datetime.datetime.now()) + "</footer>"
         elif tag == "script":
             #add the expire date and the script
             self.fahrplan += "<script>\nvar dayAfter = '" + self.expire_date.strftime("%a, %d %b %Y 23:59:00 UTC") + "';\n" + util.readFileContentAsString("script.js")
