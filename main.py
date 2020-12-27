@@ -15,7 +15,9 @@ if __name__ == '__main__':
     #url = "https://fahrplan.events.ccc.de/camp/2019/Fahrplan/schedule.xml"
     #url = "https://datenspuren.de/2019/fahrplan/schedule.xml"
     #url = "https://fahrplan.events.ccc.de/camp/2019/Fahrplan/schedule.xml"
-    url = "https://fahrplan.events.ccc.de/congress/2019/Fahrplan/schedule.xml"
+    #url = "https://fahrplan.events.ccc.de/congress/2019/Fahrplan/schedule.xml"
+    #url = "https://datenspuren.de/2020/fahrplan/schedule.xml"
+    url = "https://data.c3voc.de/rC3/everything.schedule.xml"
     context = web_file_reader.read_schedule(url)
     #print(context)
     tmpl = util.readFileContentAsString('fahrplan_template.html')
@@ -24,4 +26,4 @@ if __name__ == '__main__':
     parser.feed(tmpl)
     destination = "fahrplan.html"
     print("Writing to '" + destination + "'")
-    util.write2File(destination, parser.get_result(), "w")
+    util.write2File(destination, parser.get_result(), "w+")

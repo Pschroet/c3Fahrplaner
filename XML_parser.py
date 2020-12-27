@@ -48,7 +48,7 @@ def parse_schedule(xml_content):
         temp_time_slot = [int(start_time[0]), int(start_time[1])]
         while temp_time_slot[0] is not int(end_time[0]) or temp_time_slot[1] is not int(end_time[1]):
             #check if the next hour is reached when the next slot in minutes is added
-            # if so, add another hour and remove this hour from the minutes 
+            # if so, add another hour and remove this hour from the minutes
             if not ((int(temp_time_slot[1]) + int(time_slot_mins)) - 60) < 0:
                 temp_time_slot[0] += 1
                 temp_time_slot[1] -= 60
@@ -94,6 +94,12 @@ def parse_schedule(xml_content):
                     temp_event["time_slots"] = (int(durations[0]) * time_slot_hours) + (int(durations[1]) / time_slot_mins)
                 else:
                     temp_event["time_slots"] = (int(durations[0]) * 60 + int(durations[1])) / time_slot_mins
+                #if there is an URL, use it, it should be the link to the info
+                event_url = event.find("url")
+                if event_url is not None and hasattr(event_url, "text"):
+                    temp_event["info_link"] = event_url.text
+                else:
+                    temp_event["info_link"] = None
                 temp_event["start"] = event.find("start").text
                 temp_room["events"].append(temp_event)
             temp_days[counter]["rooms"].append(temp_room)

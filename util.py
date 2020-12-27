@@ -34,10 +34,9 @@ def checkFile(fileToCheck, create):
     return False
 
 def write2File(filename, content, mode):
-    if os.path.isfile(filename):
-        f = open(filename, mode, encoding="utf-8")
-        f.write(content)
-        f.close()
+    f = open(filename, mode, encoding="utf-8")
+    f.write(content)
+    f.close()
 
 def get_files_in_directory(directory, recursive):
     output = []

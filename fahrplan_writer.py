@@ -7,11 +7,13 @@ class fahrplan_writer(HTMLParser):
     context = {}
     fahrplan = ""
     expire_date = datetime.date(2020, 12, 31)
-    
+
     def __init__(self):
         HTMLParser.__init__(self)
         self.context = {}
         self.fahrplan = ""
+        #determining the type of events, helps to create links to the VOD and description of events, and other links that might be helpful (like to a blog)
+        #if the type can not be determined, the fahrplan will be created, but no links will be there
         self.event_types = {}
         self.event_types["cccongress"] = {"title":"Chaos Communication Congress",
                                           "function_name":"cccongress"}
@@ -22,6 +24,9 @@ class fahrplan_writer(HTMLParser):
         self.event_types["dspuren"] = {"title":"Datenspuren",
                                        "function_name":"dspuren"}
         self.event_types["dspuren"]["regex"] = re.compile(".*" + self.event_types["dspuren"]["title"] + ".*", re.IGNORECASE)
+        self.event_types["remoteC3"] = {"title":"Remote Chaos Experience",
+                                        "function_name":"remoteC3"}
+        self.event_types["remoteC3"]["regex"] = re.compile(".*" + self.event_types["remoteC3"]["title"] + ".*", re.IGNORECASE)
         self.event_function_name = "other_event"
 
     def set_context(self, context):
@@ -45,6 +50,7 @@ class fahrplan_writer(HTMLParser):
                 #print(str(self.context["title"]))
                 #print(self.event_types[event_type]["regex"].match(self.context["title"]))
                 if self.event_types[event_type]["regex"].match(self.context["title"]):
+                    print("type of event determined as " + str(event_type))
                     self.event_function_name = self.event_types[event_type]["function_name"]
         elif tag == "h1":
             self.fahrplan += "<h1>" + self.context["title"]
@@ -80,7 +86,7 @@ class fahrplan_writer(HTMLParser):
                         #if not, go on
                         if time_slot == events[last_event]["start"] or "0" + time_slot == events[last_event]["start"]:
                             if self.event_function_name is not None:
-                                day_events += getattr(self, self.event_function_name)(tag, events[last_event]["time_slots"], events[last_event]["id"], events[last_event]["title"])
+                                day_events += getattr(self, self.event_function_name)(tag, events[last_event]["time_slots"], events[last_event]["id"], events[last_event]["title"], events[last_event]["info_link"])
                             #calculate the columns used, subtract the current table field
                             colspan = events[last_event]["time_slots"] - 1
                             #print( "-> " + str(events[last_event]))
@@ -123,6 +129,7 @@ class fahrplan_writer(HTMLParser):
     def handle_comment(self, data):
         self.fahrplan += "<!-- " + data + " -->"
 
+    #if the type of event doesn't exist, or isn't implemented yet
     def other_event(self, tag, event_time_slots="", event_id="", event_title=""):
         if tag == "p":
             return ""
@@ -135,7 +142,9 @@ class fahrplan_writer(HTMLParser):
             event_code += "</td>\n"
             return event_code
 
-    def cccongress(self, tag, event_time_slots="", event_id="", event_title=""):
+    #the different types of events implemented until now
+    #Note: the closing p tag is done by the XML handler endtag function
+    def cccongress(self, tag, event_time_slots="", event_id="", event_title="", info_link=""):
         if tag == "p":
             useful_links = "<p><a class='link-lightMode' href='https://events.ccc.de/tag/" + self.context["acronym"]
             useful_links += "'>Event blog</a></p>"
@@ -150,12 +159,15 @@ class fahrplan_writer(HTMLParser):
             event_code += "<a class='link-lightMode' href='https://media.ccc.de/tags/" + event_id + "'>"
             event_code += event_title
             event_code += "</a>"
-            event_code += " (<a class='more-lightMode' href='https://fahrplan.events.ccc.de/congress/" + self.context["year"]
-            event_code += "/Fahrplan/events/" +  event_id + ".html'"
-            event_code += " onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
+            if info_link is None or info_link == "":
+                event_code += " (<a class='more-lightMode' href='https://fahrplan.events.ccc.de/congress/" + self.context["year"]
+                event_code += "/Fahrplan/events/" +  event_id + ".html'"
+                event_code += " onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
+            else:
+                event_code += " (<a class='more_lightMode' href='" + str(info_link) + "' onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)</td>\n"
             return event_code
 
-    def cccamp(self, tag, event_time_slots="", event_id="", event_title=""):
+    def cccamp(self, tag, event_time_slots="", event_id="", event_title="", info_link=""):
         if tag == "p":
             useful_links = "<p><a class='link-lightMode' href='https://events.ccc.de/category/camp/camp-"
             useful_links += self.context["year"]
@@ -171,12 +183,15 @@ class fahrplan_writer(HTMLParser):
             event_code += " data-selected='unselected'><a class='link-lightMode' href='https://media.ccc.de/tags/" + event_id + "'>"
             event_code += event_title
             event_code += "</a>"
-            event_code += " (<a class='more-lightMode' href='https://fahrplan.events.ccc.de/camp/" + self.context["year"]
-            event_code += "/Fahrplan/events/" + event_id + ".html'"
-            event_code += " onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
+            if info_link is None or info_link == "":
+                event_code += " (<a class='more-lightMode' href='https://fahrplan.events.ccc.de/camp/" + self.context["year"]
+                event_code += "/Fahrplan/events/" + event_id + ".html'"
+                event_code += " onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
+            else:
+                event_code += " (<a class='more_lightMode' href='" + str(info_link) + "' onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)</td>\n"
             return event_code
 
-    def dspuren(self, tag, event_time_slots="", event_id="", event_title=""):
+    def dspuren(self, tag, event_time_slots="", event_id="", event_title="", info_link=""):
         if tag == "p":
             useful_links = "<p><a class='link-lightMode' href='https://events.ccc.de/tag/datenspuren'>Event blog</a></p>"
             useful_links += "<p><a class='link-lightMode' href='https://wiki.c3d2.de/Datenspuren/" + self.context["year"] + "'>Wiki</a>"
@@ -188,7 +203,30 @@ class fahrplan_writer(HTMLParser):
             event_code += " data-selected='unselected'><a class='link-lightMode' href='https://media.ccc.de/tags/" + event_id + "'>"
             event_code += event_title
             event_code += "</a>"
-            event_code += " (<a class='more-lightMode' href='https://datenspuren.de/" + self.context["year"]
-            event_code += "/fahrplan/events/" + event_id + ".html'"
-            event_code += " onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
+            if info_link is None or info_link == "":
+                event_code += " (<a class='more-lightMode' href='https://datenspuren.de/" + self.context["year"]
+                event_code += "/fahrplan/events/" + event_id + ".html'"
+                event_code += " onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
+            else:
+                event_code += " (<a class='more_lightMode' href='" + str(info_link) + "' onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)</td>\n"
+            return event_code
+
+    def remoteC3(self, tag, event_time_slots="", event_id="", event_title="", info_link=""):
+        if tag == "p":
+            useful_links = "<p><a class='link-lightMode' href='https://rc3.world/rc3/'>rc3.world</a></p>"
+            useful_links += "<p><a class='link-lightMode' href='https://events.ccc.de/category/rc3/'>Event blog</a>"
+            return useful_links
+        elif tag == "div":
+            event_code = "<td class='something' colspan='" + str(event_time_slots) + "'"
+            event_code += " onclick='toggleClick(this, false);'"
+            event_code += " id='" + event_id + "'"
+            event_code += " data-selected='unselected'><a class='link-lightMode' href='https://media.ccc.de/tags/" + event_id + "'>"
+            event_code += event_title
+            event_code += "</a>"
+            if info_link is None or info_link == "":
+                event_code += " (<a class='more-lightMode' href='https://fahrplan.events.ccc.de/rc3/" + self.context["year"]
+                event_code += "/Fahrplan/events/" + event_id + ".html'"
+                event_code += " onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
+            else:
+                event_code += " (<a class='more_lightMode' href='" + str(info_link) + "' onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)</td>\n"
             return event_code
