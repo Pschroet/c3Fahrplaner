@@ -1,44 +1,34 @@
-import defusedxml.ElementTree
+import json
 
-def parse_schedule(xml_content):
-    print(str("\xc3\x83\xc2\xbc"))
+def parse_schedule(json_content):
     print("Parsing schedule")
-    #print(xml_content)
-    tree = defusedxml.ElementTree.fromstring(xml_content, forbid_entities=False)
-    if hasattr(tree, "getroot") and callable(tree.getroot):
-        root = tree.getroot()
-    else:
-        root = tree
-    #print(root)
+    #print(json_content)
+    conference_json = json.loads(json_content)["schedule"]["conference"]
     context = {}
-    #get the info about the event first
-    con_info = root.find("conference")
-    #print(con_info)
-    context["title"] = con_info.find("title").text
-    context["acronym"] = con_info.find("acronym").text
-    context["year"] = con_info.find("start").text.split("-"[0])
-    context["timeslot"] = con_info.find("timeslot_duration").text
+    context["title"] = conference_json["title"]
+    context["acronym"] = conference_json["acronym"]
+    context["year"] = conference_json["start"].split("-"[0])
+    context["timeslot"] = conference_json["timeslot_duration"]
     time_slot_mins = int(context["timeslot"].split(":")[1])
     time_slot_hours = int(context["timeslot"].split(":")[0])
     #get the year, so it can be used in the URLs
-    context["year"] = con_info.find("start").text.split("-")[0]
+    context["year"] = conference_json["start"].split("-")[0]
     #get the last day, to determine the expiration date of the cookie
-    context["end"] = con_info.find("end").text
+    context["end"] = conference_json["end"]
     #get the days
-    days = root.findall("day")
     #define the temporary variables for collect all information
     temp_days = []
     counter = 0
-    for day in days:
-        #print("Events for " + day.attrib["date"] + ":")
+    for day in conference_json["days"]:
+        #print("Events for " + day["date"] + ":")
         #check if the the event is spread over more than one day, e.g. from 10am to 4am the next day
-        start_day = int(day.attrib["start"].split("T")[0].split("-")[2])
-        end_day = int(day.attrib["end"].split("T")[0].split("-")[2])
+        start_day = int(day["day_start"].split("T")[0].split("-")[2])
+        end_day = int(day["day_end"].split("T")[0].split("-")[2])
         diff_days = 0
         if start_day < end_day:
             diff_days = end_day - start_day
-        start_time = day.attrib["start"].split("T")[1].split("+")[0].split(":")
-        end_time = day.attrib["end"].split("T")[1].split("+")[0].split(":")
+        start_time = day["day_start"].split("T")[1].split("+")[0].split(":")
+        end_time = day["day_end"].split("T")[1].split("+")[0].split(":")
         #calculate the hours and minutes of the time slots and use this to get total number of time slots
         total_time_hours = (diff_days*24) + int(end_time[0]) - int(start_time[1])
         total_time_mins = (total_time_hours*60) + int(end_time[1]) - int(start_time[1])
@@ -70,39 +60,38 @@ def parse_schedule(xml_content):
             #turn the minutes back into a number
             temp_time_slot[1] = int(temp_time_slot[1])
         #put all information into a dictionary to use later
-        temp_days.append({"date":day.attrib["date"], "rooms":[], "start":start_time, "end":end_time, "time_slots": time_slots, "total_time_slots":total_time_slots})
+        temp_days.append({"date":day["date"], "rooms":[], "start":start_time, "end":end_time, "time_slots": time_slots, "total_time_slots":total_time_slots})
         #get the rooms
-        rooms = day.findall("room")
+        rooms = day["rooms"]
         for room in rooms:
+            #print(room)
             temp_room = {}
-            temp_room["name"] = room.attrib["name"]
+            temp_room["name"] = room
             temp_room["events"] = []
             #get the events for this room
-            events = room.findall("event")
-            for event in events:
+            for event in rooms[room]:
                 temp_event = {}
                 #get the basic information about the event
-                temp_event["title"] = str(event.find("title").text)
-                print(temp_event["title"])
-                temp_event["id"] = event.attrib["id"]
-                persons = event.find("persons").findall("person")
+                temp_event["title"] = str(event["title"])
+                #print(temp_event["title"])
+                temp_event["id"] = event["id"]
+                persons = event["persons"]
                 temp_event["persons"] = []
                 for person in persons:
-                    temp_event["persons"].append(person.text)
+                    temp_event["persons"].append(person)
                 #get the number of time slots this event/talk
-                durations = event.find("duration").text.split(":")
+                durations = event["duration"].split(":")
                 #calculate the amount of timeslots this event uses
                 if time_slot_hours != 0:
                     temp_event["time_slots"] = (int(durations[0]) * time_slot_hours) + (int(durations[1]) / time_slot_mins)
                 else:
                     temp_event["time_slots"] = (int(durations[0]) * 60 + int(durations[1])) / time_slot_mins
                 #if there is an URL, use it, it should be the link to the info
-                event_url = event.find("url")
-                if event_url is not None and hasattr(event_url, "text"):
-                    temp_event["info_link"] = event_url.text
+                if "url" in event:
+                    temp_event["info_link"] = event["url"]
                 else:
                     temp_event["info_link"] = None
-                temp_event["start"] = event.find("start").text
+                temp_event["start"] = event["start"]
                 temp_room["events"].append(temp_event)
             temp_days[counter]["rooms"].append(temp_room)
         #increase the counter

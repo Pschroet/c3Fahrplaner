@@ -136,7 +136,7 @@ class fahrplan_writer(HTMLParser):
         elif tag == "div":
             event_code = "<td class='something' colspan='" + str(event_time_slots) + "'"
             event_code += " onclick='toggleClick(this, false);'"
-            event_code += " id='" + event_id + "'"
+            event_code += " id='" + str(event_id) + "'"
             event_code += " data-selected='unselected'>"
             event_code += event_title
             event_code += "</td>\n"
@@ -154,14 +154,14 @@ class fahrplan_writer(HTMLParser):
         elif tag == "div":
             event_code = "<td class='something' colspan='" + str(event_time_slots) + "'"
             event_code += " onclick='toggleClick(this, false);'"
-            event_code += " id='" +  event_id + "'"
+            event_code += " id='" +  str(event_id) + "'"
             event_code += " data-selected='unselected'>"
-            event_code += "<a class='link-lightMode' href='https://media.ccc.de/tags/" + event_id + "'>"
+            event_code += "<a class='link-lightMode' href='https://media.ccc.de/tags/" + str(event_id) + "'>"
             event_code += event_title
             event_code += "</a>"
             if info_link is None or info_link == "":
                 event_code += " (<a class='more-lightMode' href='https://fahrplan.events.ccc.de/congress/" + self.context["year"]
-                event_code += "/Fahrplan/events/" +  event_id + ".html'"
+                event_code += "/Fahrplan/events/" +  str(event_id) + ".html'"
                 event_code += " onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
             else:
                 event_code += " (<a class='more_lightMode' href='" + str(info_link) + "' onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)</td>\n"
@@ -179,13 +179,13 @@ class fahrplan_writer(HTMLParser):
         elif tag == "div":
             event_code = "<td class='something' colspan='" + str(event_time_slots) + "'"
             event_code += " onclick='toggleClick(this, false);'"
-            event_code += " id='" + event_id + "'"
-            event_code += " data-selected='unselected'><a class='link-lightMode' href='https://media.ccc.de/tags/" + event_id + "'>"
+            event_code += " id='" + str(event_id) + "'"
+            event_code += " data-selected='unselected'><a class='link-lightMode' href='https://media.ccc.de/tags/" + str(event_id) + "'>"
             event_code += event_title
             event_code += "</a>"
             if info_link is None or info_link == "":
                 event_code += " (<a class='more-lightMode' href='https://fahrplan.events.ccc.de/camp/" + self.context["year"]
-                event_code += "/Fahrplan/events/" + event_id + ".html'"
+                event_code += "/Fahrplan/events/" + str(event_id) + ".html'"
                 event_code += " onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
             else:
                 event_code += " (<a class='more_lightMode' href='" + str(info_link) + "' onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)</td>\n"
@@ -199,13 +199,13 @@ class fahrplan_writer(HTMLParser):
         elif tag == "div":
             event_code = "<td class='something' colspan='" + str(event_time_slots) + "'"
             event_code += " onclick='toggleClick(this, false);'"
-            event_code += " id='" + event_id + "'"
-            event_code += " data-selected='unselected'><a class='link-lightMode' href='https://media.ccc.de/tags/" + event_id + "'>"
+            event_code += " id='" + str(event_id) + "'"
+            event_code += " data-selected='unselected'><a class='link-lightMode' href='https://media.ccc.de/tags/" + str(event_id) + "'>"
             event_code += event_title
             event_code += "</a>"
             if info_link is None or info_link == "":
                 event_code += " (<a class='more-lightMode' href='https://datenspuren.de/" + self.context["year"]
-                event_code += "/fahrplan/events/" + event_id + ".html'"
+                event_code += "/fahrplan/events/" + str(event_id) + ".html'"
                 event_code += " onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
             else:
                 event_code += " (<a class='more_lightMode' href='" + str(info_link) + "' onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)</td>\n"
@@ -219,13 +219,13 @@ class fahrplan_writer(HTMLParser):
         elif tag == "div":
             event_code = "<td class='something' colspan='" + str(event_time_slots) + "'"
             event_code += " onclick='toggleClick(this, false);'"
-            event_code += " id='" + event_id + "'"
-            event_code += " data-selected='unselected'><a class='link-lightMode' href='https://media.ccc.de/tags/" + event_id + "'>"
+            event_code += " id='" + str(str(event_id)) + "'"
+            event_code += " data-selected='unselected'><a class='link-lightMode' href='https://media.ccc.de/tags/" + str(event_id) + "'>"
             event_code += event_title
             event_code += "</a>"
             if info_link is None or info_link == "":
                 event_code += " (<a class='more-lightMode' href='https://fahrplan.events.ccc.de/rc3/" + self.context["year"]
-                event_code += "/Fahrplan/events/" + event_id + ".html'"
+                event_code += "/Fahrplan/events/" + str(str(event_id)) + ".html'"
                 event_code += " onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)" + "</td>\n"
             else:
                 event_code += " (<a class='more_lightMode' href='" + str(info_link) + "' onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)</td>\n"
