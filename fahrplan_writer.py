@@ -24,7 +24,7 @@ class fahrplan_writer(HTMLParser):
         self.event_types["dspuren"] = {"title":"Datenspuren",
                                        "function_name":"dspuren"}
         self.event_types["dspuren"]["regex"] = re.compile(".*" + self.event_types["dspuren"]["title"] + ".*", re.IGNORECASE)
-        self.event_types["remoteC3"] = {"title":"Remote Chaos Experience",
+        self.event_types["remoteC3"] = {"title":"rC3",
                                         "function_name":"remoteC3"}
         self.event_types["remoteC3"]["regex"] = re.compile(".*" + self.event_types["remoteC3"]["title"] + ".*", re.IGNORECASE)
         self.event_function_name = "other_event"
@@ -86,7 +86,11 @@ class fahrplan_writer(HTMLParser):
                         #if not, go on
                         if time_slot == events[last_event]["start"] or "0" + time_slot == events[last_event]["start"]:
                             if self.event_function_name is not None:
-                                day_events += getattr(self, self.event_function_name)(tag, events[last_event]["time_slots"], events[last_event]["id"], events[last_event]["title"], events[last_event]["info_link"])
+                                day_events += getattr(self, self.event_function_name)(tag,
+                                                                                      events[last_event]["time_slots"],
+                                                                                      events[last_event]["id"],
+                                                                                      events[last_event]["title"],
+                                                                                      events[last_event]["info_link"])
                             #calculate the columns used, subtract the current table field
                             colspan = events[last_event]["time_slots"] - 1
                             #print( "-> " + str(events[last_event]))
@@ -130,7 +134,7 @@ class fahrplan_writer(HTMLParser):
         self.fahrplan += "<!-- " + data + " -->"
 
     #if the type of event doesn't exist, or isn't implemented yet
-    def other_event(self, tag, event_time_slots="", event_id="", event_title=""):
+    def other_event(self, tag, event_time_slots="", event_id="", event_title="", info_link=""):
         if tag == "p":
             return ""
         elif tag == "div":
@@ -138,6 +142,8 @@ class fahrplan_writer(HTMLParser):
             event_code += " onclick='toggleClick(this, false);'"
             event_code += " id='" + str(event_id) + "'"
             event_code += " data-selected='unselected'>"
+            if info_link is not None and info_link != "":
+                event_code += " (<a class='more_lightMode' href='" + str(info_link) + "' onmouseover='onLink=true;' onmouseout='onLink=false;' target='_blank'>--></a>)</td>\n"
             event_code += event_title
             event_code += "</td>\n"
             return event_code
