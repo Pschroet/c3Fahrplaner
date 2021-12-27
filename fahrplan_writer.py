@@ -27,7 +27,8 @@ class fahrplan_writer(HTMLParser):
         self.event_types["remoteC3"] = {"title":"rC3",
                                         "function_name":"remoteC3"}
         self.event_types["remoteC3"]["regex"] = re.compile(".*" + self.event_types["remoteC3"]["title"] + ".*", re.IGNORECASE)
-        self.event_function_name = "other_event"
+        #self.event_function_name = "other_event"
+        self.event_function_name = None
 
     def set_context(self, context):
         self.context = context
@@ -46,12 +47,14 @@ class fahrplan_writer(HTMLParser):
             self.fahrplan += ">" + self.context["title"]
             for event_type in self.event_types:
                 #print(str(event_type))
-                #print(str(self.event_types[event_type]))
-                #print(str(self.context["title"]))
-                #print(self.event_types[event_type]["regex"].match(self.context["title"]))
+                #print("\tself.event_types[event_type]): " + str(self.event_types[event_type]))
+                #print("\tself.context[\"title\"]): " + str(self.context["title"]))
+                #print("\tself.event_types[event_type][\"regex\"].match(self.context[\"title\"]): " + str(self.event_types[event_type]["regex"].match(self.context["title"])))
+                #print("self.context[\"title\"]: " + str(self.context["title"]))
                 if self.event_types[event_type]["regex"].match(self.context["title"]):
                     print("type of event determined as " + str(event_type))
                     self.event_function_name = self.event_types[event_type]["function_name"]
+            #print("Event type: " + str(self.event_function_name))
         elif tag == "h1":
             self.fahrplan += "<h1>" + self.context["title"]
         elif tag == "p":
@@ -79,12 +82,15 @@ class fahrplan_writer(HTMLParser):
                     events = room["events"]
                     #look for the starting time for each event in the time slots
                     for time_slot in day["time_slots"]:
+                        #print(str(time_slot))
                         #if there are no more events stop for this room
-                        if len(events) is last_event:
+                        if len(events) == last_event:
                             break
                         #print(time_slot + " == " + events[last_event]["start"])
                         #if not, go on
-                        if time_slot == events[last_event]["start"] or "0" + time_slot == events[last_event]["start"]:
+                        #if time_slot == events[last_event]["start"] or "0" + time_slot == events[last_event]["start"]:
+                        if time_slot == events[last_event]["start"]:
+                            #print(str(events[last_event]["title"] + " starts at " + str(time_slot)))
                             if self.event_function_name is not None:
                                 day_events += getattr(self, self.event_function_name)(tag,
                                                                                       events[last_event]["time_slots"],
@@ -92,7 +98,7 @@ class fahrplan_writer(HTMLParser):
                                                                                       events[last_event]["title"],
                                                                                       events[last_event]["info_link"])
                             #calculate the columns used, subtract the current table field
-                            colspan = events[last_event]["time_slots"] - 1
+                            colspan = int(events[last_event]["time_slots"]) - 1
                             #print( "-> " + str(events[last_event]))
                             #print( "-> " + str(colspan))
                             last_event += 1
