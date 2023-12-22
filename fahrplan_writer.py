@@ -32,7 +32,7 @@ class fahrplan_writer(HTMLParser):
 
     def set_context(self, context):
         self.context = context
-        self.expire_date = datetime.datetime.date(datetime.datetime.strptime(context["end"], "%Y-%m-%d") + datetime.timedelta(days=365))
+        self.expire_date = datetime.datetime.date(datetime.datetime.fromisoformat(context["end"]) + datetime.timedelta(days=365))
 
     def get_result(self):
         return self.fahrplan
