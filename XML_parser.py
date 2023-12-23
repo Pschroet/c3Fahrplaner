@@ -16,9 +16,12 @@ def parse_schedule(xml_content):
     con_info = root.find("conference")
     #print(con_info)
     context["title"] = con_info.find("title").text
+    if context["title"] == "Hacking the Climate": print("Hacking the Climate")
     context["acronym"] = con_info.find("acronym").text
     context["year"] = con_info.find("start").text.split("-"[0])
-    context["timeslot"] = con_info.find("timeslot_duration").text
+    #use 5 minutes instead of the given time slots in the conference data, because talks disappear, i.e. are not added,
+    # when they don't have a fitting time slot
+    context["timeslot"] = "00:05"
     time_slot_mins = int(context["timeslot"].split(":")[1])
     time_slot_hours = int(context["timeslot"].split(":")[0])
     #get the year, so it can be used in the URLs

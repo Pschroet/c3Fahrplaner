@@ -8,7 +8,9 @@ def parse_schedule(json_content):
     context["title"] = conference_json["title"]
     context["acronym"] = conference_json["acronym"]
     context["year"] = conference_json["start"].split("-"[0])
-    context["timeslot"] = conference_json["timeslot_duration"]
+    #use 5 minutes instead of the given time slots in the conference data, because talks disappear, i.e. are not added,
+    # when they don't have a fitting time slot
+    context["timeslot"] = "00:05"
     time_slot_mins = int(context["timeslot"].split(":")[1])
     time_slot_hours = int(context["timeslot"].split(":")[0])
     #get the year, so it can be used in the URLs
