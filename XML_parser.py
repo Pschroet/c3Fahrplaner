@@ -72,15 +72,22 @@ def parse_schedule(xml_content):
             #add a time slot
             temp_time_slot[0] += int(time_slot_hours)
             temp_time_slot[1] += int(time_slot_mins)
-            #if the minutes are zero, still use two digits
+            #if the hours or minutes are zero, still use two digits
+            if temp_time_slot[0] < 10:
+                temp_time_slot[0] = "0" + str(temp_time_slot[0])
+            else:
+                temp_time_slot[0] = str(temp_time_slot[0])
             if temp_time_slot[1] == 0:
                 temp_time_slot[1] = "00"
+            elif temp_time_slot[1] == 5:
+                temp_time_slot[1] = "05"
             else:
                 temp_time_slot[1] = str(temp_time_slot[1])
             #save the new time slot
             time_slots.append(str(temp_time_slot[0]) + ":" + temp_time_slot[1])
             #print("added time slot " + str(temp_time_slot[0]) + ":" + temp_time_slot[1])
-            #turn the minutes back into a number
+            #turn the hours and minutes back into numbers
+            temp_time_slot[0] = int(temp_time_slot[0])
             temp_time_slot[1] = int(temp_time_slot[1])
         #print("Finished time slot creation")
         #put all information into a dictionary to use later
@@ -98,7 +105,6 @@ def parse_schedule(xml_content):
                 temp_event = {}
                 #get the basic information about the event
                 temp_event["title"] = str(event.find("title").text)
-                #print(temp_event["title"])
                 temp_event["id"] = event.attrib["id"]
                 persons = event.find("persons").findall("person")
                 temp_event["persons"] = []
