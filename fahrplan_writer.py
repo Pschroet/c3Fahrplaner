@@ -1,5 +1,6 @@
 from html.parser import HTMLParser
 import datetime
+import os
 import re
 import util
 
@@ -116,7 +117,7 @@ class fahrplan_writer(HTMLParser):
             self.fahrplan += "<footer id='buildTimestamp'>Created " + str(datetime.datetime.now()) + "</footer>"
         elif tag == "script":
             #add the expire date and the script
-            self.fahrplan += "<script>\nvar dayAfter = '" + self.expire_date.strftime("%a, %d %b %Y 23:59:00 UTC") + "';\n" + util.readFileContentAsString("script.js")
+            self.fahrplan += "<script type=\"text/javascript\">\nvar dayAfter = '" + self.expire_date.strftime("%a, %d %b %Y 23:59:00 UTC") + "';" + os.linesep + util.readFileContentAsString("script.js")
         #if no 'special' tag is found, just copy it
         else:
             self.fahrplan += "<" + tag
