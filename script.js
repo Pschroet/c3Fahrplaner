@@ -63,32 +63,48 @@ function toggleGrid(){
 
 function updateTD(elem){
 	if(elem.nodeType == Node.ELEMENT_NODE){
-		if(elem.dataset.selected == "selected"){
-			if(darkMode && showGrid){
-				elem.setAttribute("class", "something-selected-darkMode");
-			}
-			else if(darkMode && !showGrid){
-				elem.setAttribute("class", "something-selected-darkMode-noGrid");
-			}
-			else if(!darkMode && showGrid){
-				elem.setAttribute("class", "something-selected-noGrid");
-			}
-			else{
-				elem.setAttribute("class", "something-selected");
-			}
+		if(elem.getAttribute("class") == "nothing"){
+				if(darkMode && showGrid){
+					elem.setAttribute("class", "nothing-darkMode");
+				}
+				else if(darkMode && !showGrid){
+					elem.setAttribute("class", "nothing-darkMode-noGrid");
+				}
+				else if(!darkMode && showGrid){
+					elem.setAttribute("class", "nothing-noGrid");
+				}
+				else{
+					elem.setAttribute("class", "nothing");
+				}
 		}
 		else{
-			if(darkMode && showGrid){
-				elem.setAttribute("class", "something-darkMode");
-			}
-			else if(darkMode && !showGrid){
-				elem.setAttribute("class", "something-darkMode-noGrid");
-			}
-			else if(!darkMode && showGrid){
-				elem.setAttribute("class", "something");
+			if(elem.dataset.selected == "selected"){
+				if(darkMode && showGrid){
+					elem.setAttribute("class", "something-selected-darkMode");
+				}
+				else if(darkMode && !showGrid){
+					elem.setAttribute("class", "something-selected-darkMode-noGrid");
+				}
+				else if(!darkMode && showGrid){
+					elem.setAttribute("class", "something-selected-noGrid");
+				}
+				else{
+					elem.setAttribute("class", "something-selected");
+				}
 			}
 			else{
-				elem.setAttribute("class", "something-noGrid");
+				if(darkMode && showGrid){
+					elem.setAttribute("class", "something-darkMode");
+				}
+				else if(darkMode && !showGrid){
+					elem.setAttribute("class", "something-darkMode-noGrid");
+				}
+				else if(!darkMode && showGrid){
+					elem.setAttribute("class", "something");
+				}
+				else{
+					elem.setAttribute("class", "something-noGrid");
+				}
 			}
 		}
 	}
