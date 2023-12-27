@@ -61,6 +61,39 @@ function toggleGrid(){
 	toggleItems("grid");
 }
 
+function updateTD(elem){
+	if(elem.nodeType == Node.ELEMENT_NODE){
+		if(elem.dataset.selected == "selected"){
+			if(darkMode && showGrid){
+				elem.setAttribute("class", "something-selected-darkMode");
+			}
+			else if(darkMode && !showGrid){
+				elem.setAttribute("class", "something-selected-darkMode-noGrid");
+			}
+			else if(!darkMode && showGrid){
+				elem.setAttribute("class", "something-selected-noGrid");
+			}
+			else{
+				elem.setAttribute("class", "something-selected");
+			}
+		}
+		else{
+			if(darkMode && showGrid){
+				elem.setAttribute("class", "something-darkMode");
+			}
+			else if(darkMode && !showGrid){
+				elem.setAttribute("class", "something-darkMode-noGrid");
+			}
+			else if(!darkMode && showGrid){
+				elem.setAttribute("class", "something");
+			}
+			else{
+				elem.setAttribute("class", "something-noGrid");
+			}
+		}
+	}
+}
+
 function toggleItems(toggleItem){
 	if(toggleItem == "darkMode"){
 		if(darkMode){
@@ -97,36 +130,7 @@ function toggleItems(toggleItem){
 	}
 	tds = document.getElementsByTagName("TD");
 	for(td in tds){
-		if(tds[td].nodeType == Node.ELEMENT_NODE){
-			if(tds[td].dataset.selected == "selected"){
-				if(darkMode && showGrid){
-					tds[td].setAttribute("class", "something-selected-darkMode");
-				}
-				else if(darkMode && !showGrid){
-					tds[td].setAttribute("class", "something-selected-darkMode-noGrid");
-				}
-				else if(!darkMode && showGrid){
-					tds[td].setAttribute("class", "something-selected-noGrid");
-				}
-				else{
-					tds[td].setAttribute("class", "something-selected");
-				}
-			}
-			else{
-				if(darkMode && showGrid){
-					tds[td].setAttribute("class", "something-darkMode");
-				}
-				else if(darkMode && !showGrid){
-					tds[td].setAttribute("class", "something-darkMode-noGrid");
-				}
-				else if(!darkMode && showGrid){
-					tds[td].setAttribute("class", "something");
-				}
-				else{
-					tds[td].setAttribute("class", "something-noGrid");
-				}
-			}
-		}
+		updateTD(tds[td]);
 	}
 	mores = document.querySelectorAll("a.more-darkMode");
 	//console.log(mores);
@@ -159,13 +163,8 @@ function toggleItems(toggleItem){
 //function to toggle, if an event has been selected
 function toggleClick(thisObject, init){
 	if(thisObject.dataset.selected == "unselected" && !onLink){
-		if(darkMode){
-			thisObject.setAttribute("class", "something-selected-darkMode");
-		}
-		else{
-			thisObject.setAttribute("class", "something-selected");
-		}
 		thisObject.dataset.selected = "selected";
+		updateTD(thisObject);
 		//if this is not the initialization, add the event to the cookie
 		if(!init){
 			//add the id of this event to the cookie
@@ -180,13 +179,8 @@ function toggleClick(thisObject, init){
 		}
 	}
 	else if(thisObject.dataset.selected == "selected" && !onLink){
-		if(darkMode){
-			thisObject.setAttribute("class", "something-darkMode");
-		}
-		else{
-			thisObject.setAttribute("class", "something");
-		}
 		thisObject.dataset.selected = "unselected";
+		updateTD(thisObject);
 		//remove the id from the cookie
 		temp = document.cookie.split(";");
 		for(i = 0; i < temp.length; i++){
