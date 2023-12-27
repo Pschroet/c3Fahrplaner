@@ -144,7 +144,7 @@ function toggleItems(toggleItem){
 			}
 		}
 	}
-	links = document.querySelectorAll("a.link-darkMode");
+	links = document.querySelectorAll("a");
 	//console.log(links);
 	for(link in links){
 		if(links[link] != undefined && links[link].nodeType == Node.ELEMENT_NODE){
