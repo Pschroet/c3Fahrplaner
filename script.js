@@ -1,30 +1,24 @@
 //determines if a click in a td node is made on a link, if so don't mark the event as selected
 var onLink = false;
-var darkMode = false;
-var showGrid = true;
+
+document.getElementById("darkModeInput").addEventListener("click", function(){toggleItems("darkMode");});
+document.getElementById("gridInput").addEventListener("click", function(){toggleItems("grid");});
 
 if(document.cookie){
 	temp = document.cookie.split(";");
 	for(i = 0; i < temp.length; i++){
 		if(temp[i].split("=")[0].trim() == "darkMode"){
-			//console.log(temp[i].split("=")[0].trim());
-			//console.log(temp[i].split("=")[1].trim());
 			if(temp[i].split("=")[1].trim() == "true"){
+				document.getElementById("darkModeInput").checked = true
 				toggleItems("darkMode");
-				document.getElementById("darkModeInput").checked = true;
-			}
-			else{
-				darkMode = false;
-				document.getElementById("darkModeInput").checked = false;
 			}
 		}
 		else if(temp[i].split("=")[0].trim() == "showGrid"){
 			if(temp[i].split("=")[1].trim() == "false"){
 				toggleItems("grid");
-				document.getElementById("gridInput").checked = false;
 			}
 			else{
-				document.getElementById("gridInput").checked = true;
+				document.getElementById("gridInput").checked = true
 			}
 		}
 		else{
@@ -56,13 +50,13 @@ function getCookieItem(term){
 function updateTD(elem){
 	if(elem.nodeType == Node.ELEMENT_NODE){
 		if(elem.getAttribute("class").includes("nothing")){
-				if(darkMode && showGrid){
+				if(document.getElementById("darkModeInput").checked && document.getElementById("gridInput").checked){
 					elem.setAttribute("class", "nothing-darkMode");
 				}
-				else if(darkMode && !showGrid){
+				else if(document.getElementById("darkModeInput").checked && !document.getElementById("gridInput").checked){
 					elem.setAttribute("class", "nothing-darkMode-noGrid");
 				}
-				else if(!darkMode && showGrid){
+				else if(!document.getElementById("darkModeInput").checked && document.getElementById("gridInput").checked){
 					elem.setAttribute("class", "nothing");
 				}
 				else{
@@ -71,13 +65,13 @@ function updateTD(elem){
 		}
 		else{
 			if(elem.dataset.selected == "selected"){
-				if(darkMode && showGrid){
+				if(document.getElementById("darkModeInput").checked && document.getElementById("gridInput").checked){
 					elem.setAttribute("class", "something-selected-darkMode");
 				}
-				else if(darkMode && !showGrid){
+				else if(document.getElementById("darkModeInput").checked && !document.getElementById("gridInput").checked){
 					elem.setAttribute("class", "something-selected-darkMode-noGrid");
 				}
-				else if(!darkMode && showGrid){
+				else if(!document.getElementById("darkModeInput").checked && document.getElementById("gridInput").checked){
 					elem.setAttribute("class", "something-selected-noGrid");
 				}
 				else{
@@ -85,13 +79,13 @@ function updateTD(elem){
 				}
 			}
 			else{
-				if(darkMode && showGrid){
+				if(document.getElementById("darkModeInput").checked && document.getElementById("gridInput").checked){
 					elem.setAttribute("class", "something-darkMode");
 				}
-				else if(darkMode && !showGrid){
+				else if(document.getElementById("darkModeInput").checked && !document.getElementById("gridInput").checked){
 					elem.setAttribute("class", "something-darkMode-noGrid");
 				}
-				else if(!darkMode && showGrid){
+				else if(!document.getElementById("darkModeInput").checked && document.getElementById("gridInput").checked){
 					elem.setAttribute("class", "something");
 				}
 				else{
@@ -102,32 +96,8 @@ function updateTD(elem){
 	}
 }
 
-function toggleDarkMode(){
-	toggleItems("darkMode");
-}
-
-function toggleGrid(){
-	toggleItems("grid");
-}
-
 function toggleItems(toggleItem){
-	if(toggleItem == "darkMode"){
-		if(darkMode){
-			darkMode = false;
-		}
-		else{
-			darkMode = true;
-		}
-	}
-	else if(toggleItem == "grid"){
-		if(showGrid){
-			showGrid = false;
-		}
-		else{
-			showGrid = true;
-		}
-	}
-	if(darkMode){
+	if(document.getElementById("darkModeInput").checked){
 		document.body.setAttribute("class", "bodycolor-darkMode");
 	}
 	else{
@@ -136,7 +106,7 @@ function toggleItems(toggleItem){
 	ths = document.getElementsByTagName("TH");
 	for(th in ths){
 		if(ths[th].nodeType == Node.ELEMENT_NODE){
-			if(darkMode){
+			if(document.getElementById("darkModeInput").checked){
 				ths[th].setAttribute("class", "something-darkMode");
 			}
 			else{
@@ -152,7 +122,7 @@ function toggleItems(toggleItem){
 	//console.log(mores);
 	for(more in mores){
 		if(mores[more] != undefined && mores[more].nodeType == Node.ELEMENT_NODE){
-			if(darkMode){
+			if(document.getElementById("darkModeInput").checked){
 				mores[more].setAttribute("class", "more-darkMode");
 			}
 			else{
@@ -164,7 +134,7 @@ function toggleItems(toggleItem){
 	//console.log(links);
 	for(link in links){
 		if(links[link] != undefined && links[link].nodeType == Node.ELEMENT_NODE){
-			if(darkMode){
+			if(document.getElementById("darkModeInput").checked){
 				links[link].setAttribute("class", "link-darkMode");
 			}
 			else{
@@ -172,8 +142,8 @@ function toggleItems(toggleItem){
 			}
 		}
 	}
-	tmp = document.cookie;
-	document.cookie = "showGrid=" + showGrid + ";darkMode=" + darkMode + ";expires=;path=/;" + tmp;
+	document.cookie = "showGrid=" + document.getElementById("gridInput").checked + ";max-age=31536000" + ";path=/";
+	document.cookie = "darkMode=" + document.getElementById("darkModeInput").checked + ";max-age=31536000" + ";path=/";
 }
 
 //function to toggle, if an event has been selected
@@ -201,7 +171,7 @@ function toggleClick(thisObject, init){
 		temp = document.cookie.split(";");
 		for(i = 0; i < temp.length; i++){
 			if(temp[i].split("=")[0].trim() == "events"){
-				document.cookie = "events=" + temp[i].split("=")[1].replace(thisObject.getAttribute("id") + "$", "") + ";" + "$;expires=" + dayAfter + ";path=/;";
+				document.cookie = "events=" + temp[i].split("=")[1].replace(thisObject.getAttribute("id") + "$", "") + ";" + "$;max-age=31536000;path=/;";
 			}
 		}
 	}

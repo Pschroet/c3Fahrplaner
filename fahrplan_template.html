@@ -188,16 +188,12 @@
 	</style>
 </head>
 <body>
-	<label class="switch">
-		<input id="darkModeInput" type="checkbox">
-		<span id="darkModeSwitch" class="slider" onclick="toggleDarkMode();"></span>
-	</label>
-	<span id="darkModeText" class="text">Dark Mode</span>
-	<label class="switch">
-		<input id="gridInput" type="checkbox">
-		<span id="gridSwitch" class="slider" onclick="toggleGrid();"></span>
-	</label>
-	<span id="gridText" class="text">Grid</span>
+	<form>
+		<input id="darkModeInput" type="checkbox" name="darkMode" value="darkMode">
+		<label for="darkModeInput">Dark Mode</label>
+		<input id="gridInput" type="checkbox" name="showGrid" value="showGrid">
+		<label for="gridInput">Grid</label>
+	</form>
 	<h1></h1>
 	<p></p>
 	<div class="day"></div>
