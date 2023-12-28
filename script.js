@@ -53,17 +53,9 @@ function getCookieItem(term){
 	return "";
 }
 
-function toggleDarkMode(){
-	toggleItems("darkMode");
-}
-
-function toggleGrid(){
-	toggleItems("grid");
-}
-
 function updateTD(elem){
 	if(elem.nodeType == Node.ELEMENT_NODE){
-		if(elem.getAttribute("class") == "nothing"){
+		if(elem.getAttribute("class").includes("nothing")){
 				if(darkMode && showGrid){
 					elem.setAttribute("class", "nothing-darkMode");
 				}
@@ -108,6 +100,14 @@ function updateTD(elem){
 			}
 		}
 	}
+}
+
+function toggleDarkMode(){
+	toggleItems("darkMode");
+}
+
+function toggleGrid(){
+	toggleItems("grid");
 }
 
 function toggleItems(toggleItem){
