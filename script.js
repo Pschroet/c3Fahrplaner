@@ -63,10 +63,10 @@ function updateTD(elem){
 					elem.setAttribute("class", "nothing-darkMode-noGrid");
 				}
 				else if(!darkMode && showGrid){
-					elem.setAttribute("class", "nothing-noGrid");
+					elem.setAttribute("class", "nothing");
 				}
 				else{
-					elem.setAttribute("class", "nothing");
+					elem.setAttribute("class", "nothing-noGrid");
 				}
 		}
 		else{
